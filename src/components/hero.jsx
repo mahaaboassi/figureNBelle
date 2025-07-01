@@ -50,7 +50,7 @@ const Hero = ()=>{
             <p>Experience advanced laser treatments, skin care, and holistic wellness — all tailored to your natural beauty.</p>
             <button className="uppercase">Book Now</button>
             {/* Cards PopUp */}
-            <div className="fixed-content flex flex-col gap-5">
+            <div className="fixed-content right-10 bottom-5 flex flex-col gap-5">
                 <div className="flex gap-2">
                     {services.map((e,idx)=><div className="card-hero small-card">{e.name}</div>)}
                 </div>

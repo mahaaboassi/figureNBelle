@@ -24,8 +24,6 @@
 }
 .fixed-content{
     position: absolute;
-    right: 10px;
-    bottom: 10px;
 }
 .fixed-content p{
     font-size: var(--font-size-s);
