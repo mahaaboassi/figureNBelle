@@ -1,0 +1,20 @@
+nav{
+
+}
+nav img{
+    width: 150px;
+    height: 100%;
+    object-fit: cover;
+}
+nav ul{
+    font-weight: 600;
+    font-size: var(--font-size-s);
+}
+.line{
+    height: 20px;
+    width: 3px;
+    background-color: var(--main);
+}
+.first-nav{
+    font-size: var(--font-size-xxs);
+}
