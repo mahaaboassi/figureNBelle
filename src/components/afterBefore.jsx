@@ -15,9 +15,10 @@ import img_8 from "../assets/images/beforeAfter_8.png"
 import img_9 from "../assets/images/beforeAfter_9.png"
 import img_10 from "../assets/images/beforeAfter_10.png"
 
-import { Autoplay ,Pagination} from 'swiper/modules';
+import { Autoplay, Pagination, EffectFade} from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
+import 'swiper/css/effect-fade';
 
 const AfterBefore = ()=>{
     const images = [img_1,img_2,img_3,img_4,img_5,img_6,img_7,img_8,img_9,img_10 ]
@@ -25,8 +26,9 @@ const AfterBefore = ()=>{
         <Heading title={"BEFORE & AFTER GALLERY"} description={"Explore our captivating BEFORE & AFTER GALLERY, showcasing the remarkable transformations achieved at Figure N Belle Beauty & Wellness Clinic "} />
         <div>
             <Swiper
-                modules={[Autoplay,Pagination]}
+                modules={[Autoplay,Pagination,EffectFade]}
                 pagination={true}
+                effect={'fade'}
                 autoplay={{
                     delay: 5000,       // Slide every 3 seconds
                     disableOnInteraction: false, // Keep autoplay after user interaction
