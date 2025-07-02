@@ -65,6 +65,29 @@ button::after{
 button:hover::after {
   left: 130%;
 }
+/* Footer */
+footer{
+    display: flex;
+}
+footer p{
+    font-size: var(--font-size-xxs);
+}
+footer h3{
+    font-size: var(--font-size-s);
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+footer li{
+    font-size: var(--font-size-xs);
+    text-transform: uppercase;
+}
+.first-div{
+    width: 40%;
+}
+.second-div{
+    width: 60%;
+}
 @media (max-width: 1200px) {
     nav ul,button{
         font-weight: 600;
@@ -114,6 +137,16 @@ button:hover::after {
 @media (max-width : 900px) {
     .heading p{
         width: 80%;
+    }
+    footer{
+        flex-direction: column;
+        gap:10px
+    }
+    footer .first-div{
+        width: 100%;
+    }
+    footer .second-div{
+        width: 100%;
     }
     
 }
