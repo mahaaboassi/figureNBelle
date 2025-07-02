@@ -1,11 +1,22 @@
+import About from "../../components/aboutUs"
+import AfterBefore from "../../components/afterBefore"
+import BookNow from "../../components/bookNow"
+import ChooseUs from "../../components/chooseUs"
+import Gallery from "../../components/gallery"
 import Hero from "../../components/hero"
+import Instagram from "../../components/instgram"
+import Services from "../../components/services"
 
 const Home = ()=>{
     return<div>
         <Hero/>
-        {/* <h1 className="bodoniMT">FIGURE N BELLE</h1>
-        <h2 className="bodoniTX ">BEFORE & AFTER GALLERY</h2>
-        <p className=" text-sky-500">welcome</p> */}
+        <About/>
+        <Services/>
+        <ChooseUs/>
+        <AfterBefore/>
+        <Instagram/>
+        <Gallery/>
+        <BookNow/>
     </div>
 }
 export default Home 

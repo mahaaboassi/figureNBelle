@@ -17,7 +17,9 @@
   font-style: normal;
 }
 @import "tailwindcss";
-
+@theme {
+  --breakpoint-xs: 400px;
+}
 
 :root {
   --background: #ffffff;
@@ -74,37 +76,7 @@ h1 {
 h2 {
   font-size : var(--font-size-xxl);
 }
-button{
-  background : var(--main);
-  color: var(--light);
-  border-radius: 5px;
-  padding: 10px 20px;
-  cursor: pointer;
-  font-size: var(--font-size-s);
-  transition: 0.4s;
-  font-weight: 500;
-  position: relative;
-   overflow: hidden;
-}
-button::after{
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -75%;
-  width: 70%;
-  height: 100%;
-  background: rgba(255, 255, 255, 0.3);
-  transform: skewX(-20deg);
-  transition: left 0.5s ease;
-  z-index: 2;
- 
-}
-/* Hover state */
 
-
-button:hover::after {
-  left: 130%;
-}
 .outline-btn{
   background : var(--light) ;
   color: var(--dark-1) ;

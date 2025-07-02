@@ -18,3 +18,130 @@ nav ul{
 .first-nav{
     font-size: var(--font-size-xxs);
 }
+.nav-icons,.menu-icon{
+    display: none;
+}
+/* Heading */
+.heading h2{
+    font-size: var(--font-size-3xl);
+    color: var(--main);
+}
+.heading p{
+    font-size: var(--font-size-xs);
+    font-weight: 500;
+    color: var(--grey-2);
+    width: 60%;
+    line-height: 1.2rem;
+}
+/* Button */
+button{
+  background : var(--main);
+  color: var(--light);
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: var(--font-size-s);
+  transition: 0.4s;
+  font-weight: 500;
+  position: relative;
+   overflow: hidden;
+}
+button::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -75%;
+  width: 70%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.3);
+  transform: skewX(-20deg);
+  transition: left 0.5s ease;
+  z-index: 2;
+ 
+}
+/* Hover state */
+
+
+button:hover::after {
+  left: 130%;
+}
+@media (max-width: 1200px) {
+    nav ul,button{
+        font-weight: 600;
+        font-size: var(--font-size-xs);
+    }
+
+    
+}
+@media (max-width: 1100px) {
+    .nav-content{
+        display: none;
+    }
+    nav img{
+        width: 120px ;
+    }
+    .nav-icons{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+    .menu-icon{
+        display: flex;
+    }
+    .nav-icons div{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: var(--main);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-icons div svg{
+        width: 15px !important;
+    }
+    .nav-icons div path{
+        fill: var(--light)
+    }
+    /* Heading */
+    .heading h2{
+        font-size: var(--font-size-xxl);
+    }
+    .heading p{
+        font-size: var(--font-size-xs);
+    }
+}
+@media (max-width : 900px) {
+    .heading p{
+        width: 80%;
+    }
+    
+}
+@media (max-width:700px) {
+    .heading p{
+        width: 100%;
+    }
+}
+@media (max-width:600px) {
+    .heading h2{
+        font-size: 1.5rem;
+    }
+    .heading p{
+        font-size: var(--font-size-xxs);
+        line-height: 0.9rem;
+    }
+    .heading h2{
+        font-size: 1.2rem;
+    }
+    .heading p{
+        font-size: var(--font-size-xxs);
+        line-height: 0.8rem;
+    }
+}
+@media (max-width:500px) {
+
+    button{
+        font-size: var(--font-size-xxs);
+        padding: 6px 6px ;
+    }
+}

@@ -44,10 +44,25 @@ const Hero = ()=>{
                 <path d="M17.4838 7.67863C18.324 8.61556 18.7446 9.90253 18.7446 11.5405V18.7544H15.0807V12.0494C15.0807 11.2237 14.8723 10.5817 14.4554 10.1242C14.0386 9.66663 13.4781 9.43835 12.7741 9.43835C12.07 9.43835 11.5095 9.66758 11.0927 10.1242C10.6758 10.5817 10.4673 11.2237 10.4673 12.0494V18.7544H6.78223V6.40688H10.4673V8.04484C10.8407 7.49885 11.3437 7.06796 11.9764 6.75026C12.6082 6.43351 13.3197 6.27466 14.1099 6.27466C15.518 6.27466 16.6426 6.74359 17.4828 7.67957L17.4838 7.67863Z" fill="#FEFFFC"/>
             </svg>
     }]
-    return(<section className="hero px-10 ">
-        <div className="hero-container gap-5 px-10">
-            <h1 className="uppercase bodoniTX">Figure N belle </h1>
-            <p>Experience advanced laser treatments, skin care, and holistic wellness — all tailored to your natural beauty.</p>
+    return(<section className="hero px-4 md:px-10  ">
+        <div className="hero-container gap-2 sm:gap-5 px-5 sm:px-10">
+            <h1 className="first-letters uppercase bodoniTX">
+                <span>F</span>
+                <span>I</span>
+                <span>G</span>
+                <span>U</span>
+                <span>R</span>
+                <span>E</span>
+                &nbsp;
+                <span>N</span>
+                &nbsp;
+                <span>B</span>
+                <span>E</span>
+                <span>L</span>
+                <span>L</span>
+                <span>E</span>
+            </h1>
+            <p className="hero-para">Experience advanced laser treatments, skin care, and holistic wellness — all tailored to your natural beauty.</p>
             <button className="uppercase">Book Now</button>
             {/* Cards PopUp */}
             <div className="fixed-content right-10 bottom-5 flex flex-col gap-5">

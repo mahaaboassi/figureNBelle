@@ -1,15 +1,84 @@
 .hero{
 
 }
+.hero h1 span{
+    display: inline-block;
+    margin-right: 3px;
+    transform: translateY(-50px) rotateX(100deg);
+    animation: rolatedSpan 0.3s forwards ease-in-out;  /* Reduced animation duration */
+    opacity: 0; 
+}
+
+.hero h1.first-letters span:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.hero h1.first-letters span:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.hero h1.first-letters span:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+.hero h1.first-letters span:nth-child(4) {
+    animation-delay: 0.6s;
+}
+
+.hero h1.first-letters span:nth-child(5) {
+    animation-delay: 0.8s;
+}
+
+.hero h1.first-letters span:nth-child(6) {
+    animation-delay: 1s;
+}
+
+.hero h1.first-letters span:nth-child(7) {
+    animation-delay: 1.2s;
+}
+
+.hero h1.first-letters span:nth-child(8) {
+    animation-delay: 1.4s;
+}
+.hero h1.first-letters span:nth-child(9) {
+    animation-delay: 1.6s;
+}
+.hero h1.first-letters span:nth-child(10) {
+    animation-delay: 1.8s;
+}
+.hero h1.first-letters span:nth-child(11) {
+    animation-delay: 2s;
+}
+.hero h1.first-letters span:nth-child(12) {
+    animation-delay: 2.2s;
+}
+@keyframes rolatedSpan {
+    from{
+        transform: translateY(-50px) rotateX(100deg);  
+        opacity: 0;  
+    }to{
+        transform: translateY(0) rotateX(0);
+        opacity: 1;
+    }
+}
 .hero-container{
-    background: url("../images/model_1440_600.png");
+    background: url("../images/model_without_bg.png"),var(--light);
     height: 600px;
+    background-repeat: no-repeat;
     background-position: center;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     position: relative;
+    animation : model 0.5s linear forwards
+}
+@keyframes model {
+    from{
+        background-size: 180%;
+    }to{
+        background-size: cover;
+    }
 }
 .hero button{
     width: fit-content;
@@ -21,6 +90,21 @@
     font-size: var(--font-size-l);
     font-weight: 600;
     width: 50%;
+
+}
+.hero .hero-para{
+    transform: scale(0.3);
+    opacity: 0;
+    animation: comeCard 0.5s linear forwards;
+    animation-delay: 2.2s;
+}
+.hero button{
+    animation: comeFromDown 0.3s linear forwards;
+    animation-delay: 2.2s;
+}
+.hero button{
+        transform: translateY(-50px);
+        opacity: 0;
 }
 .fixed-content{
     position: absolute;
@@ -28,6 +112,32 @@
 .fixed-content p{
     font-size: var(--font-size-s);
     width: 100%;
+}
+.fixed-content .card-hero{
+    animation: comeCard 0.5s linear forwards ;
+    animation-delay: 0.1s;
+}
+@keyframes comeCard {
+    from{
+        transform: scale(0.3);
+         opacity: 0;
+    }to{
+        transform: scale(1);
+         opacity: 1
+    }
+}
+
+@keyframes comeFromDown {
+    from{
+        transform: translateY(-50px);
+         opacity: 0;
+    }to{
+        transform:translateY(0px);
+         opacity: 1
+    }
+}
+.fixed-content .card-hero{
+    transform: scale(0.3);
 }
 .card-hero{
     background-color: rgba(254, 254, 254, 0.266);
@@ -52,4 +162,365 @@
     justify-content: center;
     align-items: center;
     
+}
+
+/* About */
+.about h2{
+    font-size: var(--font-size-3xl);
+    color : var(--main)
+}
+.about img{
+    object-fit: cover;
+}
+.about p{
+    font-size: var(--font-size-s);
+    font-weight: 500;
+}
+.more{
+    font-size: var(--font-size-s);
+    font-weight: 600;
+    color: var(--main);
+}
+/* Services */
+.service-card{
+    background: var(--light);
+    border: 1px solid var(--main);
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: var(--font-size-xs);
+}
+.services h3{
+    font-size: var(--font-size-s);
+    font-weight: 600;
+}
+.services p{
+    font-size: var(--font-size-xxs);
+}
+.card-service:hover img{
+    transform: scale(1.1);
+}
+.services .container-img{
+    height: 200px;
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+}
+.services .card-service:hover .line-1,.services .card-service:hover .line-2{
+    width: 50%;
+}
+.services .card-service:hover .container-img:before{
+  background-color: rgba(128, 128, 128, 0.344);
+}
+.services .container-img::before{
+    content : "";
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    transition: 0.3s;
+}
+.services .container-img .line-1, .services .container-img .line-2{
+    height: 4px;
+    position: absolute;
+    z-index: 2;
+    width: 0;
+    background-color: var(--main);
+     transition: width 0.3s ease;
+     border-radius: 2px;
+}
+.services .container-img .line-1{
+    top: 10px;
+    left: 10px;
+}
+.services .container-img .line-2{
+    bottom: 10px;
+    right: 10px;
+}
+
+.service-card.active{
+    background-color: var(--main);
+    color: var(--light);
+}
+.services img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.3s;
+}
+/* Choose */
+.choose{
+    background: url("../images/chooseUs.png");
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.choose .card-hero{
+    width: 500px;
+    transform: scale(0.3);
+}
+@keyframes resize {
+    from{
+        transform: scale(0.3);
+    }to{
+        transform: scale(1);
+    }
+}
+.choose h2{
+    font-size: var(--font-size-s);
+    font-weight: 600;
+    text-align: center;
+}
+.choose p{
+    font-size: var(--font-size-xxs);
+    text-align: center;
+}
+/* After Before */
+.content{
+    /* height: 600px; */
+}
+.content img{
+    width: 100%;
+    height: 100%;
+    height: 450px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+.after-before .swiper-pagination-bullet{
+    width: 15px !important;
+    height: 15px !important;
+    border: 1px solid var(--main) !important;
+    opacity: 1 !important;
+    background-color: var(--light) !important;
+}
+.after-before .swiper-pagination-bullet-active{
+    background-color: var(--main) !important;
+    width: 15px !important;
+    height: 15px !important;
+}
+/* Instagram */
+.profile{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--grey-3);
+}
+.profile img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.continer-insta{
+    background-color: var(--light);
+    border-radius: 10px;
+}
+.continer-insta video{
+    height: 300px;
+    background: rgba(201, 196, 196, 0.848);
+}
+.footer-card-insta{
+    color: var(--main);
+    font-size: var(--font-size-xxs);
+}
+.last-slide, .next-slide{
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: var(--main);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.last-slide {
+    transform: rotate(-180deg);
+}
+.reels .swiper-button-prev, .reels .swiper-button-next{
+    display: none;
+}
+/* Gallery */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 200px 200px ;
+}
+.grid-container .item-large {
+  grid-row: span 2;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+.grid-container .item {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+/* Book Now  */
+.book p{
+    font-size: var(--font-size-s);
+    font-weight: 600;
+}
+.book img{
+    border-radius: 10px;
+    object-fit: cover;
+}
+.border-img{
+    height: 300px;
+}
+@media (max-width:1200px) {
+    .fixed-content{
+        display: none;
+    }
+    
+}
+@media (max-width:1100px) {
+    .hero-container{
+        height: 500px;
+    }
+    .about h2{
+        font-size: 1.5rem;
+    }
+    .about p{
+        font-size: var(--font-size-xxs);
+    }
+    .content img{
+        height: auto;
+    }
+    .choose{
+        height: 500px;
+    }
+    .choose .card-hero{
+        width: 350px;
+    }
+    .book .div-images img{
+        height: 150px;
+    }
+}
+@media (max-width:900px) {
+
+    .choose .card-hero{
+        width: 300px;
+    } 
+}
+@media (max-width:800px) {
+    .hero-container{
+        height: 400px;
+    }
+     .hero-container h1{
+        font-size: var(--font-size-xxl);
+     }
+     .hero-container p{
+        font-size: var(--font-size-xs);
+     }
+}
+@media (max-width:700px) {
+
+    .choose .card-hero{
+        width: 200px;
+        padding: 15px !important;
+    } 
+    .choose .card-hero p{
+        font-size: 10px;
+    }
+    .service-card{
+        font-size: var(--font-size-xxs);
+    }
+    .services .container-img{
+        height: 150px;
+    }
+    .card-service h3{
+        font-size: var(--font-size-xs);
+    }
+    .card-service p{
+        font-size: 9px;
+    }
+    .book p{
+        font-size: var(--font-size-xs);
+    }
+    .book .div-images img{
+        height: 70px;
+    }
+    .book img{
+        height: 200px;
+    }
+}
+@media (max-width:600px) {
+    .hero-container{
+        height: 300px;
+    }
+    .hero-container h1{
+        font-size: 1.5em;
+     }
+     .hero-container p{
+        font-size: var(--font-size-xxs);
+     }
+    .choose{
+        background:unset
+    }
+    .div-img{
+        display: flex !important;
+    }
+    .choose{
+        position: relative !important;
+        margin-top: -100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .choose .card-hero{
+        position: static;
+        width: 100%;
+        margin-bottom: 10px;
+    } 
+    .grid-container{
+     grid-template-rows: 105px 106px;
+    }
+    .last-slide, .next-slide{
+        width: 30px;
+        height: 30px;
+    }
+    .last-slide svg, .next-slide svg{
+        width: 10px;
+    }
+    .about img{
+        height: 200px;
+    }
+    .after-before .swiper-pagination-bullet{
+        width: 10px !important;
+        height: 10px !important;
+    }
+}
+@media (max-width:400px) {
+    .hero-container{
+        height: 250px;
+    }
+    .hero-container h1{
+        font-size: var(--font-size-xl);
+    }
+    .hero-container p{
+        font-size: 9px;
+    }
+    nav img{
+        width: 70px;
+    }
+    .book .div-images{
+        display: none;
+    }
+    .conatiner-middle{
+        justify-content: center;
+    }
+    .profile{
+        width: 35px;
+        height: 35px;
+
+    }
+}
+@media (max-width:350px) {
+    .hero-container{
+        height: 200px;
+    }
+    .about img{
+        height: 150px;
+    }
 }
