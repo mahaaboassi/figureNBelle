@@ -16,7 +16,7 @@ nav ul{
     background-color: var(--main);
 }
 .first-nav{
-    font-size: var(--font-size-xxs);
+    font-size: var(--font-size-xs);
 }
 .nav-icons,.menu-icon{
     display: none;

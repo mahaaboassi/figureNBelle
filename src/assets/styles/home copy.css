@@ -62,31 +62,25 @@
     }
 }
 .hero-container{
-
-    /* height: 600px; */
-
+    background: url("../images/banner_600_2.png");
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
     border-radius: 20px;
-
+    display: flex;
+    /* background-size: 180%; */
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    background-size: cover;
+    /* animation : model 0.5s ease-out forwards */
 }
-
-
-.hero img{
-    object-fit: contain;
-     border-radius: 20px;
-     height: auto;
-     width: 100%;
-}
-.hero .swiper-pagination-bullet{
-    width: 15px !important;
-    height: 15px !important;
-    border: 1px solid var(--main) !important;
-    opacity: 1 !important;
-    background-color: var(--light) !important;
-}
-.hero .swiper-pagination-bullet-active{
-    background-color: var(--main) !important;
-    width: 15px !important;
-    height: 15px !important;
+@keyframes model {
+    from{
+        background-size: 180%;
+    }to{
+        background-size: cover;
+    }
 }
 .hero button{
     width: fit-content;
@@ -383,7 +377,9 @@
     
 }
 @media (max-width:1100px) {
-
+    .hero-container{
+        height: 500px;
+    }
     .about h2{
         font-size: 1.5rem;
     }
@@ -410,7 +406,15 @@
     } 
 }
 @media (max-width:800px) {
-
+    .hero-container{
+        height: 400px;
+    }
+     .hero-container h1{
+        font-size: var(--font-size-xxl);
+     }
+     .hero-container p{
+        font-size: var(--font-size-xs);
+     }
 }
 @media (max-width:700px) {
 
@@ -444,7 +448,15 @@
     }
 }
 @media (max-width:600px) {
-
+    .hero-container{
+        height: 300px;
+    }
+    .hero-container h1{
+        font-size: 1.5em;
+     }
+     .hero-container p{
+        font-size: var(--font-size-xxs);
+     }
     .choose{
         background:unset
     }
@@ -476,13 +488,21 @@
     .about img{
         height: 200px;
     }
-    .after-before .swiper-pagination-bullet, .hero.swiper-pagination-bullet{
+    .after-before .swiper-pagination-bullet{
         width: 10px !important;
         height: 10px !important;
     }
 }
 @media (max-width:400px) {
-
+    .hero-container{
+        height: 250px;
+    }
+    .hero-container h1{
+        font-size: var(--font-size-xl);
+    }
+    .hero-container p{
+        font-size: 9px;
+    }
     nav img{
         width: 70px;
     }
@@ -499,7 +519,9 @@
     }
 }
 @media (max-width:350px) {
-
+    .hero-container{
+        height: 200px;
+    }
     .about img{
         height: 150px;
     }
