@@ -21,7 +21,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
 
 const AfterBefore = ()=>{
-    const images = [img_1,img_2,img_3,img_4,img_5,img_6,img_7,img_8,img_9,img_10 ]
+    const images = [img_1,img_3,img_5,img_6,img_7,img_8,img_9,img_10 ]
     return(<div className="px-4 md:px-10 flex flex-col gap-10 after-before" >
         <Heading title={"BEFORE & AFTER GALLERY"} description={"Explore our captivating BEFORE & AFTER GALLERY, showcasing the remarkable transformations achieved at Figure N Belle Beauty & Wellness Clinic "} />
         <div>
