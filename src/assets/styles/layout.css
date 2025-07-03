@@ -80,14 +80,17 @@ footer h3{
 }
 footer li{
     font-size: var(--font-size-xs);
-    text-transform: uppercase;
 }
+footer .first-div p{
+        width: 80%;
+    }
 .first-div{
     width: 40%;
 }
 .second-div{
     width: 60%;
 }
+
 @media (max-width: 1200px) {
     nav ul,button{
         font-weight: 600;
@@ -133,11 +136,6 @@ footer li{
     .heading p{
         font-size: var(--font-size-xs);
     }
-}
-@media (max-width : 900px) {
-    .heading p{
-        width: 80%;
-    }
     footer{
         flex-direction: column;
         gap:10px
@@ -148,6 +146,15 @@ footer li{
     footer .second-div{
         width: 100%;
     }
+    footer .first-div p{
+        width: 100%;
+    }
+}
+@media (max-width : 900px) {
+    .heading p{
+        width: 80%;
+    }
+
     
 }
 @media (max-width:700px) {
