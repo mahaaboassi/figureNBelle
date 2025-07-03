@@ -308,8 +308,8 @@
 }
 /* Instagram */
 .profile{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     background-color: var(--grey-3);
 }
@@ -319,12 +319,17 @@
     object-fit: contain;
 }
 .continer-insta{
-    background-color: var(--light);
+    /* background-color: var(--light); */
     border-radius: 10px;
 }
 .continer-insta video{
-    height: 300px;
+    height: 320px;
+    width: 180px;
     background: rgba(201, 196, 196, 0.848);
+    /* margin: auto; */
+}
+.continer-insta video img{
+    object-fit: cover;
 }
 .footer-card-insta{
     color: var(--main);
@@ -442,6 +447,14 @@
     .book img{
         height: 200px;
     }
+    .continer-insta video{
+        height: 240px
+    }
+}
+@media (max-width:640px) {
+    .continer-insta video{
+        width: 135px
+    }
 }
 @media (max-width:600px) {
 
@@ -479,6 +492,24 @@
     .after-before .swiper-pagination-bullet, .hero.swiper-pagination-bullet{
         width: 10px !important;
         height: 10px !important;
+    }
+    .continer-insta video{
+        height: 220px;
+    }
+    .profile{
+        width: 30px;
+        height: 30px;
+    }
+    .continer-insta h3{
+        font-size: 12px;
+    }
+    .continer-insta p{
+        font-size: 10px;
+    }
+}
+@media (max-width:500px) {
+    .continer-insta video{
+        width: 130px;
     }
 }
 @media (max-width:400px) {

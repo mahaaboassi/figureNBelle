@@ -47,8 +47,8 @@ const Navbar = ()=>{
             </div>
            <img src={logo}  alt={"Logo"} />
         </div>
-        <div className="flex gap-2">
-            <div className="flex flex-col gap-5 nav-content">
+        <div className="flex  gap-2">
+            <div className="flex flex-col gap-2 nav-content">
                 <div className="flex items-center gap-2 first-nav">
                     <div className="flex gap-2 items-center">
                         <svg xmlns="http://www.w3.org/2000/svg" width="13" height="17" viewBox="0 0 13 17" fill="none">
@@ -137,10 +137,7 @@ const Navbar = ()=>{
                     </div>
             </div>
             <div>
-                <button className="uppercase main-btn !h-full">
-                    <div>Call Us </div>
-                    <div>0997944207</div>
-                </button>
+                <button className="uppercase main-btn !h-full">Book Now</button>
             </div>
         </div>
 

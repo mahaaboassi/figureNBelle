@@ -10,24 +10,27 @@ const InstagramCard = ({
   linkAction
 }) => {
   return (
-    <div className="continer-insta  p-4  w-full flex flex-col gap-3">
+    <div className="continer-insta w-full flex flex-col gap-3">
       {/* Top Header */}
       <div className="flex items-center justify-between">
-        <div className="flex items-center gap-2">
-          <div className="profile"><img src={profileImg} alt="Profile" /></div>
-          <div>
-            <h3 className="font-semibold text-sm">{username}</h3>
-            <p className="text-xs text-gray-500">{followers} Followers</p>
+        <Link to={`https://www.instagram.com/${username}`} target="_blank">
+          <div className="flex items-center gap-2">
+            <div className="profile"><img src={profileImg} alt="Profile" /></div>
+            <div>
+              <h3 className="font-semibold text-sm">{username}</h3>
+              <p className="text-xs text-gray-500">{followers} Followers</p>
+            </div>
           </div>
-        </div>
-        <Link
+        </Link>
+        
+        {/* <Link
           to={`https://www.instagram.com/${username}`}
           target="_blank"
           rel="noopener noreferrer"
           className=""
         >
          <button> View Profile</button>
-        </Link>
+        </Link> */}
       </div>
 
       {/* Reel Thumbnail */}
@@ -42,15 +45,10 @@ const InstagramCard = ({
             Your browser does not support the video tag.
             </video>
         {/* Instagram icon */}
-        <img
-          src="/instagram-icon.svg" // Replace with actual icon
-          alt="Instagram"
-          className="absolute bottom-2 right-2 w-6 h-6"
-        />
       </div>
 
       {/* Footer */}
-      <div className="flex items-center footer-card-insta relative justify-between px-1">
+      {/* <div className="flex items-center footer-card-insta relative justify-between px-1">
         <div className="flex items-center gap-2">
           <span className="flex gap-1 items-center">
             <Link target="_blank" to={linkAction}>
@@ -112,7 +110,7 @@ const InstagramCard = ({
             </Link>
            
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
