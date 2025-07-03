@@ -1,5 +1,5 @@
 import Heading from "./heading"
-import img from "../assets/images/Service_1.png"
+import img from "../assets/images/service_1.png"
 import { useState } from "react";
 // Images
 import skin_1 from "../assets/images/skin_1.png"
