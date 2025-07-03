@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react"
 import Heading from "./heading"
-import img from "../assets/images/Choose_us_smal.png"
+import img from "../assets/images/choose_us_smal.png"
 
 const ChooseUs = ()=>{
     const data = [
