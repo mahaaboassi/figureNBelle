@@ -1,0 +1,19 @@
+.hero-service{
+    
+}
+.hero-service img{
+    border-radius: 20px;
+}
+.hero-service h1{
+    color: var(--main);
+    text-transform: uppercase;
+    text-align: center;
+}
+.service h2{
+     color: var(--main);
+     font-size: var(--font-size-xxl);
+     margin-bottom: 10px;
+}
+.service p, .service ul{
+    font-size: var(--font-size-xs);
+}

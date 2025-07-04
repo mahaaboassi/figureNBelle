@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom"
 import logo from "../assets/images/logo_figure.png"
-import { menu } from "../data/data"
 const Navbar = ()=>{
 
     const data = {
@@ -21,7 +20,22 @@ const Navbar = ()=>{
             link : "mailto:info@figurenbellewellness.com"
         }
     }
-
+    const menu = [{
+        name : "Home",
+        link : "/"
+    },{
+        name : "Services",
+        link : "/"
+    },{
+        name : "About",
+        link : "/"
+    },{
+        name : "Blogs",
+        link : "/"
+    },{
+        name : "Contact",
+        link : "/"
+    }]
     return(<nav className="flex justify-between items-center px-4 md:px-10  py-5">
         <div className="flex gap-2 items-center">
             <div className="menu-icon">
@@ -34,7 +48,7 @@ const Navbar = ()=>{
            <img src={logo}  alt={"Logo"} />
         </div>
         <div className="flex gap-2">
-            <div className="flex flex-col items-end  gap-5 nav-content">
+            <div className="flex flex-col gap-5 nav-content">
                 <div className="flex items-center gap-2 first-nav">
                     <div className="flex gap-2 items-center">
                         <svg xmlns="http://www.w3.org/2000/svg" width="13" height="17" viewBox="0 0 13 17" fill="none">
@@ -84,29 +98,10 @@ const Navbar = ()=>{
 
                 </div>
                 <div>
-                    <ul className="flex w-full justify-end  uppercase ">
-                        {menu.map((e,i)=>{
-                            if(e?.children && e.children.length > 0){
-                                return  <li className="root-big-menu pr-3 cursor-pointer" key={`Figure_N_Belle_Menu_${e.name}_${i}`}>
-                                        {e.name}
-                                        <div className="big-menu p-5 left-4 md:left-10 right-4 md:right-10  gap-20">
-                                            {e.children.length > 0 && e.children.map((child,idx)=>(<div key={`Submenu_${child.subCategory}_${idx}`}>
-                                                <h5 className="my-3">{child.subCategory}</h5>
-                                                <ul className="flex flex-col gap-1.5">
-                                                    {child.services.map((subChild, index)=><li key={`Submenu_Services_${subChild.name}_${index}`}>
-                                                        <Link  to={subChild.link}>{subChild.name}</Link>
-                                                    </li>)}
-                                                </ul>
-                                            </div>))}
-                                        </div>
-                                    </li> 
-                            }else{
-                                return <li className="pr-3" key={`Figure_N_Belle_Menu_${e.name}_${i}`}><Link href={e.link}>
-                                    {e.name}
-                                    </Link>
-                                </li>
-                            }
-                        })}
+                    <ul className="flex w-full justify-end gap-5 uppercase ">
+                        {menu.map((e,idx)=><li><Link href={e.link}>
+                        {e.name}
+                        </Link></li>)}
                     </ul>
                     
                 </div>

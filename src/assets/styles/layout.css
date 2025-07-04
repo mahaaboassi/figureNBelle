@@ -1,5 +1,5 @@
 nav{
-
+    position: relative;
 }
 nav img{
     width: 150px;
@@ -20,6 +20,41 @@ nav ul{
 }
 .nav-icons,.menu-icon{
     display: none;
+}
+.root-big-menu{
+    transition: 0.3s;
+}
+.root-big-menu:hover .big-menu{
+        display: flex;
+}
+.big-menu {
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    backdrop-filter: blur(20px);
+    border-radius: 0 0 10px 10px;
+    background: url("../images/girl-opacity.png");
+     background-color: rgba(255, 255, 255, 0.729);
+    background-repeat: no-repeat;
+    background-position: 90%;
+    min-height: 400px;
+    
+}
+.big-menu h5{
+    font-weight: 600;
+    font-size: var(--font-size-s);
+    color: var(--main);
+}
+.big-menu li{
+    font-weight: 500;
+    font-size: var(--font-size-xs);
+    text-transform: capitalize;
+}
+.big-menu li{
+    transition: 0.3s;
+}
+.big-menu li a:hover{
+    color: var(--grey-2);
 }
 /* Heading */
 .heading h2{
@@ -90,7 +125,43 @@ footer .first-div p{
 .second-div{
     width: 60%;
 }
+/* Form  */
+form input{
+    border: unset;
+    width: 100%;
+    height: 100%;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+form .input-wrapper{
+      position: relative;
+}
+form .input-wrapper::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    background-color: var(--main);
+    right: 0;
+    left: 0;
+}
+form .input-wrapper:hover::before{
+    /* animation: toRight 0.3s ; */
+}
+form input:focus{
+    outline: none;
 
+}
+.contact h3{
+    color: var(--main);
+    font-size: var(--font-size-xl);
+}
+form.contact {
+    
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: var(--shadow-box);
+}
 @media (max-width: 1200px) {
     nav ul,button{
         font-weight: 600;
