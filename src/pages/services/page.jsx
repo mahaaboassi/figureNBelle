@@ -26,7 +26,7 @@ const Service = ()=>{
         
         
     },[link])
-    return(<div className="service px-4 md:px-10 pb-20">
+    return(<div className="service px-4 md:px-10 ">
         <div className="hero-service relative">
             <img className="w-full" alt="banner" src={img} />
             <div className="absolute inset-0 flex justify-center items-center">
@@ -34,7 +34,7 @@ const Service = ()=>{
             </div>
 
         </div>
-        <div className="grid grid-cols-3 gap-5">
+        <div className="grid grid-cols-3 gap-5 pb-20">
             {
                 data?.section_1 && data?.section_2 && data?.section_3 && data?.section_4 && <div className="col-span-2 mt-10 flex flex-col gap-5">
                 <div className="">

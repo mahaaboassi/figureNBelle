@@ -7,16 +7,20 @@ nav img{
     object-fit: cover;
 }
 nav ul{
-    font-weight: 600;
+    font-weight: 500;
     font-size: var(--font-size-s);
 }
 .line{
     height: 20px;
     width: 3px;
-    background-color: var(--main);
+    background-color:rgb(87, 87, 87);
 }
 .first-nav{
     font-size: var(--font-size-xs);
+    color: rgb(87, 87, 87);
+}
+.first-nav path{
+    fill : rgb(87, 87, 87)
 }
 .nav-icons,.menu-icon{
     display: none;
@@ -146,6 +150,11 @@ form .input-wrapper::before{
 }
 form .input-wrapper:hover::before{
     /* animation: toRight 0.3s ; */
+}
+form input::placeholder{
+    color: var(--grey-3);
+    font-size: var(--font-size-xs);
+    font-weight: 400;
 }
 form input:focus{
     outline: none;
