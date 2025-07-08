@@ -26,7 +26,7 @@ const Service = ()=>{
         if(window.innerWidth < 500){
                 setIsSmallSize(true)
         }
-        
+        window.scrollTo({top:0})
         
     },[link])
     return(<div className="service px-4 md:px-10 ">

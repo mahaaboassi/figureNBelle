@@ -10,9 +10,19 @@ import { Navigation } from 'swiper/modules';
 // Videos
 import reel_1 from "../assets/videos/reel_1.mp4"
 import reel_3 from "../assets/videos/reel_3.mp4"
+import reel_4 from "../assets/videos/reel_4.mp4"
+import reel_5 from "../assets/videos/reel_5.mp4"
+import reel_6 from "../assets/videos/reel_6.mp4"
+import reel_7 from "../assets/videos/reel_7.mp4"
+import reel_8 from "../assets/videos/reel_8.mp4"
 import reel_1_img from "../assets/images/reel_1.jpg"
-import reel_2_img from "../assets/images/reel_2.jpg"
 import reel_3_img from "../assets/images/reel_3.jpg"
+import reel_4_img from "../assets/images/reel_4.jpg"
+import reel_5_img from "../assets/images/reel_5.jpg"
+import reel_6_img from "../assets/images/reel_6.jpg"
+import reel_7_img from "../assets/images/reel_7.jpg"
+import reel_8_img from "../assets/images/reel_8.jpg"
+
 const Instagram = ()=>{
     const reels = [{
             reelImg : reel_1_img,
@@ -21,10 +31,10 @@ const Instagram = ()=>{
             reelLink : reel_1,
             linkAction : "https://www.instagram.com/reel/CtOutaZACPD/?utm_source=ig_embed&ig_rid=62246153-db3d-40a0-bfc4-55c642e37df9"
     },{
-            reelImg : reel_2_img,
+            reelImg : reel_7_img,
             likes: 61,
             comments: 1,
-            reelLink : reel_3,
+            reelLink : reel_7,
             linkAction : "https://www.instagram.com/reel/CtEvPP_Lvng/?utm_source=ig_embed&ig_rid=89946ded-a1f3-4659-8357-480209225bb9"
     },{
             reelImg : reel_3_img,
@@ -33,28 +43,28 @@ const Instagram = ()=>{
             reelLink : reel_3,
             linkAction : "https://www.instagram.com/reel/Cstb1Qdu2nb/?utm_source=ig_embed&ig_rid=f396c987-f39a-4ee0-bc78-b443e5c0f0af"
     },{
-            reelImg : reel_1_img,
+            reelImg : reel_4_img,
             likes: 37,
             comments: 2,
-            reelLink : reel_1,
+            reelLink : reel_4,
             linkAction : "https://www.instagram.com/reel/CtOutaZACPD/?utm_source=ig_embed&ig_rid=62246153-db3d-40a0-bfc4-55c642e37df9"
     },{
-            reelImg : reel_2_img,
+            reelImg : reel_5_img,
             likes: 61,
             comments: 1,
-            reelLink : reel_3,
+            reelLink : reel_5,
             linkAction : "https://www.instagram.com/reel/CtEvPP_Lvng/?utm_source=ig_embed&ig_rid=89946ded-a1f3-4659-8357-480209225bb9"
     },{
-            reelImg : reel_3_img,
+            reelImg : reel_6_img,
             likes: 63,
             comments: 2,
-            reelLink : reel_3,
+            reelLink : reel_6,
             linkAction : "https://www.instagram.com/reel/Cstb1Qdu2nb/?utm_source=ig_embed&ig_rid=f396c987-f39a-4ee0-bc78-b443e5c0f0af"
     },{
-            reelImg : reel_3_img,
+            reelImg : reel_8_img,
             likes: 63,
             comments: 2,
-            reelLink : reel_3,
+            reelLink : reel_8,
             linkAction : "https://www.instagram.com/reel/Cstb1Qdu2nb/?utm_source=ig_embed&ig_rid=f396c987-f39a-4ee0-bc78-b443e5c0f0af"
     }]
     const lastSlider = ()=>{document.querySelector(".reels .swiper-button-prev").click()}
@@ -107,7 +117,7 @@ const Instagram = ()=>{
                                     reelImg={e.reelImg}
                                     likes={e.likes}
                                     comments={e.comments}
-                                    reelLink={reel_1}
+                                    reelLink={e.reelLink}
                                     linkAction={e.linkAction}
                                     />
                             </div>

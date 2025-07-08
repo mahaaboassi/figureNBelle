@@ -156,7 +156,7 @@ button:hover::after {
 }
 /* Footer */
 footer{
-    display: flex;
+    /* display: flex; */
 }
 footer p{
     font-size: var(--font-size-xxs);
@@ -166,20 +166,18 @@ footer h3{
     font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 10px;
+    color: var(--main);
 }
 footer li{
-    font-size: var(--font-size-xs);
+    font-size: var(--font-size-xxs);
 }
-footer .first-div p{
-        width: 80%;
-    }
-.first-div{
-    width: 40%;
-}
-.second-div{
-    width: 60%;
+
+
+.second-div a:hover{
+    color: var(--grey-2);
 
 }
+
 /* Form  */
 form input{
     border: unset;
@@ -227,7 +225,13 @@ form.contact {
         font-weight: 600;
         font-size: var(--font-size-xs);
     }
-
+    .icon-hero{
+        width: 30px !important;
+        height: 30px !important;
+    }
+    .icon-hero svg{
+        height: 15px;
+    }
     
 }
 @media (max-width: 1100px) {
@@ -305,8 +309,7 @@ form.contact {
     .heading p{
         width: 80%;
     }
-
-    
+  
 }
 @media (max-width:700px) {
     .heading p{

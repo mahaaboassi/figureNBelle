@@ -100,7 +100,8 @@
 .section-1-about{
     overflow: hidden;
     border-radius: 10px;
-    border: 1px solid var(--main);
+    /* border: 1px solid var(--main); */
+    box-shadow: var(--shadow-box);
 }
 .section-1-content{
     width: 50%;
@@ -110,10 +111,11 @@
 .section-1-content h3{
     color: var(--main);
     font-size: var(--font-size-l);
+    font-weight: 600;
 }
 .about-choose h3{
     font-size: var(--font-size-xs);
-    font-weight: 600;
+    font-weight: 600 !important;
 }
 .about-choose p{
     font-size: var(--font-size-xxs);
