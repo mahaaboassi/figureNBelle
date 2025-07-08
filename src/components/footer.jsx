@@ -10,7 +10,7 @@ const Footer = ()=>{
         link : "/"
     },{
         name : "About",
-        link : "/"
+        link : "/about"
     },{
         name : "Contact",
         link : "/"

@@ -85,7 +85,32 @@
 .ques{
     font-size: var(--font-size-l);
 }
-
+/* About Page */
+.value{
+    font-size: var(--font-size-xxl);
+    font-weight: 600;
+}
+.metrics{
+    border-radius: 10px;
+    box-shadow: var(--shadow-box);
+}
+.metrics-content{
+    /* border-left: 2px solid var(--main); */
+}
+.section-1-about{
+    overflow: hidden;
+    border-radius: 10px;
+    border: 1px solid var(--main);
+}
+.section-1-content{
+    width: 50%;
+    position: relative;
+    z-index: 1;
+}
+.section-1-content h3{
+    color: var(--main);
+    font-size: var(--font-size-l);
+}
 @media (max-width : 1300px) {
     .hero-service h1{
         font-size: var(--font-size-xxl);
@@ -93,6 +118,33 @@
     }
     .service h2{
         font-size: var(--font-size-xl);
+    }
+    .metrics svg{
+        width: 50px;
+    }
+    .value{
+        font-size: var(--font-size-xl);
+        font-weight: 600;
+    }
+    .section-1-img{
+        opacity: 0.5;
+        z-index: 0;
+    }
+}
+@media (max-width: 900px) {
+    .metrics svg{
+        width: 40px;
+    }
+    .value{
+        font-size: var(--font-size-l);
+        font-weight: 600;
+    }
+    .name-metrics{
+        font-size: var(--font-size-xs);
+    }
+    .section-1-content{
+        width: 80%;
+        font-weight: 600;
     }
 }
 @media (max-width: 768px) {
@@ -116,6 +168,27 @@
         width: 8px;
         height: 8px;
     }
+    .metrics svg{
+        width: 35px;
+    }
+    .value{
+        font-size: var(--font-size-s);
+        font-weight: 600;
+    }
+    .name-metrics{
+        font-size: var(--font-size-xxs);
+    }
+    .section-1-img{
+        opacity: 0.3;
+    }
+    .section-1-content{
+        width: 100%;
+        font-weight: 600;
+        
+    }
+    .section-1-content p{
+        font-size: var(--font-size-xxs);
+    }
     
 }
 @media (max-width : 600px) {
@@ -128,5 +201,29 @@
     }
     .service p, .service ul{
         font-size: var(--font-size-xxs);
+    }
+
+}
+
+@media (max-width:530px) {
+
+    .value{
+        font-size: var(--font-size-s);
+        font-weight: 600;
+    }
+    .name-metrics{
+        font-size: 8px;
+    }
+}
+@media (max-width:350px) {
+    .metrics svg{
+        width: 25px;
+    }
+    .value{
+        font-size: var(--font-size-xxs);
+        font-weight: 600;
+    }
+    .name-metrics{
+        font-size: 8px;
     }
 }
