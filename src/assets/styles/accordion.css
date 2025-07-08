@@ -1,0 +1,50 @@
+/* Accordion */
+
+.content-accordion h5{
+    color: var(--main);
+    margin: 0 !important;
+}
+.line{
+    width:  70%;
+    height:  1px;
+    background-color:rgba(87, 87, 87, 0.416);
+    margin-bottom: 10px;
+}
+.target{
+    padding: 10px 0;
+    font-weight: 500;
+    font-size: var(--font-size-s);
+}
+.content-accordion{
+    font-size: var(--font-size-xs);
+    opacity: 0;
+    height: 0;
+    transition: opacity 0.2s ease,height 0.3s ease; 
+    overflow: hidden;
+}
+.icon-accordion{
+    font-weight: 600;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: linear-gradient(to Right , var(--yellow-1), var(--yellow-2));
+}
+.content-active{
+    opacity: 1;
+    height: 400px;
+    overflow-y: scroll;
+}
+
+@keyframes appeandIcon {
+    from{opacity: 1;}
+    to{ opacity: 0;}
+    
+}
+@media (max-width:400px) {
+    .content-active{
+        opacity: 1;
+        height: 150px;
+    }
+    
+}

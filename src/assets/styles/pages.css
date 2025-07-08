@@ -8,12 +8,37 @@
     color: var(--main);
     text-transform: uppercase;
     text-align: center;
+    font-size: var(--font-size-3xl);
 }
 .service h2{
      color: var(--main);
-     font-size: var(--font-size-xxl);
+     font-size: var(--font-size-xl);
      margin-bottom: 10px;
 }
 .service p, .service ul{
     font-size: var(--font-size-xs);
+}
+.ques{
+    font-size: var(--font-size-l);
+}
+@media (max-width : 1300px) {
+    .hero-service h1{
+        font-size: var(--font-size-xxl);
+        width: 50%;
+    }
+    .service h2{
+        font-size: var(--font-size-xl);
+    }
+}
+@media (max-width : 600px) {
+    .hero-service h1{
+        font-size: var(--font-size-xl);
+        
+    }
+    .service h2{
+        font-size: var(--font-size-l);
+    }
+    .service p, .service ul{
+        font-size: var(--font-size-xxs);
+    }
 }

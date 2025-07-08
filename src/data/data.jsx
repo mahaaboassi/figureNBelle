@@ -1,3 +1,22 @@
+// images
+import laser from "../assets/images/laser.png"
+import laser_small from "../assets/images/laser_small.png"
+
+import skin from "../assets/images/skin.png"
+import skin_small from "../assets/images/skin_small.png"
+
+import hair from "../assets/images/hair.png"
+import hair_small from "../assets/images/hair_small.png"
+
+import cosmetics from "../assets/images/cosmetics.png"
+import cosmetics_small from "../assets/images/cosmetics_small.png"
+
+import beauty from "../assets/images/beauty.png"
+import beauty_small from "../assets/images/beauty_small.png"
+
+import slimming from "../assets/images/slimming.png"
+import slimming_small from "../assets/images/slimming_small.png"
+
 export const menu = [{
         name : "Home",
         link : "/",
@@ -10,6 +29,8 @@ export const menu = [{
             services : [{
                 name : "Guaranteed weight loss",
                 link : "/guaranteed-weight-loss",
+                img : slimming,
+                img_small : slimming_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Struggling with weight loss has become a major problem. Busy lifestyles, poor eating habits, hormonal imbalances, and inactive routines make it difficult to get rid of unwanted fat. Excess weight isn't just about appearance. It increases the risk of ",
@@ -48,6 +69,8 @@ export const menu = [{
             },{
                 name : "Body firming",
                 link : "/body-firming",
+                img : slimming,
+                img_small : slimming_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : `Sagging skin has become a common concern, especially after weight loss, pregnancy, or due to aging.
@@ -87,6 +110,8 @@ export const menu = [{
             },{
                 name : "Body tonning",
                 link : "/body-tonning",
+                img : slimming,
+                img_small : slimming_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 :   `Even with consistent workouts, stubborn areas like the belly, thighs, and arms can remain untoned. Factors like age, muscle loss, and poor circulation contribute to a lack of muscle definition and firmness.
@@ -125,6 +150,8 @@ export const menu = [{
             },{
                 name : "Body composition analysis",
                 link : "/body-composition-analysis",
+                img : slimming,
+                img_small : slimming_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : `Weight or BMI should not be solely relied on to judge one’s health, as these numbers don’t tell the full story. Two people with the same weight can have very different levels of fat, muscle, and water. Understanding your body composition is key to creating an effective weight loss, fitness, or body contouring plan.`,
@@ -165,6 +192,8 @@ export const menu = [{
             services : [{
                 name : "Cryolypolysis",
                 link : "/cryolypolysis",
+                img : slimming,
+                img_small : slimming_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Stubborn fat pockets often remain despite a healthy diet and regular exercise. These areas, such as the lower belly, love handles, and thighs, can be resistant to traditional fat-loss methods. When lifestyle changes fall short, a non-surgical alternative is needed to precisely target and eliminate fat cells without damaging surrounding tissue.",
@@ -200,6 +229,8 @@ export const menu = [{
             },{
                 name : "Wrap treatments",
                 link : "/wrap-treatments",
+                img : slimming,
+                img_small : slimming_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Fluid retention, sluggish circulation, and toxins can contribute to bloating, cellulite, and skin dullness, making it difficult to achieve a smooth, sculpted silhouette.",
@@ -232,6 +263,8 @@ export const menu = [{
             },{
                 name : "Specific area therapy",
                 link : "/specific-area-therapy ",
+                img : slimming,
+                img_small : slimming_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Some of the body areas are more prone to fat accumulation or skin laxity, and one-size-fits-all treatments often don’t deliver targeted results.",
@@ -264,6 +297,8 @@ export const menu = [{
             },{
                 name : "Slimtron",
                 link : "/slimtron",
+                img : slimming,
+                img_small : slimming_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Many individuals want to shape their body without undergoing surgery or spending hours in the gym, but not all fat reduction methods offer muscle toning benefits.",
@@ -296,6 +331,8 @@ export const menu = [{
             },{
                 name : "EM sculpt",
                 link : "/EM-sculpt",
+                img : slimming,
+                img_small : slimming_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Achieving visible muscle tone and fat reduction requires consistent workouts and targeted effort, which isn't always feasible for everyone due to time or physical limitations.",
@@ -328,6 +365,8 @@ export const menu = [{
             },{
                 name : "Electrode placements",
                 link : "/electrode-placements",
+                img : slimming,
+                img_small : slimming_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "When muscles become weak or underused, especially after weight loss or inactivity, rebuilding tone can be difficult through traditional exercise alone.",
@@ -360,6 +399,8 @@ export const menu = [{
             },{ 
                 name : "Bipolar",
                 link : "/bipolar",
+                img : slimming,
+                img_small : slimming_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "",
@@ -396,6 +437,8 @@ export const menu = [{
             services : [{
                 name : "Bust Enhancement",
                 link : "/bust-enhancement",
+                img : slimming,
+                img_small : slimming_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Some individuals may feel self-conscious about a smaller or less defined bust line, whether due to genetics, weight loss, aging, or hormonal changes. Lack of volume or shape in the bust can also affect posture and body proportions.",
@@ -432,6 +475,8 @@ export const menu = [{
             },{
                 name : "Bust Reduction",
                 link : "/bust-reduction",
+                img : slimming,
+                img_small : slimming_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Excess bust size can cause back and neck pain, posture problems, and discomfort during physical activity. It can also lead to self-esteem issues and difficulty finding well-fitting clothes.",
@@ -468,6 +513,8 @@ export const menu = [{
             },{
                 name : "Bust Firming",
                 link : "/bust-firming",
+                img : slimming,
+                img_small : slimming_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "With age, gravity, and hormonal changes, the skin and ligaments supporting the bust naturally lose elasticity, resulting in sagging, loss of shape, and wrinkles.",
@@ -507,6 +554,8 @@ export const menu = [{
             services : [{
                 name : "udwarthanam",
                 link : "/udwarthanam",
+                img : slimming,
+                img_small : slimming_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Excess body fat, sluggish metabolism, cellulite, and toxin accumulation can lead to heaviness, poor skin texture, and water retention—issues often not fully addressed by modern treatments.",
@@ -540,6 +589,8 @@ export const menu = [{
             },{
                 name : "Potli Massages",
                 link : "/potli-massages",
+                img : slimming,
+                img_small : slimming_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Joint stiffness, chronic body pain, muscle fatigue, and poor blood circulation are common issues, especially in stressful lifestyles or post-exercise recovery phases.",
@@ -572,6 +623,8 @@ export const menu = [{
             },{
                 name : "Full body relaxation massages ",
                 link : "/full-body-relaxation-massages",
+                img : slimming,
+                img_small : slimming_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Daily stress, poor sleep, and physical tension can negatively impact mental clarity, mood, and immune function, making regular relaxation essential to wellness.",
@@ -604,6 +657,8 @@ export const menu = [{
             },{
                 name : "Shirodhara ",
                 link : "/shirodhara ",
+                img : slimming,
+                img_small : slimming_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Mental fatigue, insomnia, anxiety, and nervous tension can significantly reduce quality of life and affect hormonal balance and brain function.",
@@ -636,6 +691,8 @@ export const menu = [{
             },{
                 name : "Kati vasti",
                 link : "/kati-vasti",
+                img : slimming,
+                img_small : slimming_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Lower back pain, stiffness, and spinal discomfort are increasingly common due to sedentary work, poor posture, or muscular imbalances.",
@@ -668,6 +725,8 @@ export const menu = [{
             },{
                 name : "Steam",
                 link : "/steam",
+                img : slimming,
+                img_small : slimming_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Toxin accumulation, sluggish metabolism, and poor skin tone often result from limited circulation and sweat activity, especially in sedentary lifestyles.",
@@ -700,6 +759,8 @@ export const menu = [{
             },{
                 name : "Sauna",
                 link : "/sauna",
+                img : slimming,
+                img_small : slimming_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Every day, exposure to environmental toxins, stress, and poor circulation can hinder the body’s natural detox processes, leaving you feeling sluggish or inflamed.",
@@ -739,6 +800,8 @@ export const menu = [{
             services : [{
                 name : "Facial Hair Reduction",
                 link : "/facial-hair-reduction",
+                img : laser,
+                img_small : laser_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Unwanted facial hair can affect self-confidence and create challenges with makeup application, skin texture, and personal grooming. Traditional methods like threading, waxing, or shaving can be time-consuming, cause irritation, and lead to ingrown hairs or pigmentation.",
@@ -777,6 +840,8 @@ export const menu = [{
             },{
                 name : "Upper Lips",
                 link : "/upper-lips",
+                img : laser,
+                img_small : laser_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Unwanted hair on the upper lip can affect confidence and facial aesthetics. Frequent waxing or threading often leads to skin irritation, redness, and ingrown hairs, especially on sensitive skin.",
@@ -814,6 +879,8 @@ export const menu = [{
             },{
                 name : "Beard Line Shaping",
                 link : "/beard-line-shaping",
+                img : laser,
+                img_small : laser_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Maintaining a sharp beard or jawline edge with razors can cause frequent irritation, razor bumps, or uneven growth. Hormonal conditions may also cause unwanted facial hair growth in women along the beard line",
@@ -851,6 +918,8 @@ export const menu = [{
             },{
                 name : "Side Lock",
                 link : "/side-lock",
+                img : laser,
+                img_small : laser_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Thick or uneven sideburns can affect facial symmetry and styling preferences. Waxing or shaving side locks frequently can lead to coarse regrowth or shadowing.",
@@ -887,6 +956,8 @@ export const menu = [{
             },{
                 name : "Chin",
                 link : "/chin",
+                img : laser,
+                img_small : laser_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Chin hair can be caused by hormonal changes (like PCOS), genetics, or aging. Repeated plucking or shaving can lead to coarse regrowth, pigmentation, and ingrown hairs.",
@@ -927,6 +998,8 @@ export const menu = [{
             services : [{
                 name : "Full Body Hair Reduction",
                 link : "/full-body-hair-reduction",
+                img : laser,
+                img_small : laser_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Frequent shaving, waxing, and ingrown hairs are all caused by unwanted body hair and are all uncomfortable, time-consuming, and transient. These repeated techniques frequently result in uneven skin tone and skin discomfort.",
@@ -964,6 +1037,8 @@ export const menu = [{
             },{
                 name : "Back & chest",
                 link : "/back-and-chest",
+                img : laser,
+                img_small : laser_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Sweating, body odor, acne, and discomfort can result from having too much hair on the chest and back. These big areas might be challenging to shave and are more likely to get skin infections or ingrown hairs. ",
@@ -1003,6 +1078,8 @@ export const menu = [{
             services : [{
                 name : "Under Arms",
                 link : "/under-arms",
+                img : laser,
+                img_small : laser_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Sweat and bacteria can be trapped by underarm hair, causing pain and stink. Ingrown hairs, itching, and black areas are common side effects of shaving. ",
@@ -1037,6 +1114,8 @@ export const menu = [{
             },{
                 name : "Legs Hair Reduction",
                 link : "/legs-hair-reduction",
+                img : laser,
+                img_small : laser_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Leg shaving or waxing increases the danger of ingrown hairs, stubble, and frequent maintenance. Additionally, hair growth can impact one's self-confidence when wearing dresses, skirts, or shorts. ",
@@ -1071,6 +1150,8 @@ export const menu = [{
             },{
                 name : "Bikini Laser Hair Reduction",
                 link : "/bikini-laser-hair-reduction",
+                img : laser,
+                img_small : laser_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Ingrown hairs, pimples, and irritation of delicate skin are common side effects of shaving and waxing in the bikini area. This fragile skin requires a cleaner, safer approach. ",
@@ -1105,6 +1186,8 @@ export const menu = [{
             },{
                 name : "Arms Laser Hair Reduction",
                 link : "/arms-laser-hair-reduction",
+                img : laser,
+                img_small : laser_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Arm hair can result in rough texture and detract from the charm of sleeveless apparel. Over time, frequent shaving or waxing results in skin regrowth, discomfort, and discoloration. ",
@@ -1146,6 +1229,8 @@ export const menu = [{
             services : [{
                 name : "Anti Ageing",
                 link : "/anti-ageing",
+                img : skin,
+                img_small : skin_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Common indications of aging include fine lines, wrinkles, and sagging skin, which are brought on by environmental stressors, sun exposure, and decreased collagen.The firmness and youthful appearance of the skin are lost when improperly cared for.",
@@ -1179,6 +1264,8 @@ export const menu = [{
             },{
                 name : "Skin Pigmentation",
                 link : "/skin-pigmentation",
+                img : skin,
+                img_small : skin_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Hormonal imbalances, acne scars, and sun exposure can all cause pigmentation, dark patches, and uneven skin tone. These have an impact on skin tone and clarity.",
@@ -1212,6 +1299,8 @@ export const menu = [{
             },{
                 name : "Skin Brightening",
                 link : "/skin-brightening",
+                img : skin,
+                img_small : skin_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Pollution, sun damage, and lifestyle factors can make skin appear dull and tired, lacking its natural glow.",
@@ -1245,6 +1334,8 @@ export const menu = [{
             },{
                 name : "Acne treatment",
                 link : "/acne-treatment",
+                img : skin,
+                img_small : skin_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Constant breakouts and acne can be uncomfortable, leave scars, and undermine self-esteem. Root issues are frequently not addressed by over-the-counter remedies. ",
@@ -1278,6 +1369,8 @@ export const menu = [{
             },{
                 name : "Stretch Marks",
                 link : "/stretch-marks",
+                img : skin,
+                img_small : skin_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Stretch marks appear as visible lines and changes in the texture of the skin and are caused by rapid weight changes, pregnancy, or muscle growth. ",
@@ -1310,6 +1403,8 @@ export const menu = [{
             },{
                 name : "Dull Skin",
                 link : "/dull-skin",
+                img : skin,
+                img_small : skin_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Dull skin lacks radiance due to poor hydration, stress, buildup of dead cells, or environmental toxins.",
@@ -1343,6 +1438,8 @@ export const menu = [{
             },{
                 name : "Under Eyes Dark Circle",
                 link : "/under-eyes-dark-circle",
+                img : skin,
+                img_small : skin_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Lack of sleep, heredity, aging, or stress can all cause dark circles under the eyes, which make you appear exhausted even when you're not. ",
@@ -1378,6 +1475,8 @@ export const menu = [{
             services : [{
                 name : "Advanced Facial",
                 link : "/advanced-facial",
+                img : skin,
+                img_small : skin_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Stress, aging, and exposure to the environment all cause our skin to lose its suppleness and brightness. An advanced facial helps restore hydration, balance, and clarity.",
@@ -1411,6 +1510,8 @@ export const menu = [{
             },{
                 name : "Signature Facial",
                 link : "/signature-facial",
+                img : skin,
+                img_small : skin_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "A customized strategy is required to address your skin's many problems, including dryness, fine wrinkles, and dullness.",
@@ -1444,6 +1545,8 @@ export const menu = [{
             },{
                 name : "Carbon Facial",
                 link : "/carbon-facial",
+                img : skin,
+                img_small : skin_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Deep detoxification is beneficial for congested, oily, and acne-prone skin types. Carbon facials improve tone and clear pores. ",
@@ -1477,6 +1580,8 @@ export const menu = [{
             },{
                 name : "Photo Facial",
                 link : "/photo-facial",
+                img : skin,
+                img_small : skin_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Targeted light therapy is necessary to correct symptoms of pigmentation and skin aging, including sun damage, age spots, and uneven skin tone. ",
@@ -1510,6 +1615,8 @@ export const menu = [{
             },{
                 name : "Platinum Facial",
                 link : "/platinum-facial",
+                img : skin,
+                img_small : skin_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Basic care is insufficient for mature and aging skin. The goal of the Platinum Facial is to provide powerful anti-aging results.",
@@ -1550,6 +1657,8 @@ export const menu = [{
             services : [{
                 name : "Hair Loss in Men",
                 link : "/hair-loss-in-men",
+                img : hair,
+                img_small : hair_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Stress, hormonal fluctuations, and male pattern baldness can all cause bald patches or progressive hair loss. Preventing irreversible loss requires early action. ",
@@ -1583,6 +1692,8 @@ export const menu = [{
             },{
                 name : "Hair Loss in Women",
                 link : "/hair-loss-in-women",
+                img : hair,
+                img_small : hair_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Hair thinning in women may be caused by stress, PCOS, hormonal imbalance, or nutritional deficiencies, affecting volume and confidence.",
@@ -1616,6 +1727,8 @@ export const menu = [{
             },{
                 name : "Dandruff",
                 link : "/dandruff",
+                img : hair,
+                img_small : hair_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Itching, flaking, and occasionally hair loss are all symptoms of dandruff.Dryness, product accumulation, or fungal infestation can all cause it.",
@@ -1649,6 +1762,8 @@ export const menu = [{
             },{
                 name : "Hair Fall",
                 link : "/hair-fall",
+                img : hair,
+                img_small : hair_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "An early indicator of more serious scalp or health problems may be excessive daily hair loss. Balding or thinning may result from ignoring it.",
@@ -1684,6 +1799,8 @@ export const menu = [{
             services : [{
                 name : "Non-Surgical Hair Replacement",
                 link : "/non-surgical-hair-replacement",
+                img : hair,
+                img_small : hair_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Treatments for baldness or advanced hair loss might not work. Instant appearance and confidence restoration is possible with aesthetic remedies. ",
@@ -1716,6 +1833,8 @@ export const menu = [{
             },{
                 name : "Meso Hair Treatment",
                 link : "/meso-hair-treatment",
+                img : hair,
+                img_small : hair_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "To be healthy, hair follicles need nutrients at the root. Weak hair strands and hair loss are caused by inadequate circulation or nutrients. ",
@@ -1748,6 +1867,8 @@ export const menu = [{
             },{
                 name : "GFC Hair Restoration",
                 link : "/GFC-hair-restoration",
+                img : hair,
+                img_small : hair_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Growth Factor Concentrate (GFC), particularly in cases of resistant hair loss, repairs damaged follicles and encourages thick regrowth. ",
@@ -1780,6 +1901,8 @@ export const menu = [{
             },{
                 name : "PRP With SCN Hair Restoration",
                 link : "/PRP-with-SCN-hair-restoration",
+                img : hair,
+                img_small : hair_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "For severe hair thinning, combining PRP with stem cell nutrition (SCN) promotes deeper follicle healing and increased regeneration.",
@@ -1815,6 +1938,8 @@ export const menu = [{
             services : [{
                 name : "Hair spa",
                 link : "/hair-spa",
+                img : hair,
+                img_small : hair_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Stress, style, and pollution harm the hair and scalp. Hair quality is enhanced, the scalp is relaxed, and hydration is restored in a spa. ",
@@ -1847,6 +1972,8 @@ export const menu = [{
             },{
                 name : "Biotop",
                 link : "/biotop",
+                img : hair,
+                img_small : hair_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Chemical exposure causes hair to become brittle and lose protein. Essential keratin and smoothness are restored by Biotop.",
@@ -1879,6 +2006,8 @@ export const menu = [{
             },{
                 name : "Lipidium",
                 link : "/lipidium",
+                img : hair,
+                img_small : hair_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Dryness and stress leave hair dull and fragile. Lipidium therapy rebuilds hair fiber from the inside out.",
@@ -1911,6 +2040,8 @@ export const menu = [{
             },{
                 name : "Moroccan",
                 link : "/moroccan",
+                img : hair,
+                img_small : hair_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Moroccan oil is rich in antioxidants and fatty acids that deeply nourish and smoothen hair.",
@@ -1943,6 +2074,8 @@ export const menu = [{
             },{
                 name : "Ozone",
                 link : "/ozone",
+                img : hair,
+                img_small : hair_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Ozone therapy detoxifies the scalp, kills bacteria, and boosts oxygen flow, ideal for dandruff and hair fall.",
@@ -1975,6 +2108,8 @@ export const menu = [{
             },{
                 name : "Olaplex",
                 link : "/olaplex",
+                img : hair,
+                img_small : hair_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Coloring and heat tools damage internal hair bonds. Olaplex repairs these bonds, restoring hair from within.",
@@ -2014,6 +2149,8 @@ export const menu = [{
             services : [{
                 name : "Anti ageing treatment ",
                 link : "/anti-ageing-treatment",
+                img : cosmetics,
+                img_small : cosmetics_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Collagen synthesis slows down with age, resulting in drooping skin, fine lines, and wrinkles. Delaying visible aging and maintaining youthful skin are two benefits of early action.",
@@ -2047,6 +2184,8 @@ export const menu = [{
             },{
                 name : "Non Surgical Face Lift ",
                 link : "/non-surgical-face-lift ",
+                img : cosmetics,
+                img_small : cosmetics_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Over time, the skin and muscles in the face become less elastic, which causes drooping and sagging. Firmness and shape can be restored with a non-surgical face lift.",
@@ -2080,6 +2219,8 @@ export const menu = [{
             },{
                 name : "Non Surgical Breast Upliftment ",
                 link : "/non-surgical-breast-upliftment",
+                img : cosmetics,
+                img_small : cosmetics_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Breasts might become less firm with age, weight loss, and nursing. Enhancing shape without surgery is possible with non-surgical upliftment.",
@@ -2112,6 +2253,8 @@ export const menu = [{
             },{
                 name : "Thread Lift",
                 link : "/thread-lift",
+                img : cosmetics,
+                img_small : cosmetics_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : " A thread lift can immediately improve the facial features when the skin starts to droop, particularly around the cheekbones and jawline.",
@@ -2144,6 +2287,8 @@ export const menu = [{
             },{
                 name : "Chemical Peels",
                 link : "/chemical-peels",
+                img : cosmetics,
+                img_small : cosmetics_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Chemical exfoliation can be used to treat pigmentation, dead skin cells, acne scars, and uneven texture.",
@@ -2177,6 +2322,8 @@ export const menu = [{
             },{
                 name : "Skin Care",
                 link : "/skin-care",
+                img : cosmetics,
+                img_small : cosmetics_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Daily skin care promotes long-term skin health by preventing acne, dullness, and premature aging.",
@@ -2210,6 +2357,8 @@ export const menu = [{
             },{
                 name : "Dermal Fillers",
                 link : "/dermal-fillers",
+                img : cosmetics,
+                img_small : cosmetics_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Deep wrinkles, thin lips, and sunken cheeks are the results of facial volume loss. Dermal fillers instantly improve face features and restore volume.",
@@ -2243,6 +2392,8 @@ export const menu = [{
             },{
                 name : "Microdermabrasion ",
                 link : "/microdermabrasion ",
+                img : cosmetics,
+                img_small : cosmetics_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Uneven texture, plugged pores, and dead skin cells can all contribute to the skin's lifeless appearance. For a smoother shine, microdermabrasion aids in resurfacing the skin.",
@@ -2276,6 +2427,8 @@ export const menu = [{
             },{
                 name : "Collagen treatment",
                 link : "/collagen-treatment ",
+                img : cosmetics,
+                img_small : cosmetics_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Loss of collagen causes fine wrinkles, sagging skin, and volume loss. Collagen production increases the firmness and flexibility of the skin.",
@@ -2308,6 +2461,8 @@ export const menu = [{
             },{
                 name : "Scar Revision",
                 link : "/scar-revision",
+                img : cosmetics,
+                img_small : cosmetics_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Acne, trauma, or surgical scars can impact one's self-esteem and skin attractiveness. Revision of scars reduces their visibility.",
@@ -2340,6 +2495,8 @@ export const menu = [{
             },{
                 name : "Earlobe Repair",
                 link : "/earlobe-repair",
+                img : cosmetics,
+                img_small : cosmetics_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "For a natural look, surgical repair is required for earlobes that have been torn, strained, or split by trauma or heavy earrings.",
@@ -2372,6 +2529,8 @@ export const menu = [{
             },{
                 name : "Chin Reshaping ",
                 link : "/chin-reshaping",
+                img : cosmetics,
+                img_small : cosmetics_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "A protruding or receding chin can alter the symmetry of the face. Reshaping the chin improves harmony and profile.",
@@ -2404,6 +2563,8 @@ export const menu = [{
             },{
                 name : "Cheek & Chin Enhancement",
                 link : "/cheek-and-chin-enhancement",
+                img : cosmetics,
+                img_small : cosmetics_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Facial shape may be impacted by flat or ill-defined cheekbones and chin. Improvements produce definition and bring back loudness.",
@@ -2436,6 +2597,8 @@ export const menu = [{
             },{
                 name : "Eyebrow Enhancement",
                 link : "/eyebrow-nhancement",
+                img : cosmetics,
+                img_small : cosmetics_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Eyebrows that are flat, sparse, or uneven can affect appearance and facial expression. The brows are lifted and redefined via enhancements.",
@@ -2468,6 +2631,8 @@ export const menu = [{
             },{
                 name : "Lip Augmentation",
                 link : "/lip-augmentation",
+                img : cosmetics,
+                img_small : cosmetics_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Enhancing asymmetrical, thin, or undefined lips can improve facial expression and harmony.",
@@ -2500,6 +2665,8 @@ export const menu = [{
             },{
                 name : "Rahinoplasty (Nose)",
                 link : "/rahinoplasty-nose",
+                img : cosmetics,
+                img_small : cosmetics_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "An excessively big, crooked, or uneven nose can overpower other facial characteristics. Rhinoplasty improves harmony and balance.",
@@ -2539,6 +2706,8 @@ export const menu = [{
             services : [{
                 name : "Threading",
                 link : "/threading",
+                img : beauty,
+                img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Unwanted facial hair can have an impact on the face's general appearance and cleanliness. Sensitive parts are threaded gently and precisely.",
@@ -2572,6 +2741,8 @@ export const menu = [{
             },{
                 name : "Waxing",
                 link : "/waxing",
+                img : beauty,
+                img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Compared to shaving, waxing promotes smoother skin and slower regrowth by removing hair from the root.",
@@ -2605,6 +2776,8 @@ export const menu = [{
             },{
                 name : "Bleach",
                 link : "/bleach",
+                img : beauty,
+                img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Lightening facial or body hair that is too fine to be removed can give you a cleaner appearance by blending it with your natural skin tone.",
@@ -2637,6 +2810,8 @@ export const menu = [{
             },{
                 name : "Body Polishing",
                 link : "/body-polishing",
+                img : beauty,
+                img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "The skin can appear lifeless due to tanning, dead skin accumulation, and dullness. Shine and smoothness are restored by body polishing.",
@@ -2670,6 +2845,8 @@ export const menu = [{
             },{
                 name : "Body Strap",
                 link : "/body-strap",
+                img : beauty,
+                img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Dirt and dead skin build up in hard-to-reach places on the torso and back. A body strap facilitates efficient deep cleaning of those regions.",
@@ -2702,6 +2879,8 @@ export const menu = [{
             },{
                 name : "Ubtan",
                 link : "/ubtan",
+                img : beauty,
+                img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Herbal mixtures used in traditional skincare can naturally nourish, brighten, and purify the skin.",
@@ -2735,6 +2914,8 @@ export const menu = [{
             },{
                 name : "Menicure",
                 link : "/menicure",
+                img : beauty,
+                img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Hands are exposed to the sun, grime, and pollution all the time. A manicure maintains your hands' soft, healthy skin and clean nails.",
@@ -2767,6 +2948,8 @@ export const menu = [{
             },{
                 name : "Pedicure",
                 link : "/pedicure",
+                img : beauty,
+                img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Neglecting the feet can result in dry, cracked skin and poor personal hygiene. Clean, smooth, and relaxed feet are encouraged by pedicures.",
@@ -2802,6 +2985,8 @@ export const menu = [{
             services : [{
                 name : "Facial",
                 link : "/facial",
+                img : beauty,
+                img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Frequent facials support a clear, moisturized complexion by cleansing, exfoliating, and nourishing the skin.",
@@ -2835,6 +3020,8 @@ export const menu = [{
             },{
                 name : "Kanpeki",
                 link : "/kanpeki",
+                img : beauty,
+                img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Over time, aging symptoms and environmental stress cause the skin to become dull. Kanpeki aids in firmness and brightness restoration.",
@@ -2867,6 +3054,8 @@ export const menu = [{
             },{
                 name : "Skinora",
                 link : "/skinora",
+                img : beauty,
+                img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "The skin becomes dull and uneven as a result of stress and pollution. Deep repair and renewal are provided by Skinora.",
@@ -2899,6 +3088,8 @@ export const menu = [{
             },{
                 name : "Casmara",
                 link : "/casmara",
+                img : beauty,
+                img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Advanced care is necessary to restore freshness to dry and tired skin. Casmara facials provide deep renewal and nourishment.",
@@ -2931,6 +3122,8 @@ export const menu = [{
             },{
                 name : "Platinum",
                 link : "/platinum",
+                img : beauty,
+                img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Our skin becomes less elastic and shiny as we get older. Deep rejuvenation and anti-aging advantages are provided by platinum facials.",
@@ -2963,6 +3156,8 @@ export const menu = [{
             },{
                 name : "Korean glass facial",
                 link : "/korean-glass-facial",
+                img : beauty,
+                img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : 'Hydration and texture refinement are provided by this facial for a poreless, radiant, "glass skin" finish.',
@@ -2995,6 +3190,8 @@ export const menu = [{
             },{
                 name : "Galvanic",
                 link : "/galvanic",
+                img : beauty,
+                img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Nutrient absorption may be impacted by aging skin and poor circulation. Galvanic treatments improve skin tone and product penetration.",
@@ -3027,6 +3224,8 @@ export const menu = [{
             },{
                 name : "Oxygeno",
                 link : "/oxygeno",
+                img : beauty,
+                img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Fatigue and aging can be caused by a lack of oxygen in the skin. OxyGeneo promotes cell regeneration and circulation.",
@@ -3059,6 +3258,8 @@ export const menu = [{
             },{
                 name : "O3+",
                 link : "/O3",
+                img : beauty,
+                img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Pigmentation and dull skin are caused by pollutants, sun exposure, and contaminants. O3+ uses clinical formulae to target these.",
@@ -3091,6 +3292,8 @@ export const menu = [{
             },{
                 name : "Aroma facials",
                 link : "/aroma-facials",
+                img : beauty,
+                img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "The skin suffers from environmental damage and stress. Aroma facials mix skin nourishment and relaxation.",
@@ -3126,6 +3329,8 @@ export const menu = [{
             services : [{
                 name : "Bridal Makeup",
                 link : "/bridal-makeup",
+                img : beauty,
+                img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "One of the most unforgettable days of your life is your wedding. Bridal makeup guarantees that you will appear stunning, self-assured, and perfect throughout the event.",
@@ -3160,6 +3365,8 @@ export const menu = [{
             },{
                 name : "Party Makeup",
                 link : "/party-makeup",
+                img : beauty,
+                img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "A sophisticated and glitzy appearance is essential for a big occasion or a night out. Your features are accentuated by party makeup, giving you a sophisticated look.",
@@ -3193,6 +3400,8 @@ export const menu = [{
             },{
                 name : "Groom’s Makeup",
                 link : "/groom’s-makeup",
+                img : beauty,
+                img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "For the groom, weddings hold equal significance. Without being overdone, makeup guarantees a photo-ready image and an even skin tone.",
@@ -3226,6 +3435,8 @@ export const menu = [{
             },{
                 name : "Engagement Makeup",
                 link : "/engagement-makeup",
+                img : beauty,
+                img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "The first significant pre-wedding event is your engagement. It establishes the tone for your wedding journey, and a gorgeous appearance is crucial.",
@@ -3259,6 +3470,8 @@ export const menu = [{
             },{
                 name : "Mehndi Makeup",
                 link : "/mehndi-makeup",
+                img : beauty,
+                img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : " The Mehndi ritual is colorful and joyous. Your appearance should be light and durable while capturing the hues and excitement of the event.",
@@ -3295,6 +3508,8 @@ export const menu = [{
             services : [{
                 name : "Global colouring",
                 link : "/global-colouring",
+                img : beauty,
+                img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Heat styling, regular washings, and exposure to the sun all cause hair color to fade over time. Global coloring gives your hair a consistent, vivid tone that improves your appearance overall. It's perfect for a total makeover or grey covering.",
@@ -3357,38 +3572,10 @@ export const menu = [{
                     }]
                 }
             },{
-                name : "Threading",
-                link : "/threading",
-                section_1 : {
-                    title : "WHY DO WE NEED IT?",
-                    desc_1 : "",
-                    options : [],
-                    desc_2 : ""
-                },
-                section_2 : {
-                    title : "ABOUT",
-                    desc_1 : "",
-                },
-                section_3 : {
-                    title : "WHAT WE COVER ?",
-                    desc_1 : "",
-                    options : [
-                        ""
-                    ]
-                },
-                section_4 : {
-                    title : "FAQs",
-                    section  : [{
-                        question : "",
-                        answer : ""
-                    },{
-                        question : "",
-                        answer : ""
-                    }]
-                }
-            },{
                 name : "Keratin",
                 link : "/keratin",
+                img : beauty,
+                img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Hair can be difficult to manage if it has frizz, a rough texture, and lack of luster. Keratin treatments remove damage from heat and chemicals and replenish lost protein. It makes the hair shinier, smoother, and simpler to style.",
@@ -3421,6 +3608,8 @@ export const menu = [{
             },{
                 name : "Botox",
                 link : "/botox",
+                img : beauty,
+                img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Damage, pollution, or aging cause hair to lose its elasticity and sheen. Botox revitalizes hair from the inside out, giving it back its natural movement, thickness, and softness. It is ideal for dull, brittle, or severely dry hair.",
@@ -3453,6 +3642,8 @@ export const menu = [{
             },{
                 name : "Hair Cut",
                 link : "/hair-cut",
+                img : beauty,
+                img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Frequent haircuts encourage stronger, healthier hair growth and eliminate broken ends. Additionally, they keep volume and form, which gives you a clean, renewed appearance. Your facial features can be significantly improved with the correct haircut.",
@@ -3485,6 +3676,8 @@ export const menu = [{
             },{
                 name : "Hair Style",
                 link : "/hair-style",
+                img : beauty,
+                img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "You can look your best at every event, whether it's a meeting, party, or informal get-together, with the help of styling. It gives you more confidence and polishes your appearance. Even the most basic fashions can improve clothing and face attributes.",
@@ -3517,6 +3710,8 @@ export const menu = [{
             },{
                 name : "Hair Color",
                 link : "/hair-color",
+                img : beauty,
+                img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Color gives your haircut character, personality, and vibrancy. It lets you show off your uniqueness and keep up with the latest fashions. Additionally, hair color helps cover gray hair and improve your appearance in general.",
@@ -3549,6 +3744,8 @@ export const menu = [{
             },{
                 name : "Hair Texture",
                 link : "/hair-texture",
+                img : beauty,
+                img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "The appearance and styling versatility of your hair can be impacted by unmanageable curls, flatness, or excessive volume. In order to achieve the desired look, hair texturing treatments can assist shape, smoothing, or adding volume. It reduces styling time and improves manageability.",
@@ -3581,6 +3778,8 @@ export const menu = [{
             },{
                 name : "Head Wash",
                 link : "/head-wash",
+                img : beauty,
+                img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "Oil, perspiration, and product accumulation over time can clog pores and make hair look lifeless. A professional head wash leaves your hair feeling light and renewed by thoroughly cleaning the scalp. For optimal effects, it must be done before cutting or styling.",
