@@ -132,7 +132,7 @@ const Navbar = ()=>{
                                                 {e.children.length > 0 && e.children.map((child,idx)=>(<div key={`Submenu_${child.subCategory}_${idx}`}>
                                                     <h5 className="my-3">{child.subCategory}</h5>
                                                     <ul className="flex flex-col gap-1.5">
-                                                        {child.services.map((subChild, index)=><li key={`Submenu_Services_${subChild.name}_${index}`}>
+                                                        {child.services.map((subChild, index)=><li  onClick={()=>setIsOpen(false)}  key={`Submenu_Services_${subChild.name}_${index}`}>
                                                             <Link  to={subChild.link}>{subChild.name}</Link>
                                                         </li>)}
                                                     </ul> 
@@ -141,7 +141,7 @@ const Navbar = ()=>{
                                             
                                         </li> 
                                 }else{
-                                    return <li className="pr-3 name-menu" key={`Figure_N_Belle_Menu_${e.name}_${i}`}><Link to={e.link}>
+                                    return <li onClick={()=>setIsOpen(false)} className="pr-3 name-menu" key={`Figure_N_Belle_Menu_${e.name}_${i}`}><Link to={e.link}>
                                         {e.name}
                                         </Link>
                                     </li>
