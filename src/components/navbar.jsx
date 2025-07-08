@@ -132,7 +132,7 @@ const Navbar = ()=>{
                                                 {e.children.length > 0 && e.children.map((child,idx)=>(<div key={`Submenu_${child.subCategory}_${idx}`}>
                                                     <h5 className="my-3">{child.subCategory}</h5>
                                                     <ul className="flex flex-col gap-1.5">
-                                                        {child.services.map((subChild, index)=><li  onClick={()=>setIsOpen(false)}  key={`Submenu_Services_${subChild.name}_${index}`}>
+                                                        {child.services.map((subChild, index)=><li  key={`Submenu_Services_${subChild.name}_${index}`}>
                                                             <Link  to={subChild.link}>{subChild.name}</Link>
                                                         </li>)}
                                                     </ul> 
@@ -141,7 +141,7 @@ const Navbar = ()=>{
                                             
                                         </li> 
                                 }else{
-                                    return <li onClick={()=>setIsOpen(false)} className="pr-3 name-menu" key={`Figure_N_Belle_Menu_${e.name}_${i}`}><Link to={e.link}>
+                                    return <li  className="pr-3 name-menu" key={`Figure_N_Belle_Menu_${e.name}_${i}`}><Link to={e.link}>
                                         {e.name}
                                         </Link>
                                     </li>
@@ -206,18 +206,18 @@ const Navbar = ()=>{
                             {menu.map((e,i)=>{
                                 if(e?.children && e.children.length > 0){
                                     return  <li className="cursor-pointer " key={`Figure_N_Belle_Menu_${e.name}_${i}`}>
-                                             <div onClick={()=>setIsOpen(i)}  className="flex gap-2 w-full justify-between items-center">
+                                             <div onClick={()=>handleToggle(i)}  className="flex gap-2 w-full justify-between items-center">
                                                 {e.name}
                                                 <div >
                                                     <svg style={{transform:"rotate(-90deg)"}} width="14" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 122.88 66.91"><g><path d="M11.68,1.95C8.95-0.7,4.6-0.64,1.95,2.08c-2.65,2.72-2.59,7.08,0.13,9.73l54.79,53.13l4.8-4.93l-4.8,4.95 c2.74,2.65,7.1,2.58,9.75-0.15c0.08-0.08,0.15-0.16,0.22-0.24l53.95-52.76c2.73-2.65,2.79-7.01,0.14-9.73 c-2.65-2.72-7.01-2.79-9.73-0.13L61.65,50.41L11.68,1.95L11.68,1.95z"/></g></svg>
                                                 </div>
                                             </div>
-                                             <div className={`gap-5 pt-2 content-accordion flex flex-col gap-1 ${isOpen==i ? "content-active":""}`}>
+                                             <div className={`gap-5 pt-2 content-accordion flex flex-col gap-1 ${openIndex==i ? "content-active":""}`}>
                                                 {e.children.length > 0 && e.children.map((child,idx)=>(<div key={`Submenu_${child.subCategory}_${idx}`}>
                                                     <h5 className="my-3">{child.subCategory}</h5>
                                                     <div className="line"></div>
                                                     <ul className="flex flex-col gap-1.5">
-                                                        {child.services.map((subChild, index)=><li key={`Submenu_Services_${subChild.name}_${index}`}>
+                                                        {child.services.map((subChild, index)=><li onClick={()=>setIsOpen(false)} key={`Submenu_Services_${subChild.name}_${index}`}>
                                                             <Link  to={subChild.link}>{subChild.name}</Link>
                                                         </li>)}
                                                     </ul>

@@ -242,7 +242,7 @@ form.contact {
         position: fixed;
         align-items: start !important;
         z-index: 1500;
-        top: 110px;
+        top: 124px;
         left: 0;
         right: 0;
         bottom: 0;
@@ -350,5 +350,17 @@ form.contact {
     button{
         font-size: var(--font-size-xxs);
         padding: 6px 6px ;
+    }
+}
+@media (max-width:500px) {
+
+    .open-ul{
+       top: 145px;
+    }
+}
+@media (max-width:338px) {
+
+    .open-ul{
+       top: 140px;
     }
 }
