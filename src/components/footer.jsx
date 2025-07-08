@@ -69,7 +69,7 @@ const Footer = ()=>{
                     Support
                 </h3>
                 <ul className="flex flex-col gap-3">
-                    {support.map((e,idx)=><li className="uppercase" key={`Pages_${idx}`}>
+                    {support.map((e,idx)=><li className="uppercase" key={`Support_${idx}`}>
                         <Link to={e.link}>{e.name}</Link>
                     </li>)}
                     

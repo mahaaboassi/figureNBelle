@@ -43,7 +43,7 @@ const Navbar = ()=>{
     const handleToggle = (index) => {
         setOpenIndex(prevIndex => (prevIndex === index ? null : index));
     };
-    return(<nav className=" ">
+    return(<nav className="">
         <div className="flex items-center justify-end gap-2 first-nav py-3 px-4 md:px-10 ">
                     
             <div className="flex items-center first-nav-content justify-end gap-2">
@@ -205,7 +205,7 @@ const Navbar = ()=>{
                     <ul className={`w-full flex flex-col gap-4`}>
                             {menu.map((e,i)=>{
                                 if(e?.children && e.children.length > 0){
-                                    return  <li className="cursor-pointer " key={`Figure_N_Belle_Menu_${e.name}_${i}`}>
+                                    return  <li className="cursor-pointer " key={`Figure_N_Belle_Menu_Small_${e.name}_${i}`}>
                                              <div onClick={()=>handleToggle(i)}  className="flex gap-2 w-full justify-between items-center">
                                                 {e.name}
                                                 <div >
@@ -213,11 +213,11 @@ const Navbar = ()=>{
                                                 </div>
                                             </div>
                                              <div className={`gap-5 pt-2 content-accordion flex flex-col gap-1 ${openIndex==i ? "content-active":""}`}>
-                                                {e.children.length > 0 && e.children.map((child,idx)=>(<div key={`Submenu_${child.subCategory}_${idx}`}>
+                                                {e.children.length > 0 && e.children.map((child,idx)=>(<div key={`Submenu_Small_${child.subCategory}_${idx}`}>
                                                     <h5 className="my-3">{child.subCategory}</h5>
                                                     <div className="line"></div>
                                                     <ul className="flex flex-col gap-1.5">
-                                                        {child.services.map((subChild, index)=><li onClick={()=>setIsOpen(false)} key={`Submenu_Services_${subChild.name}_${index}`}>
+                                                        {child.services.map((subChild, index)=><li onClick={()=>setIsOpen(false)} key={`Submenu_Services_Small_${subChild.name}_${index}`}>
                                                             <Link  to={subChild.link}>{subChild.name}</Link>
                                                         </li>)}
                                                     </ul>

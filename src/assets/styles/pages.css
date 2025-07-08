@@ -18,9 +18,74 @@
 .service p, .service ul{
     font-size: var(--font-size-xs);
 }
+.category-card{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: var(--shadow-box);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.category-card:hover {
+    color: var(--main);
+}
+.category-card:hover .category-icon{
+    transform: rotate(-120deg);
+}
+.category-icon{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--main);
+     transform: rotate(-90deg);
+     transition: 0.3s;
+}
+.category-icon svg path{
+    fill: var(--main);
+}
+.category-card.active{
+    color: var(--main);
+}
+.category-card.active .category-icon{
+    color: var(--main);
+    border: unset;
+    background-color: var(--main);
+}
+.container-services{
+    width: fit-content;
+    border-left: 4px solid var(--main);
+    border-radius: unset;
+
+}
+.read{
+    font-size: var(--font-size-xxs);
+    color: var(--main);
+    transform: 0.3s;
+}
+.read:hover svg{
+    transform: rotate(-90deg) translateY(5px);
+}
+.read path{
+    fill: var(--main);
+}
+.read svg{
+    transform: rotate(-90deg);
+    transform: 0.3s;
+}
+.container-services h3{
+    font-weight: 500 !important;
+    font-size: var(--font-size-xs);
+}
+.category-card.active .category-icon svg path{
+    fill: var(--light);
+}
+
 .ques{
     font-size: var(--font-size-l);
 }
+
 @media (max-width : 1300px) {
     .hero-service h1{
         font-size: var(--font-size-xxl);
@@ -29,6 +94,29 @@
     .service h2{
         font-size: var(--font-size-xl);
     }
+}
+@media (max-width: 768px) {
+    .sub-category{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .category-card {
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        font-size: var(--font-size-xxs);
+    }
+    .category-icon{
+        transform: rotate(0);
+        width: 15px;
+        height: 15px;
+    }
+    .category-icon svg{
+        width: 8px;
+        height: 8px;
+    }
+    
 }
 @media (max-width : 600px) {
     .hero-service h1{

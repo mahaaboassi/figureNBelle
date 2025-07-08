@@ -17,18 +17,45 @@ import beauty_small from "../assets/images/beauty_small.png"
 import slimming from "../assets/images/slimming.png"
 import slimming_small from "../assets/images/slimming_small.png"
 
-export const menu = [{
-        name : "Home",
-        link : "/",
-        children : []
-    },{
+// Images Bg for Services Section
+import slimming_1 from "../assets/images/slimming_1.png"
+import slimming_2 from "../assets/images/slimming_2.png"
+import slimming_3 from "../assets/images/slimming_3.png"
+import slimming_4 from "../assets/images/slimming_4.png"
+import slimming_5 from "../assets/images/slimming_5.png"
+import slimming_6 from "../assets/images/slimming_6.png"
+import slimming_7 from "../assets/images/slimming_7.png"
+import slimming_8 from "../assets/images/slimming_8.png"
+import slimming_9 from "../assets/images/slimming_9.png"
+import slimming_10 from "../assets/images/slimming_10.png"
+import slimming_11 from "../assets/images/slimming_11.png"
+
+import laser_1 from "../assets/images/laser_1.png"
+
+import skin_8 from "../assets/images/skin_8.png"
+
+import hair_1 from "../assets/images/hair_1.png"
+import cosmetics_1 from "../assets/images/cosmetics_1.png"
+import beauty_1 from "../assets/images/beauty_1.png"
+
+import bg_skin from "../assets/images/bg_skin.png"
+import bg_laser from "../assets/images/bg_laser.png"
+import bg_cosmetics from "../assets/images/bg_cosmetics.png"
+import bg_hair from "../assets/images/bg_hair.png"
+import bg_beauty from "../assets/images/bg_beauty.png"
+
+export const services = [{
         name : "Slimming",
+        id : 1,
+        bg : slimming_1,
         link : "/",
         children : [{
             subCategory : "Weight Loss",
+            id : 1,
             services : [{
                 name : "Guaranteed weight loss",
                 link : "/guaranteed-weight-loss",
+                bg : slimming_1,
                 img : slimming,
                 img_small : slimming_small,
                 section_1 : {
@@ -69,6 +96,7 @@ export const menu = [{
             },{
                 name : "Body firming",
                 link : "/body-firming",
+                bg : slimming_2,
                 img : slimming,
                 img_small : slimming_small,
                 section_1 : {
@@ -110,6 +138,7 @@ export const menu = [{
             },{
                 name : "Body tonning",
                 link : "/body-tonning",
+                bg : slimming_3,
                 img : slimming,
                 img_small : slimming_small,
                 section_1 : {
@@ -150,6 +179,7 @@ export const menu = [{
             },{
                 name : "Body composition analysis",
                 link : "/body-composition-analysis",
+                bg : slimming_4,
                 img : slimming,
                 img_small : slimming_small,
                 section_1 : {
@@ -189,9 +219,11 @@ export const menu = [{
             }]
         },{
             subCategory : "Inch Loss",
+            id : 2,
             services : [{
                 name : "Cryolypolysis",
                 link : "/cryolypolysis",
+                bg : slimming_5,
                 img : slimming,
                 img_small : slimming_small,
                 section_1 : {
@@ -229,6 +261,7 @@ export const menu = [{
             },{
                 name : "Wrap treatments",
                 link : "/wrap-treatments",
+                bg : slimming_6,
                 img : slimming,
                 img_small : slimming_small,
                 section_1 : {
@@ -263,6 +296,7 @@ export const menu = [{
             },{
                 name : "Specific area therapy",
                 link : "/specific-area-therapy ",
+                bg : slimming_7,
                 img : slimming,
                 img_small : slimming_small,
                 section_1 : {
@@ -297,6 +331,7 @@ export const menu = [{
             },{
                 name : "Slimtron",
                 link : "/slimtron",
+                bg : slimming_8,
                 img : slimming,
                 img_small : slimming_small,
                 section_1 : {
@@ -331,6 +366,7 @@ export const menu = [{
             },{
                 name : "EM sculpt",
                 link : "/EM-sculpt",
+                bg : slimming_9,
                 img : slimming,
                 img_small : slimming_small,
                 section_1 : {
@@ -366,6 +402,7 @@ export const menu = [{
                 name : "Electrode placements",
                 link : "/electrode-placements",
                 img : slimming,
+                bg : slimming_10,
                 img_small : slimming_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -399,6 +436,7 @@ export const menu = [{
             },{ 
                 name : "Bipolar",
                 link : "/bipolar",
+                bg : slimming_11,
                 img : slimming,
                 img_small : slimming_small,
                 section_1 : {
@@ -434,9 +472,11 @@ export const menu = [{
             }]
         },{
             subCategory : "Bust Line Treatment",
+            id : 3,
             services : [{
                 name : "Bust Enhancement",
                 link : "/bust-enhancement",
+                 bg : slimming_1,
                 img : slimming,
                 img_small : slimming_small,
                 section_1 : {
@@ -475,6 +515,7 @@ export const menu = [{
             },{
                 name : "Bust Reduction",
                 link : "/bust-reduction",
+                 bg : slimming_1,
                 img : slimming,
                 img_small : slimming_small,
                 section_1 : {
@@ -513,6 +554,7 @@ export const menu = [{
             },{
                 name : "Bust Firming",
                 link : "/bust-firming",
+                 bg : slimming_1,
                 img : slimming,
                 img_small : slimming_small,
                 section_1 : {
@@ -551,9 +593,11 @@ export const menu = [{
             },]
         },{
             subCategory : "Ayurvedic treatments ",
+            id : 4,
             services : [{
                 name : "udwarthanam",
                 link : "/udwarthanam",
+                 bg : slimming_1,
                 img : slimming,
                 img_small : slimming_small,
                 section_1 : {
@@ -589,6 +633,7 @@ export const menu = [{
             },{
                 name : "Potli Massages",
                 link : "/potli-massages",
+                 bg : slimming_1,
                 img : slimming,
                 img_small : slimming_small,
                 section_1 : {
@@ -623,6 +668,7 @@ export const menu = [{
             },{
                 name : "Full body relaxation massages ",
                 link : "/full-body-relaxation-massages",
+                 bg : slimming_1,
                 img : slimming,
                 img_small : slimming_small,
                 section_1 : {
@@ -657,6 +703,7 @@ export const menu = [{
             },{
                 name : "Shirodhara ",
                 link : "/shirodhara ",
+                 bg : slimming_1,
                 img : slimming,
                 img_small : slimming_small,
                 section_1 : {
@@ -691,6 +738,7 @@ export const menu = [{
             },{
                 name : "Kati vasti",
                 link : "/kati-vasti",
+                 bg : slimming_1,
                 img : slimming,
                 img_small : slimming_small,
                 section_1 : {
@@ -725,6 +773,7 @@ export const menu = [{
             },{
                 name : "Steam",
                 link : "/steam",
+                 bg : slimming_1,
                 img : slimming,
                 img_small : slimming_small,
                 section_1 : {
@@ -759,6 +808,7 @@ export const menu = [{
             },{
                 name : "Sauna",
                 link : "/sauna",
+                 bg : slimming_1,
                 img : slimming,
                 img_small : slimming_small,
                 section_1 : {
@@ -795,11 +845,15 @@ export const menu = [{
     },{
         name : "Laser",
         link : "/",
+        bg : bg_laser,
+        id : 2,
         children : [{
             subCategory : "Face",
+            id : 5,
             services : [{
                 name : "Facial Hair Reduction",
                 link : "/facial-hair-reduction",
+                bg: laser_1,
                 img : laser,
                 img_small : laser_small,
                 section_1 : {
@@ -840,6 +894,7 @@ export const menu = [{
             },{
                 name : "Upper Lips",
                 link : "/upper-lips",
+                bg: laser_1,
                 img : laser,
                 img_small : laser_small,
                 section_1 : {
@@ -879,6 +934,7 @@ export const menu = [{
             },{
                 name : "Beard Line Shaping",
                 link : "/beard-line-shaping",
+                bg: laser_1,
                 img : laser,
                 img_small : laser_small,
                 section_1 : {
@@ -918,6 +974,7 @@ export const menu = [{
             },{
                 name : "Side Lock",
                 link : "/side-lock",
+                bg: laser_1,
                 img : laser,
                 img_small : laser_small,
                 section_1 : {
@@ -956,6 +1013,7 @@ export const menu = [{
             },{
                 name : "Chin",
                 link : "/chin",
+                bg: laser_1,
                 img : laser,
                 img_small : laser_small,
                 section_1 : {
@@ -995,9 +1053,11 @@ export const menu = [{
             }]
         },{
             subCategory : "Body",
+            id : 6,
             services : [{
                 name : "Full Body Hair Reduction",
                 link : "/full-body-hair-reduction",
+                bg: laser_1,
                 img : laser,
                 img_small : laser_small,
                 section_1 : {
@@ -1037,6 +1097,7 @@ export const menu = [{
             },{
                 name : "Back & chest",
                 link : "/back-and-chest",
+                bg: laser_1,
                 img : laser,
                 img_small : laser_small,
                 section_1 : {
@@ -1075,10 +1136,12 @@ export const menu = [{
             }]
         },{
             subCategory : "Legs & Arms",
+            id : 7,
             services : [{
                 name : "Under Arms",
                 link : "/under-arms",
                 img : laser,
+                bg: laser_1,
                 img_small : laser_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -1115,6 +1178,7 @@ export const menu = [{
                 name : "Legs Hair Reduction",
                 link : "/legs-hair-reduction",
                 img : laser,
+                bg: laser_1,
                 img_small : laser_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -1151,6 +1215,7 @@ export const menu = [{
                 name : "Bikini Laser Hair Reduction",
                 link : "/bikini-laser-hair-reduction",
                 img : laser,
+                bg: laser_1,
                 img_small : laser_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -1187,6 +1252,7 @@ export const menu = [{
                 name : "Arms Laser Hair Reduction",
                 link : "/arms-laser-hair-reduction",
                 img : laser,
+                bg: laser_1,
                 img_small : laser_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -1224,11 +1290,15 @@ export const menu = [{
     },{
         name : "Skin Care",
         link : "/",
+        bg : bg_skin,
+        id : 3,
         children : [{
              subCategory : "Skin Concerns",
+             id : 8,
             services : [{
                 name : "Anti Ageing",
                 link : "/anti-ageing",
+                bg : skin_8,
                 img : skin,
                 img_small : skin_small,
                 section_1 : {
@@ -1264,6 +1334,7 @@ export const menu = [{
             },{
                 name : "Skin Pigmentation",
                 link : "/skin-pigmentation",
+                bg : skin_8,
                 img : skin,
                 img_small : skin_small,
                 section_1 : {
@@ -1300,6 +1371,7 @@ export const menu = [{
                 name : "Skin Brightening",
                 link : "/skin-brightening",
                 img : skin,
+                bg : skin_8,
                 img_small : skin_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -1335,6 +1407,7 @@ export const menu = [{
                 name : "Acne treatment",
                 link : "/acne-treatment",
                 img : skin,
+                bg : skin_8,
                 img_small : skin_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -1370,6 +1443,7 @@ export const menu = [{
                 name : "Stretch Marks",
                 link : "/stretch-marks",
                 img : skin,
+                bg : skin_8,
                 img_small : skin_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -1404,6 +1478,7 @@ export const menu = [{
                 name : "Dull Skin",
                 link : "/dull-skin",
                 img : skin,
+                bg : skin_8,
                 img_small : skin_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -1439,6 +1514,7 @@ export const menu = [{
                 name : "Under Eyes Dark Circle",
                 link : "/under-eyes-dark-circle",
                 img : skin,
+                bg : skin_8,
                 img_small : skin_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -1472,10 +1548,12 @@ export const menu = [{
             }]
         },{
             subCategory : "Routine Skin Care",
+            id : 9,
             services : [{
                 name : "Advanced Facial",
                 link : "/advanced-facial",
                 img : skin,
+                bg : skin_8,
                 img_small : skin_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -1511,6 +1589,7 @@ export const menu = [{
                 name : "Signature Facial",
                 link : "/signature-facial",
                 img : skin,
+                bg : skin_8,
                 img_small : skin_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -1546,6 +1625,7 @@ export const menu = [{
                 name : "Carbon Facial",
                 link : "/carbon-facial",
                 img : skin,
+                bg : skin_8,
                 img_small : skin_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -1581,6 +1661,7 @@ export const menu = [{
                 name : "Photo Facial",
                 link : "/photo-facial",
                 img : skin,
+                bg : skin_8,
                 img_small : skin_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -1616,6 +1697,7 @@ export const menu = [{
                 name : "Platinum Facial",
                 link : "/platinum-facial",
                 img : skin,
+                bg : skin_8,
                 img_small : skin_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -1652,12 +1734,16 @@ export const menu = [{
     },{
         name : "Hair Care",
         link : "/",
+        bg : bg_hair,
+        id : 4,
         children : [{
             subCategory : "Hair Care",
+            id : 10,
             services : [{
                 name : "Hair Loss in Men",
                 link : "/hair-loss-in-men",
                 img : hair,
+                bg :hair_1,
                 img_small : hair_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -1693,6 +1779,7 @@ export const menu = [{
                 name : "Hair Loss in Women",
                 link : "/hair-loss-in-women",
                 img : hair,
+                bg :hair_1,
                 img_small : hair_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -1728,6 +1815,7 @@ export const menu = [{
                 name : "Dandruff",
                 link : "/dandruff",
                 img : hair,
+                bg :hair_1,
                 img_small : hair_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -1763,6 +1851,7 @@ export const menu = [{
                 name : "Hair Fall",
                 link : "/hair-fall",
                 img : hair,
+                bg :hair_1,
                 img_small : hair_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -1796,10 +1885,12 @@ export const menu = [{
             }]
         },{
             subCategory : "Hair Restoration",
+            id : 11,
             services : [{
                 name : "Non-Surgical Hair Replacement",
                 link : "/non-surgical-hair-replacement",
                 img : hair,
+                bg :hair_1,
                 img_small : hair_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -1834,6 +1925,7 @@ export const menu = [{
                 name : "Meso Hair Treatment",
                 link : "/meso-hair-treatment",
                 img : hair,
+                bg :hair_1,
                 img_small : hair_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -1868,6 +1960,7 @@ export const menu = [{
                 name : "GFC Hair Restoration",
                 link : "/GFC-hair-restoration",
                 img : hair,
+                bg :hair_1,
                 img_small : hair_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -1902,6 +1995,7 @@ export const menu = [{
                 name : "PRP With SCN Hair Restoration",
                 link : "/PRP-with-SCN-hair-restoration",
                 img : hair,
+                bg :hair_1,
                 img_small : hair_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -1935,10 +2029,12 @@ export const menu = [{
             }]
         },{
             subCategory : "Hair Treatment",
+            id : 12,
             services : [{
                 name : "Hair spa",
                 link : "/hair-spa",
                 img : hair,
+                bg :hair_1,
                 img_small : hair_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -1973,6 +2069,7 @@ export const menu = [{
                 name : "Biotop",
                 link : "/biotop",
                 img : hair,
+                bg :hair_1,
                 img_small : hair_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -2007,6 +2104,7 @@ export const menu = [{
                 name : "Lipidium",
                 link : "/lipidium",
                 img : hair,
+                bg :hair_1,
                 img_small : hair_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -2041,6 +2139,7 @@ export const menu = [{
                 name : "Moroccan",
                 link : "/moroccan",
                 img : hair,
+                bg :hair_1,
                 img_small : hair_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -2075,6 +2174,7 @@ export const menu = [{
                 name : "Ozone",
                 link : "/ozone",
                 img : hair,
+                bg :hair_1,
                 img_small : hair_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -2109,6 +2209,7 @@ export const menu = [{
                 name : "Olaplex",
                 link : "/olaplex",
                 img : hair,
+                bg :hair_1,
                 img_small : hair_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -2144,12 +2245,16 @@ export const menu = [{
     },{
         name : "Cosmetics",
         link : "/",
+        bg : bg_cosmetics,
+        id : 5,
         children : [{
             subCategory : "",
+            id : 13,
             services : [{
                 name : "Anti ageing treatment ",
                 link : "/anti-ageing-treatment",
                 img : cosmetics,
+                bg : cosmetics_1,
                 img_small : cosmetics_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -2185,6 +2290,7 @@ export const menu = [{
                 name : "Non Surgical Face Lift ",
                 link : "/non-surgical-face-lift ",
                 img : cosmetics,
+                bg : cosmetics_1,
                 img_small : cosmetics_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -2220,6 +2326,7 @@ export const menu = [{
                 name : "Non Surgical Breast Upliftment ",
                 link : "/non-surgical-breast-upliftment",
                 img : cosmetics,
+                bg : cosmetics_1,
                 img_small : cosmetics_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -2254,6 +2361,7 @@ export const menu = [{
                 name : "Thread Lift",
                 link : "/thread-lift",
                 img : cosmetics,
+                bg : cosmetics_1,
                 img_small : cosmetics_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -2288,6 +2396,7 @@ export const menu = [{
                 name : "Chemical Peels",
                 link : "/chemical-peels",
                 img : cosmetics,
+                bg : cosmetics_1,
                 img_small : cosmetics_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -2323,6 +2432,7 @@ export const menu = [{
                 name : "Skin Care",
                 link : "/skin-care",
                 img : cosmetics,
+                bg : cosmetics_1,
                 img_small : cosmetics_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -2358,6 +2468,7 @@ export const menu = [{
                 name : "Dermal Fillers",
                 link : "/dermal-fillers",
                 img : cosmetics,
+                bg : cosmetics_1,
                 img_small : cosmetics_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -2393,6 +2504,7 @@ export const menu = [{
                 name : "Microdermabrasion ",
                 link : "/microdermabrasion ",
                 img : cosmetics,
+                bg : cosmetics_1,
                 img_small : cosmetics_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -2428,6 +2540,7 @@ export const menu = [{
                 name : "Collagen treatment",
                 link : "/collagen-treatment ",
                 img : cosmetics,
+                bg : cosmetics_1,
                 img_small : cosmetics_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -2462,6 +2575,7 @@ export const menu = [{
                 name : "Scar Revision",
                 link : "/scar-revision",
                 img : cosmetics,
+                bg : cosmetics_1,
                 img_small : cosmetics_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -2496,6 +2610,7 @@ export const menu = [{
                 name : "Earlobe Repair",
                 link : "/earlobe-repair",
                 img : cosmetics,
+                bg : cosmetics_1,
                 img_small : cosmetics_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -2530,6 +2645,7 @@ export const menu = [{
                 name : "Chin Reshaping ",
                 link : "/chin-reshaping",
                 img : cosmetics,
+                bg : cosmetics_1,
                 img_small : cosmetics_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -2564,6 +2680,7 @@ export const menu = [{
                 name : "Cheek & Chin Enhancement",
                 link : "/cheek-and-chin-enhancement",
                 img : cosmetics,
+                bg : cosmetics_1,
                 img_small : cosmetics_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -2598,6 +2715,7 @@ export const menu = [{
                 name : "Eyebrow Enhancement",
                 link : "/eyebrow-nhancement",
                 img : cosmetics,
+                bg : cosmetics_1,
                 img_small : cosmetics_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -2632,6 +2750,7 @@ export const menu = [{
                 name : "Lip Augmentation",
                 link : "/lip-augmentation",
                 img : cosmetics,
+                bg : cosmetics_1,
                 img_small : cosmetics_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -2666,6 +2785,7 @@ export const menu = [{
                 name : "Rahinoplasty (Nose)",
                 link : "/rahinoplasty-nose",
                 img : cosmetics,
+                bg : cosmetics_1,
                 img_small : cosmetics_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -2701,12 +2821,16 @@ export const menu = [{
     },{
         name : "Beauty & Grooming",
         link : "/",
+        bg : bg_beauty,
+        id : 6,
         children : [{
             subCategory : "Skin Essential",
+            id : 14,
             services : [{
                 name : "Threading",
                 link : "/threading",
                 img : beauty,
+                bg : beauty_1,
                 img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -2742,6 +2866,7 @@ export const menu = [{
                 name : "Waxing",
                 link : "/waxing",
                 img : beauty,
+                bg : beauty_1,
                 img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -2777,6 +2902,7 @@ export const menu = [{
                 name : "Bleach",
                 link : "/bleach",
                 img : beauty,
+                bg : beauty_1,
                 img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -2811,6 +2937,7 @@ export const menu = [{
                 name : "Body Polishing",
                 link : "/body-polishing",
                 img : beauty,
+                bg : beauty_1,
                 img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -2846,6 +2973,7 @@ export const menu = [{
                 name : "Body Strap",
                 link : "/body-strap",
                 img : beauty,
+                bg : beauty_1,
                 img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -2880,6 +3008,7 @@ export const menu = [{
                 name : "Ubtan",
                 link : "/ubtan",
                 img : beauty,
+                bg : beauty_1,
                 img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -2915,6 +3044,7 @@ export const menu = [{
                 name : "Menicure",
                 link : "/menicure",
                 img : beauty,
+                bg : beauty_1,
                 img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -2949,6 +3079,7 @@ export const menu = [{
                 name : "Pedicure",
                 link : "/pedicure",
                 img : beauty,
+                bg : beauty_1,
                 img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -2982,10 +3113,12 @@ export const menu = [{
             },]
         },{
             subCategory : "Facial Treatment",
+            id : 15,
             services : [{
                 name : "Facial",
                 link : "/facial",
                 img : beauty,
+                bg : beauty_1,
                 img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -3021,6 +3154,7 @@ export const menu = [{
                 name : "Kanpeki",
                 link : "/kanpeki",
                 img : beauty,
+                bg : beauty_1,
                 img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -3055,6 +3189,7 @@ export const menu = [{
                 name : "Skinora",
                 link : "/skinora",
                 img : beauty,
+                bg : beauty_1,
                 img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -3089,6 +3224,7 @@ export const menu = [{
                 name : "Casmara",
                 link : "/casmara",
                 img : beauty,
+                bg : beauty_1,
                 img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -3123,6 +3259,7 @@ export const menu = [{
                 name : "Platinum",
                 link : "/platinum",
                 img : beauty,
+                bg : beauty_1,
                 img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -3157,6 +3294,7 @@ export const menu = [{
                 name : "Korean glass facial",
                 link : "/korean-glass-facial",
                 img : beauty,
+                bg : beauty_1,
                 img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -3191,6 +3329,7 @@ export const menu = [{
                 name : "Galvanic",
                 link : "/galvanic",
                 img : beauty,
+                bg : beauty_1,
                 img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -3225,6 +3364,7 @@ export const menu = [{
                 name : "Oxygeno",
                 link : "/oxygeno",
                 img : beauty,
+                bg : beauty_1,
                 img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -3259,6 +3399,7 @@ export const menu = [{
                 name : "O3+",
                 link : "/O3",
                 img : beauty,
+                bg : beauty_1,
                 img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -3293,6 +3434,7 @@ export const menu = [{
                 name : "Aroma facials",
                 link : "/aroma-facials",
                 img : beauty,
+                bg : beauty_1,
                 img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -3326,10 +3468,12 @@ export const menu = [{
             }]
         },{
             subCategory : "Makeup",
+            id : 16,
             services : [{
                 name : "Bridal Makeup",
                 link : "/bridal-makeup",
                 img : beauty,
+                bg : beauty_1,
                 img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -3366,6 +3510,7 @@ export const menu = [{
                 name : "Party Makeup",
                 link : "/party-makeup",
                 img : beauty,
+                bg : beauty_1,
                 img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -3401,6 +3546,7 @@ export const menu = [{
                 name : "Groom’s Makeup",
                 link : "/groom’s-makeup",
                 img : beauty,
+                bg : beauty_1,
                 img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -3436,6 +3582,7 @@ export const menu = [{
                 name : "Engagement Makeup",
                 link : "/engagement-makeup",
                 img : beauty,
+                bg : beauty_1,
                 img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -3471,6 +3618,7 @@ export const menu = [{
                 name : "Mehndi Makeup",
                 link : "/mehndi-makeup",
                 img : beauty,
+                bg : beauty_1,
                 img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -3505,10 +3653,12 @@ export const menu = [{
             }]
         },{
             subCategory : "Salon",
+            id : 17,
             services : [{
                 name : "Global colouring",
                 link : "/global-colouring",
                 img : beauty,
+                bg : beauty_1,
                 img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -3542,6 +3692,9 @@ export const menu = [{
             },{
                 name : "Streaking",
                 link : "/streaking ",
+                img : beauty,
+                bg : beauty_1,
+                img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
                     desc_1 : "When hair appears flat, streaking gives it depth, dimension, and style. Depending on the hue used, it draws attention to important face features and produces a subtle or powerful accent. It's a stylish method to update your appearance without switching up your entire color scheme.",
@@ -3574,6 +3727,7 @@ export const menu = [{
             },{
                 name : "Keratin",
                 link : "/keratin",
+                bg : beauty_1,
                 img : beauty,
                 img_small : beauty_small,
                 section_1 : {
@@ -3608,6 +3762,7 @@ export const menu = [{
             },{
                 name : "Botox",
                 link : "/botox",
+                bg : beauty_1,
                 img : beauty,
                 img_small : beauty_small,
                 section_1 : {
@@ -3642,6 +3797,7 @@ export const menu = [{
             },{
                 name : "Hair Cut",
                 link : "/hair-cut",
+                bg : beauty_1,
                 img : beauty,
                 img_small : beauty_small,
                 section_1 : {
@@ -3677,6 +3833,7 @@ export const menu = [{
                 name : "Hair Style",
                 link : "/hair-style",
                 img : beauty,
+                bg : beauty_1,
                 img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -3711,6 +3868,7 @@ export const menu = [{
                 name : "Hair Color",
                 link : "/hair-color",
                 img : beauty,
+                bg : beauty_1,
                 img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -3745,6 +3903,7 @@ export const menu = [{
                 name : "Hair Texture",
                 link : "/hair-texture",
                 img : beauty,
+                bg : beauty_1,
                 img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -3779,6 +3938,7 @@ export const menu = [{
                 name : "Head Wash",
                 link : "/head-wash",
                 img : beauty,
+                bg : beauty_1,
                 img_small : beauty_small,
                 section_1 : {
                     title : "WHY DO WE NEED IT?",
@@ -3812,3 +3972,9 @@ export const menu = [{
             }]
         }]
     }]
+export const menu = [{
+        name : "Home",
+        link : "/",
+        children : []
+    },
+    ...services]

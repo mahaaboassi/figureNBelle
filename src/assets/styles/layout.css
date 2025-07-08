@@ -316,7 +316,7 @@ form.contact {
 @media (max-width : 650px) {
     .first-nav-content {
         flex-wrap: wrap;
-        justify-content: start;
+        justify-content: center;
         font-size: 8px;
     }
     .first-nav .icon-svg{

@@ -44,7 +44,7 @@ const Service = ()=>{
                     <h2 className="bodoniTX">{data.section_1.title}</h2>
                     <p>{data.section_1.desc_1}</p>
                     <ul className="flex flex-col gap-1.5">
-                        {data.section_1.options.map((e)=>(<li>
+                        {data.section_1.options.map((e,idx)=>(<li key={`Section_1_${e}_${idx}`}>
                             {e}
                         </li>))}
                     </ul>
@@ -58,7 +58,7 @@ const Service = ()=>{
                     <h2 className="bodoniTX">{data.section_3.title}</h2>
                     <p>{data.section_3.desc_1}</p>
                     <ul className="flex flex-col gap-1.5">
-                        {data.section_3.options.map((e,idx)=>(<li>
+                        {data.section_3.options.map((e,idx)=>(<li key={`Section_3_${e}_${idx}`}>
                             <span>{idx+1}. </span>{e}
                         </li>))}
                     </ul>
@@ -67,7 +67,7 @@ const Service = ()=>{
                     <h2 className="bodoniTX">{data.section_4.title}</h2>
                     <p>{data.section_4.desc_1}</p>
                     <ul className="flex flex-col gap-1.5">
-                        {data.section_4.section.map((e)=>(<li>
+                        {data.section_4.section.map((e,idx)=>(<li key={`Section_4_${e}_${idx}`}>
                             <span className="ques">Q :</span> {e.question}
                             <div>{e.answer}</div>
                         </li>))}
