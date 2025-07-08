@@ -4,6 +4,8 @@ import img_small from "../../assets/images/about_small.png"
 import sec from "../../assets/images/sec.png"
 import Gallery from "../../components/gallery"
 import BookNow from "../../components/bookNow"
+import Heading from "../../components/heading"
+import { chooseUsData } from "../../data/data"
 
 const About = ()=>{
     const [ isSmallSize, setIsSmallSize ] = useState(false)
@@ -52,7 +54,7 @@ const About = ()=>{
                     </defs>
                 </svg>
     }]
-    return(<div className=" px-4 md:px-10 flex flex-col gap-10 ">
+    return(<div className=" px-4 md:px-10 flex flex-col gap-16 ">
         <div className="hero-service relative">
             <img className="w-full" alt="banner" src={isSmallSize ? img_small : img} />
             <div className="absolute inset-0 flex px-2 md:px-10 items-center">
@@ -83,6 +85,16 @@ const About = ()=>{
                 <p>Our journey is defined by one mission: to empower you to look and feel your absolute best—confident, radiant, and completely yourself.</p>
             </div>
             
+        </div>
+        <div className="flex flex-col gap-10 about-choose">
+            <Heading title={"WHY YOU CHOOSE US"} description={"Choose Figure N Belle Beauty & Wellness Clinic for a transformative experience that goes beyond conventional beauty treatments"} />
+            <div className="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-4 gap-5">
+                {chooseUsData.map((e,idx)=>(<div className={`${idx==0?"card-pink":"card-white"} flex flex-col gap-3 p-5`} key={`About_Why_Choose_Us_${idx}`}>
+                    <div>{e.icon}</div>
+                    <h3>{e.title}</h3>
+                    <p>{e.description}</p>
+                </div>))}
+            </div>
         </div>
         <Gallery/>
         <BookNow/>

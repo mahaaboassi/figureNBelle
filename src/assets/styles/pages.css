@@ -111,6 +111,24 @@
     color: var(--main);
     font-size: var(--font-size-l);
 }
+.about-choose h3{
+    font-size: var(--font-size-xs);
+    font-weight: 600;
+}
+.about-choose p{
+    font-size: var(--font-size-xxs);
+}
+.card-pink{
+    background-color: var(--main);
+    border: 1px solid var(--main);
+     border-radius: 10px;
+     color: var(--light);
+}
+.card-white{
+     background-color: var(--light);
+     border: 1px solid var(--main);
+     border-radius: 10px;
+}
 @media (max-width : 1300px) {
     .hero-service h1{
         font-size: var(--font-size-xxl);
@@ -129,6 +147,10 @@
     .section-1-img{
         opacity: 0.5;
         z-index: 0;
+    }
+    .about-choose svg{
+        height: 60px;
+        width: 60px;
     }
 }
 @media (max-width: 900px) {
@@ -188,6 +210,10 @@
     }
     .section-1-content p{
         font-size: var(--font-size-xxs);
+    }
+    .about-choose svg{
+        height: 50px;
+        width: 50px;
     }
     
 }
