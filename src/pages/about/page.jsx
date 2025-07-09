@@ -87,7 +87,7 @@ const About = ()=>{
             
         </div>
         <div className="flex flex-col gap-10 about-choose">
-            <Heading title={"WHY YOU CHOOSE US"} description={"Choose Figure N Belle Beauty & Wellness Clinic for a transformative experience that goes beyond conventional beauty treatments"} />
+            <Heading title={"WHY CHOOSE US?"} description={"Choose Figure N Belle Beauty & Wellness Clinic for a transformative experience that goes beyond conventional beauty treatments"} />
             <div className="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-4 gap-5">
                 {chooseUsData.map((e,idx)=>(<div className={`${idx==0?"card-pink":"card-white"} flex flex-col gap-3 p-5`} key={`About_Why_Choose_Us_${idx}`}>
                     <div>{e.icon}</div>

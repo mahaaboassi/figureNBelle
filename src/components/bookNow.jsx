@@ -11,8 +11,8 @@ const BookNow = ()=>{
             <img className="h-full w-full border-img" src={img_1} alt="Facial"  />
             <div className="flex flex-col justify-between conatiner-middle">
                 <div className="flex flex-col gap-4">
-                    <p className="text-center"> Call now and let your beauty shine through</p>
-                    <button>BOOk NOW</button>
+                    <p className="text-center"> Let Your Beauty Shine Through!</p>
+                    <button>BOOK NOW</button>
                 </div>
                 <div className="div-images flex gap-2 md:gap-5 grid grid-cols-2 justify-between" >
                     <div><img className="h-full w-full" src={img_2} alt="Room" /></div>

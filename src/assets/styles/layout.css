@@ -19,6 +19,7 @@ nav ul{
     left: 0;
     right: 0;
     animation: upto 0.3s linear forwards;
+    z-index: 1500;
     
 }
 .second-nav{

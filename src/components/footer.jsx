@@ -95,8 +95,8 @@ const Footer = ()=>{
             <div>
                 <img src={logo} alt="Logo" />
             </div>
-            <p>At Figure N Belle, we combine beauty, science, and care to offer advanced skin and laser treatments tailored to your needs. Your confidence is our mission .</p>
-            <p>© 2025, All Rights Reserved , Powered by <Link target="_blank" to={"https:/arizglobal.com"}>Ariz Global</Link></p>
+            <p>At Figure N Belle, we combine beauty, science, and care to offer advanced skin and laser treatments tailored to your needs. Your confidence is our mission.</p>
+            <p>© 2025, All Rights Reserved, Powered by <Link target="_blank" to={"https:/arizglobal.com"}>Ariz Global</Link></p>
             <Icons/>
         </div>
         <div>

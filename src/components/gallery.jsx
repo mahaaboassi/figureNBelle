@@ -7,7 +7,7 @@ import img_4 from "../assets/images/skin_4.png"
 
 const Gallery = ()=>{
     return(<div className="px-4 md:px-10  flex flex-col gap-10">
-        <Heading title={"OUR GALLERY"} description={"Explore our captivating BEFORE & AFTER GALLERY, showcasing the remarkable transformations achieved at Figure N Belle Beauty & Wellness Clinic "} />
+        <Heading title={"OUR GALLERY"} description={"Browse our Gallery for a closer look at the diverse treatments, happy clients, and discover the essence of beauty and wellness at Figure N Belle"} />
         <div className="grid-container gap-2 md:gap-5">
             <img src={img_1} alt="Facial" className="item item-large" />
             <img src={img_2} alt="Room" className="item" />
