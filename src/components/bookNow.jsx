@@ -6,7 +6,7 @@ import img_3 from "../assets/images/girl_.png"
 import img_4 from "../assets/images/skin_4.png"
 
 const BookNow = ()=>{
-    return(<div className="px-4 md:px-10  py-20 py-20 flex flex-col gap-10 book">
+    return(<div className="px-4 md:px-10 py-5 flex flex-col gap-10 book">
         <div className="grid grid-cols-3 gap-2 md:gap-5">
             <img className="h-full w-full border-img" src={img_1} alt="Facial"  />
             <div className="flex flex-col justify-between conatiner-middle">

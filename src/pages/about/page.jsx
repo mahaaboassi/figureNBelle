@@ -96,8 +96,10 @@ const About = ()=>{
                 </div>))}
             </div>
         </div>
-        <Gallery/>
-        <BookNow/>
+       <div>
+            <Gallery/>
+            <BookNow/>
+       </div>
     </div>)
 }
 export default About

@@ -15,8 +15,10 @@ const Home = ()=>{
         <ChooseUs/>
         <AfterBefore/>
         <Instagram/>
-        <Gallery/>
-        <BookNow/>
+        <div>
+            <Gallery/>
+            <BookNow/>
+        </div>
     </div>
 }
 export default Home 

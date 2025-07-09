@@ -1,6 +1,6 @@
 const Contact = ()=>{
     return(<form className="contact p-5 flex flex-col gap-5">
-            <h3 className="bodoniTX">Book An Apportemnet</h3>
+            <h3 className="bodoniTX">Book an Appointment</h3>
             <div>
                 <div className="input-wrapper">
                     <input placeholder="Name" />
@@ -23,7 +23,7 @@ const Contact = ()=>{
                 </div>
             </div>
             <div>
-                <button className="w-full">Submit</button>
+                <button className="w-full">SUBMIT</button>
             </div>
     </form>)
 }

@@ -90,8 +90,10 @@ const Service = ()=>{
         </div>
             
 
-        <Gallery/> 
-        <BookNow/>     
+        <div>
+            <Gallery/> 
+            <BookNow/> 
+        </div>    
     </div>)
 }
 export default Service
