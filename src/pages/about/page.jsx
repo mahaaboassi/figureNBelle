@@ -63,7 +63,7 @@ const About = ()=>{
             
 
         </div>
-        <div className="flex metrics gap-2 md:gap-5 justify-between items-center p-2 md:p-5  ">
+        {/* <div className="flex metrics gap-2 md:gap-20 justify-center items-center p-2 md:p-5  ">
             {data.map((e,idx)=>(<div className="flex metrics-content flex-col gap-2 items-center " key={`Metrics_${e.name}_${idx}`}>
                 <div className="flex items-center  gap-1 xs:gap-3">
                     {e.icon}
@@ -73,8 +73,18 @@ const About = ()=>{
                     </div>
                 </div>
             </div>))}
+        </div> */}
+        <div className="flex flex-col gap-10 about-choose">
+            <Heading title={"WHY CHOOSE US?"} description={"Choose Figure N Belle Beauty & Wellness Clinic for a transformative experience that goes beyond conventional beauty treatments"} />
+            <div className="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-4 gap-5">
+                {chooseUsData.map((e,idx)=>(<div className={`${idx==0?"card-pink":"card-white"} flex flex-col gap-3 p-5`} key={`About_Why_Choose_Us_${idx}`}>
+                    <div>{e.icon}</div>
+                    <h3>{e.title}</h3>
+                    <p>{e.description}</p>
+                </div>))}
+            </div>
         </div>
-        <div className="relative section-1-about p-10 ">
+        <div className="relative section-1-about p-5 md:p-10 ">
             <div className="absolute section-1-img right-0 top-0 bottom-0">
                 <img style={{objectFit:'cover'}} className="w-full h-full" src={sec} alt="section" />
             </div>
@@ -86,16 +96,7 @@ const About = ()=>{
             </div>
             
         </div>
-        <div className="flex flex-col gap-10 about-choose">
-            <Heading title={"WHY CHOOSE US?"} description={"Choose Figure N Belle Beauty & Wellness Clinic for a transformative experience that goes beyond conventional beauty treatments"} />
-            <div className="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-4 gap-5">
-                {chooseUsData.map((e,idx)=>(<div className={`${idx==0?"card-pink":"card-white"} flex flex-col gap-3 p-5`} key={`About_Why_Choose_Us_${idx}`}>
-                    <div>{e.icon}</div>
-                    <h3>{e.title}</h3>
-                    <p>{e.description}</p>
-                </div>))}
-            </div>
-        </div>
+
        <div>
             <Gallery/>
             <BookNow/>

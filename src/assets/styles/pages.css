@@ -131,6 +131,14 @@
      background-color: var(--light);
      border: 1px solid var(--main);
      border-radius: 10px;
+     transition: 0.3s;
+}
+.card-white:hover{
+    background-color: var(--main);
+     color: var(--light);
+}
+.card-white:hover path{
+     fill: var(--light);
 }
 @media (max-width : 1300px) {
     .hero-service h1{
