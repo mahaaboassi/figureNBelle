@@ -14,7 +14,7 @@ const Services = ()=>{
     const [servicesData, setServicesData] = useState(services[0].children[0].services)
     const [ img, setImg] = useState(services[0].bg)
     return(<div className="px-4 md:px-10 services flex flex-col gap-10">
-        <Heading title={"Our Services"} description={"Guided by a passion for empowering individuals, my work spans skincare, rejuvenation therapies, mindful wellness practices, and personalized consultations"} />
+        <Heading title={"Our Services"} description={"Guided by a passion for empowering individuals, Our work covers skincare, rejuvenation therapies, mindful wellness practices, and personalized consultations"} />
         <div className="flex flex-wrap justify-center gap-2 sm:gap-5">
             {/* <div className="service-card p-3">All Services</div> */}
             {services.map((e,idx)=>(<div onClick={()=>{

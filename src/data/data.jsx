@@ -136,8 +136,8 @@ export const services = [{
                     }]
                 }
             },{
-                name : "Body tonning",
-                link : "/body-tonning",
+                name : "Body toning",
+                link : "/body-toning",
                 bg : slimming_3,
                 img : slimming,
                 img_small : slimming_small,
@@ -1298,8 +1298,8 @@ export const services = [{
              subCategory : "Skin Concerns",
              id : 8,
             services : [{
-                name : "Anti Ageing",
-                link : "/anti-ageing",
+                name : "Anti-Aging",
+                link : "/anti-aging",
                 bg : skin_8,
                 img : skin,
                 img_small : skin_small,
@@ -2253,8 +2253,8 @@ export const services = [{
             subCategory : "",
             id : 13,
             services : [{
-                name : "Anti ageing treatment ",
-                link : "/anti-ageing-treatment",
+                name : "Anti aging treatment ",
+                link : "/anti-aging-treatment",
                 img : cosmetics,
                 bg : cosmetics_1,
                 img_small : cosmetics_small,
@@ -2784,8 +2784,8 @@ export const services = [{
                     }]
                 }
             },{
-                name : "Rahinoplasty (Nose)",
-                link : "/rahinoplasty-nose",
+                name : "Rhinoplasty (Nose)",
+                link : "/rhinoplasty-nose",
                 img : cosmetics,
                 bg : cosmetics_1,
                 img_small : cosmetics_small,
