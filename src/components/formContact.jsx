@@ -14,7 +14,7 @@ const Contact = ()=>{
             </div>
             <div>
                 <div className="input-wrapper">
-                    <input placeholder="Select Location" />
+                    <input placeholder="Location" />
                 </div>
             </div>
             <div>

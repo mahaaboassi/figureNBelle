@@ -83,7 +83,8 @@
 }
 
 .ques{
-    font-size: var(--font-size-l);
+    /* font-size: var(--font-size-l); */
+    color: var(--main);
 }
 /* About Page */
 .value{

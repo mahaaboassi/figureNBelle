@@ -237,7 +237,7 @@ export const services = [{
                     desc_1 : "Cryolipolysis, commonly known as Fat Freezing, is a clinically proven treatment that uses controlled cooling to freeze and permanently destroy fat cells. It’s FDA-cleared, non-invasive, and ideal for clients looking for visible fat reduction without surgery, needles, or downtime.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Targeted Fat Cell Elimination - Precise treatment of stubborn fat areas with advanced cooling applicators.",
@@ -248,13 +248,13 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Is Cryolipolysis safe ?",
+                        question : "Is Cryolipolysis safe?",
                         answer : "Yes, it’s a safe and FDA-cleared procedure with minimal side effects like temporary numbness or redness."
                     },{
-                        question : "How long until I see results ?",
+                        question : "How long until I see results?",
                         answer : "Noticeable fat reduction typically occurs within 4-6 weeks, with full results in about 12 weeks."
                     },{
-                        question : "Are the results permanent ?",
+                        question : "Are the results permanent?",
                         answer : "Yes. Once fat cells are destroyed, they do not regenerate. A stable weight helps maintain results."
                     }]
                 }
@@ -275,7 +275,7 @@ export const services = [{
                     desc_1 : "Wrap treatments combine detoxifying ingredients with thermal activation to stimulate circulation, reduce water retention, and tighten the skin. Often used alongside other treatments, wraps enhance body contouring results and leave the skin feeling refreshed and firm.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Detoxifying Clay or Herbal Wraps - Pulls out impurities and improves skin tone.",
@@ -286,10 +286,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "How long do the results last ?",
+                        question : "How long do the results last?",
                         answer : "Water loss is temporary, but detox and skin-firming effects can last longer with regular treatments."
                     },{
-                        question : "Can I combine this with other procedures ?",
+                        question : "Can I combine this with other procedures?",
                         answer : "Absolutely. Wraps are an excellent complement to fat reduction or toning sessions."
                     }]
                 }
@@ -310,7 +310,7 @@ export const services = [{
                     desc_1 : "Specific Area Therapy is a customized approach that focuses treatments on high-concern zones such as the arms, inner thighs, lower abdomen, or flanks. By concentrating technology and care where it’s needed most, clients experience faster and more defined improvements.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Precision Fat Reduction or Toning - Targeted application using RF, EMS, or cryo tech.",
@@ -321,10 +321,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Can I treat multiple areas in one session ?",
+                        question : "Can I treat multiple areas in one session?",
                         answer : "Yes, depending on the treatment plan and device used."
                     },{
-                        question : "Is this effective for post-pregnancy concerns ?",
+                        question : "Is this effective for post-pregnancy concerns?",
                         answer : "Absolutely. Many clients use this therapy to target post-baby belly or hip areas."
                     }]
                 }
@@ -345,7 +345,7 @@ export const services = [{
                     desc_1 : "Slimtron combines ultrasound lipolysis and muscle stimulation to reduce fat and enhance muscle tone in one treatment. It’s non-invasive and suitable for clients looking to slim down and improve body contour simultaneously.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Low-Frequency Ultrasound Lipolysis - Breaks down localized fat deposits safely.",
@@ -380,7 +380,7 @@ export const services = [{
                     desc_1 : "EM Sculpt uses high-intensity focused electromagnetic (HIFEM) energy to cause thousands of deep muscle contractions in a single session. These contractions build muscle mass and burn fat, making it ideal for sculpting abs, buttocks, arms, and thighs.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Non-Invasive Muscle Toning - Equivalent to 20,000 crunches or squats in one session.",
@@ -391,10 +391,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Who is EM Sculpt suitable for ?",
+                        question : "Who is EM Sculpt suitable for?",
                         answer : "It’s ideal for those near their target weight who want more definition and muscle tone."
                     },{
-                        question : "How soon can I see results ?",
+                        question : "How soon can I see results?",
                         answer : "Muscle firmness may be felt immediately; visible results typically appear after 2–4 sessions."
                     }]
                 }
@@ -415,7 +415,7 @@ export const services = [{
                     desc_1 : "This therapy uses Electrical Muscle Stimulation (EMS) via carefully placed electrodes to mimic the natural contraction of muscles. It enhances tone, improves circulation, and supports body sculpting and rehabilitation.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Targeted Muscle Activation - Stimulates even deep muscle fibers safely.",
@@ -426,51 +426,53 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Is EMS safe ?",
+                        question : "Is EMS safe?",
                         answer : "Yes, EMS has been used for decades in physical therapy and sports training. It’s non-invasive and safe under professional guidance."
                     },{
-                        question : "Does it replace exercise ?",
+                        question : "Does it replace exercise?",
                         answer : "EMS complements an active lifestyle, enhancing muscle tone and recovery when combined with movement or used alone."
                     }]
                 }
-            },{ 
-                name : "Bipolar",
-                link : "/bipolar",
-                bg : slimming_11,
-                img : slimming,
-                img_small : slimming_small,
-                section_1 : {
-                    title : "WHY DO WE NEED IT?",
-                    desc_1 : "",
-                    options : [],
-                    desc_2 : ""
-                },
-                section_2 : {
-                    title : "ABOUT",
-                    desc_1 : "",
-                },
-                section_3 : {
-                    title : "WHAT WE COVER ?",
-                    desc_1 : "",
-                    options : [
-                        ""
-                    ]
-                },
-                section_4 : {
-                    title : "FAQs",
-                    section  : [{
-                        question : "",
-                        answer : ""
-                    },{
-                        question : "",
-                        answer : ""
-                    },{
-                        question : "",
-                        answer : ""
-                    }]
-                }
-            }]
-        },{
+            },
+            // { 
+            //     name : "Bipolar",
+            //     link : "/bipolar",
+            //     bg : slimming_11,
+            //     img : slimming,
+            //     img_small : slimming_small,
+            //     section_1 : {
+            //         title : "WHY DO WE NEED IT?",
+            //         desc_1 : "",
+            //         options : [],
+            //         desc_2 : ""
+            //     },
+            //     section_2 : {
+            //         title : "ABOUT",
+            //         desc_1 : "",
+            //     },
+            //     section_3 : {
+            //         title : "WHAT WE COVER?",
+            //         desc_1 : "",
+            //         options : [
+            //             ""
+            //         ]
+            //     },
+            //     section_4 : {
+            //         title : "FAQs",
+            //         section  : [{
+            //             question : "",
+            //             answer : ""
+            //         },{
+            //             question : "",
+            //             answer : ""
+            //         },{
+            //             question : "",
+            //             answer : ""
+            //         }]
+            //     }
+            // }
+        ]}
+        ,{
             subCategory : "Bust Line Treatment",
             id : 3,
             services : [{
@@ -490,7 +492,7 @@ export const services = [{
                     desc_1 : "Our Bust Enhancement Treatment uses advanced, non-surgical technologies to stimulate tissue volume and improve the natural shape of the breasts. The process is completely safe, painless, and helps create a fuller, more youthful appearance, without implants or downtime.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Vacuum Suction Therapy - Promotes blood flow and tissue expansion for natural volume.",
@@ -502,13 +504,13 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Is this treatment safe ?",
+                        question : "Is this treatment safe?",
                         answer : "Yes, all procedures are non-invasive and performed by trained specialists."
                     },{
-                        question : "How many sessions are needed ?",
+                        question : "How many sessions are needed?",
                         answer : "A minimum of 6–8 sessions is recommended for visible enhancement, depending on body type."
                     },{
-                        question : "Will the results look natural ?",
+                        question : "Will the results look natural?",
                         answer : "Absolutely. The goal is to enhance your natural bust line with subtle, balanced improvement."
                     }]
                 }
@@ -529,7 +531,7 @@ export const services = [{
                     desc_1 : "Our Bust Reduction Treatment offers a non-surgical way to reduce excess fat and tissue in the bust area. Through fat-dissolving techniques and skin tightening, we help clients achieve a lighter, more lifted look—without surgery or scarring.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Ultrasound Cavitation - Breaks down fat deposits in the bust area.",
@@ -541,13 +543,13 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Is bust reduction painful ?",
+                        question : "Is bust reduction painful?",
                         answer : "No. Treatments are gentle, non-invasive, and typically relaxing."
                     },{
-                        question : "Are the results permanent ?",
+                        question : "Are the results permanent?",
                         answer : "With a healthy lifestyle, fat reduction results can be long-lasting."
                     },{
-                        question : "Will it affect skin texture ?",
+                        question : "Will it affect skin texture?",
                         answer : "Not at all. In fact, we include skin-tightening to ensure a smooth, firm finish."
                     }]
                 }
@@ -568,7 +570,7 @@ export const services = [{
                     desc_1 : "Bust Firming Treatments focus on lifting and toning the bust area using advanced technology that stimulates collagen and tightens the supporting skin tissue. This helps restore a firmer, perkier silhouette and youthful appearance.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Radiofrequency (RF) Skin Tightening - Stimulates collagen for long-term firmness.",
@@ -580,13 +582,13 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "How soon will I see results ?",
+                        question : "How soon will I see results?",
                         answer : "Many clients notice an improvement in firmness after just a few sessions. Best results are seen after 6–8 treatments."
                     },{
-                        question : "Is there any downtime ?",
+                        question : "Is there any downtime?",
                         answer : "No, all procedures are non-invasive with zero recovery time."
                     },{
-                        question : "Is this suitable after pregnancy or breastfeeding ?",
+                        question : "Is this suitable after pregnancy or breastfeeding?",
                         answer : "Yes, it’s a popular postnatal treatment that helps restore firmness naturally."
                     }]
                 }
@@ -611,7 +613,7 @@ export const services = [{
                     desc_1 : "Udwarthanam is a traditional Ayurvedic dry massage using medicated herbal powders. It is known for breaking down fat deposits, improving lymphatic flow, and exfoliating dead skin cells. The treatment is vigorous and energizing—ideal for detox and slimming goals.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Fat-Burning & Cellulite Reduction - Helps break down stubborn fat and improve skin tone.",
@@ -623,10 +625,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Is Udwarthanam good for weight loss ?",
+                        question : "Is Udwarthanam good for weight loss?",
                         answer : "Yes, it supports inch loss and fat reduction when done consistently."
                     },{
-                        question : "How often should I take it ?",
+                        question : "How often should I take it?",
                         answer : "2–3 sessions per week are ideal during a weight-loss program."
                     }]
                 }
@@ -647,7 +649,7 @@ export const services = [{
                     desc_1 : "Potli Massage involves the use of warm herbal pouches (potlis) that are dipped in oils and used to massage the body. This traditional therapy soothes aching muscles, relieves inflammation, and rejuvenates the mind and body.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Pain & Inflammation Relief - Ideal for arthritis, backache, and muscle fatigue.",
@@ -658,10 +660,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Is Potli massage suitable for all ages ?",
+                        question : "Is Potli massage suitable for all ages?",
                         answer : "Yes, it’s safe and beneficial for adults of all ages experiencing pain or stiffness."
                     },{
-                        question : "Does it help with post-workout soreness ?",
+                        question : "Does it help with post-workout soreness?",
                         answer : "Absolutely. It speeds up muscle recovery and reduces fatigue."
                     }]
                 }
@@ -682,7 +684,7 @@ export const services = [{
                     desc_1 : "This is a gentle, full-body massage designed to relax the nervous system, relieve muscle tension, and improve circulation. Using long, flowing strokes and calming oils, the session is ideal for total mind-body rejuvenation.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Stress & Anxiety Relief - Promotes deep relaxation and calm.",
@@ -693,10 +695,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "How long is each session ?",
+                        question : "How long is each session?",
                         answer : "Typically 60 to 90 minutes."
                     },{
-                        question : "Can I take this massage regularly ?",
+                        question : "Can I take this massage regularly?",
                         answer : "Yes, weekly or bi-weekly sessions are great for ongoing stress management."
                     }]
                 }
@@ -717,7 +719,7 @@ export const services = [{
                     desc_1 : "Shirodhara is a deeply meditative Ayurvedic therapy in which warm medicated oil is poured in a steady stream over the forehead (third eye area). It calms the nervous system, promotes emotional balance, and enhances clarity.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Mental & Emotional Detox - Reduces stress, anxiety, and mood swings.",
@@ -728,10 +730,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Is Shirodhara messy or uncomfortable ?",
+                        question : "Is Shirodhara messy or uncomfortable?",
                         answer : "Not at all. It is soothing and many clients feel a sense of bliss or calm afterward."
                     },{
-                        question : "Can it be combined with other treatments ?",
+                        question : "Can it be combined with other treatments?",
                         answer : "Yes, often paired with head massage or steam therapy for enhanced benefits."
                     }]
                 }
@@ -752,7 +754,7 @@ export const services = [{
                     desc_1 : "Kati Vasti is a localized Ayurvedic treatment where warm medicated oil is pooled over the lower back within a dough ring. The therapy targets chronic pain, nourishes spinal tissues, and reduces inflammation.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Chronic Lower Back Pain Relief - Treats sciatica, lumbar strain, and stiffness.",
@@ -763,10 +765,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "How many sessions are needed for relief ?",
+                        question : "How many sessions are needed for relief?",
                         answer : "Relief may be felt in the first session, but 5–7 sessions are recommended for long-term results."
                     },{
-                        question : "Is this suitable for slipped disc or sciatica ?",
+                        question : "Is this suitable for slipped disc or sciatica?",
                         answer : "Yes, it’s particularly effective for such conditions when combined with rest and proper care."
                     }]
                 }
@@ -787,7 +789,7 @@ export const services = [{
                     desc_1 : "Herbal steam therapy opens pores, improves circulation, and promotes deep detoxification. The body is enclosed in a steam chamber while the head remains cool, allowing safe sweating and the absorption of medicinal herbs.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Detox & Skin Purification - Flushes out toxins via induced sweating.",
@@ -798,10 +800,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Is herbal steam different from a regular sauna ?",
+                        question : "Is herbal steam different from a regular sauna?",
                         answer : "Yes, it uses Ayurvedic herbs to offer therapeutic benefits beyond heat alone."
                     },{
-                        question : "How often can I take it ?",
+                        question : "How often can I take it?",
                         answer : "2–3 times weekly is safe, especially when combined with massage or slimming therapies."
                     }]
                 }
@@ -822,7 +824,7 @@ export const services = [{
                     desc_1 : "Our Sauna Therapy uses dry or infrared heat to promote full-body detoxification, muscle recovery, and stress relief. It’s ideal for improving blood flow, relaxing the mind, and cleansing the skin from within.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Deep Tissue Detox - Promotes sweating to eliminate heavy metals and toxins.",
@@ -833,10 +835,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "How long should a session last ?",
+                        question : "How long should a session last?",
                         answer : "Sessions typically last 15–30 minutes, depending on the individual’s comfort level."
                     },{
-                        question : "Is sauna good before or after workouts ?",
+                        question : "Is sauna good before or after workouts?",
                         answer : "It can be beneficial both before (to warm up muscles) and after (for recovery and relaxation)."
                     }]
                 }
@@ -867,7 +869,7 @@ export const services = [{
                     desc_1 : "Our Facial Hair Reduction Treatments use advanced laser or IPL technology to target hair at the root, significantly reducing growth over time. The process is quick, precise, and suitable for all skin types, with long-lasting results and smoother skin.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Upper Lip Hair Removal - Gentle and precise treatment for a clean, smooth upper lip.",
@@ -881,13 +883,13 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Is laser facial hair removal safe for all skin types ?",
+                        question : "Is laser facial hair removal safe for all skin types?",
                         answer : "Yes, our machines are calibrated for various skin tones and hair types."
                     },{
-                        question : "How many sessions will I need ?",
+                        question : "How many sessions will I need?",
                         answer : "Typically 6–8 sessions, spaced 3–4 weeks apart, followed by occasional maintenance."
                     },{
-                        question : "Will it remove hair permanently ?",
+                        question : "Will it remove hair permanently?",
                         answer : "It significantly reduces hair growth permanently. Some clients may require touch-ups based on hormonal factors."
                     }]
                 }
@@ -908,7 +910,7 @@ export const services = [{
                     desc_1 : "Our Upper Lip Laser Hair Reduction provides a precise and gentle solution for removing fine and coarse hair. The treatment is quick, safe, and ideal for all skin types, leaving you with a clean, smooth upper lip over time.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Gentle laser/IPL application for the delicate upper lip area.",
@@ -921,13 +923,13 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "How long does the session take ?",
+                        question : "How long does the session take?",
                         answer : "Less than 10 minutes."
                     },{
-                        question : "Will it cause any darkening ?",
+                        question : "Will it cause any darkening?",
                         answer : "No, it actually helps reduce pigmentation caused by repeated waxing/threading."
                     },{
-                        question : "Is it safe for sensitive skin ?",
+                        question : "Is it safe for sensitive skin?",
                         answer : "Yes, we use clinically tested, skin-safe technology with cooling features."
                     }]
                 }
@@ -948,7 +950,7 @@ export const services = [{
                     desc_1 : "Our Beard Line Shaping Treatment offers clean, symmetrical beard lines or jawline definition using laser hair reduction. It eliminates the need for daily shaving and ensures a well-groomed appearance with minimal maintenance.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Precision laser shaping for jawline, cheeks, and neckline.",
@@ -961,13 +963,13 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Is it only for men ?",
+                        question : "Is it only for men?",
                         answer : "No, it’s also popular among women facing hormonal facial hair growth."
                     },{
-                        question : "Will it give a sharp edge ?",
+                        question : "Will it give a sharp edge?",
                         answer : "Yes, laser technology allows for precise shaping and long-term results."
                     },{
-                        question : "Will I still need to shave ?",
+                        question : "Will I still need to shave?",
                         answer : "Minimal shaving may be required in early sessions. Over time, growth significantly reduces."
                     }]
                 }
@@ -988,7 +990,7 @@ export const services = [{
                     desc_1 : "Our Side Lock Hair Reduction treatment targets the sideburn area to remove unwanted hair and refine the facial frame. It’s a safe, long-term solution for smoother skin and better contouring of the face.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Laser/IPL removal of sideburns or side facial hair.",
@@ -1000,13 +1002,13 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Will it make the area look patchy ?",
+                        question : "Will it make the area look patchy?",
                         answer : "No. The treatment ensures even reduction and a natural look."
                     },{
-                        question : "Is it painful ?",
+                        question : "Is it painful?",
                         answer : "Most clients report mild warmth or a tingling sensation."
                     },{
-                        question : "Can I remove just part of the side lock ?",
+                        question : "Can I remove just part of the side lock?",
                         answer : "Yes, we customize the coverage based on your desired shape."
                     }]
                 }
@@ -1027,7 +1029,7 @@ export const services = [{
                     desc_1 : "Chin Hair Reduction uses laser technology to target both fine and coarse hair at the root, offering a long-term solution to recurring chin hair growth. It’s particularly effective for treating hormonal or post-menopausal hair issues.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Targets the full chin area or specific patches.",
@@ -1040,13 +1042,13 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "How soon will I see results ?",
+                        question : "How soon will I see results?",
                         answer : "Some hair reduction is visible after the first session. Optimal results occur after 6–8 treatments."
                     },{
-                        question : "Will it worsen my hormonal condition ?",
+                        question : "Will it worsen my hormonal condition?",
                         answer : "Not at all. In fact, it manages hair growth linked to hormonal imbalance effectively."
                     },{
-                        question : "Can I pair this with jawline shaping ?",
+                        question : "Can I pair this with jawline shaping?",
                         answer : "Yes, both can be done in the same session."
                     }]
                 }
@@ -1071,7 +1073,7 @@ export const services = [{
                     desc_1 : "A thorough treatment that targets all of the body's major areas, full body laser hair reduction provides long-term, smooth, hair-free skin. For both men and women who desire a sleek, clean, and low-maintenance look, it's perfect.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Entire body, including the arms, legs, back, chest, bikini area, and face.",
@@ -1084,13 +1086,13 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "How many sessions are needed ?",
+                        question : "How many sessions are needed?",
                         answer : "Typically 6–8 sessions spaced 4–6 weeks apart, followed by maintenance sessions."
                     },{
-                        question : "Is it safe for sensitive areas ?",
+                        question : "Is it safe for sensitive areas?",
                         answer : "Yes, each area is treated with adjusted settings to suit the skin’s sensitivity."
                     },{
-                        question : "Can men also opt for this ?",
+                        question : "Can men also opt for this?",
                         answer : "Absolutely. We offer full-body plans for both men and women."
                     }]
                 }
@@ -1113,7 +1115,7 @@ export const services = [{
                         `,
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Full upper and lower back.",
@@ -1126,10 +1128,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Does it help with body acne ?",
+                        question : "Does it help with body acne?",
                         answer : "Yes, by reducing hair and sweat buildup, it can help prevent breakouts."
                     },{
-                        question : "Can I treat only the upper back or lower chest ?",
+                        question : "Can I treat only the upper back or lower chest?",
                         answer : "Yes, areas can be customized based on your needs."
                     }]
                 }
@@ -1154,7 +1156,7 @@ export const services = [{
                     desc_1 : "A quick and efficient method for achieving smooth, even- toned  underarms is underarm laser hair reduction. It also helps to lessen odor and improve hygiene.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Both underarms with full follicle coverage.",
@@ -1167,10 +1169,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Is it painful ?",
+                        question : "Is it painful?",
                         answer : "The underarm area may feel a slight sting, but our cooling system minimizes discomfort."
                     },{
-                        question : "Will it reduce underarm darkness ?",
+                        question : "Will it reduce underarm darkness?",
                         answer : "Yes, by eliminating frequent shaving and irritation, skin tone improves visibly."
                     }]
                 }
@@ -1191,7 +1193,7 @@ export const services = [{
                     desc_1 : "Legs Long-term smooth and hair-free legs are possible with laser hair reduction. It improves skin tone and texture and dramatically lowers hair density.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Full legs (thighs, knees, calves, and feet).",
@@ -1204,10 +1206,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Will it affect skin tone ?",
+                        question : "Will it affect skin tone?",
                         answer : "No, in fact, it reduces pigmentation caused by hair removal damage over time."
                     },{
-                        question : "Can I just do half legs ?",
+                        question : "Can I just do half legs?",
                         answer : "Yes, you can opt for upper legs, lower legs, or full legs."
                     }]
                 }
@@ -1228,7 +1230,7 @@ export const services = [{
                     desc_1 : "Hair around the bikini line can be precisely and gently treated with our Bikini Laser Hair Reduction. It is long-lasting, sanitary, and made for delicate skin. ",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Bikini line or extended bikini area.",
@@ -1241,10 +1243,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Is it safe for sensitive areas ?",
+                        question : "Is it safe for sensitive areas?",
                         answer : "Yes, the procedure is completely safe and tailored for delicate skin."
                     },{
-                        question : "How many sessions are needed ?",
+                        question : "How many sessions are needed?",
                         answer : "Typically 6–8 sessions, with results noticeable after the first few treatments."
                     }]
                 }
@@ -1265,7 +1267,7 @@ export const services = [{
                     desc_1 : "A permanent option that leaves arms hairless and smooth is arms laser hair reduction. It's perfect for people who seek improved skin and hassle-free grooming.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Full or half arm coverage.",
@@ -1278,10 +1280,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Will it help with strawberry skin ?",
+                        question : "Will it help with strawberry skin?",
                         answer : "Yes, laser reduces bumps and uneven texture caused by repeated shaving."
                     },{
-                        question : "How long does a session take ?",
+                        question : "How long does a session take?",
                         answer : "Around 20–30 minutes for both arms."
                     }]
                 }
@@ -1312,7 +1314,7 @@ export const services = [{
                     desc_1 : "Using non-invasive methods like radiofrequency, microneedling, and sophisticated facials designed for older skin, our anti-aging treatments help tighten, smooth wrinkles, and restore suppleness.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Fine lines and wrinkles.",
@@ -1324,10 +1326,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Are these treatments safe for all skin types ?",
+                        question : "Are these treatments safe for all skin types?",
                         answer : "Yes, we offer customized protocols based on your skin's needs."
                     },{
-                        question : "Will I need downtime ?",
+                        question : "Will I need downtime?",
                         answer : "Most treatments are non-invasive with minimal or no downtime."
                     }]
                 }
@@ -1348,7 +1350,7 @@ export const services = [{
                     desc_1 : "Our skin brightening treatments use vitamin infusions, exfoliating peels, and antioxidant therapies to boost radiance and revitalize the complexion.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Sun spots.",
@@ -1360,10 +1362,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "How long before I see results ?",
+                        question : "How long before I see results?",
                         answer : "Noticeable changes appear in 3–5 sessions depending on severity."
                     },{
-                        question : "Can pigmentation return ?",
+                        question : "Can pigmentation return?",
                         answer : "With proper maintenance and SPF use, recurrence can be minimized."
                     }]
                 }
@@ -1384,7 +1386,7 @@ export const services = [{
                     desc_1 : "Our skin brightening treatments use vitamin infusions, exfoliating peels, and antioxidant therapies to boost radiance and revitalize the complexion.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Dull and tired skin.",
@@ -1396,10 +1398,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Is it suitable for sensitive skin ?",
+                        question : "Is it suitable for sensitive skin?",
                         answer : "Yes, we offer gentle brightening solutions for all skin types."
                     },{
-                        question : "Will my skin look lighter ?",
+                        question : "Will my skin look lighter?",
                         answer : "These treatments aim to restore your natural glow, not bleach your skin."
                     }]
                 }
@@ -1420,7 +1422,7 @@ export const services = [{
                     desc_1 : "To lessen outbreaks and inflammation and stop acne in the future, we combine light therapies, acne-clearing facials, and medical-grade treatments.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Active acne and blackheads.",
@@ -1432,10 +1434,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Is it safe for teen skin ?",
+                        question : "Is it safe for teen skin?",
                         answer : "Yes, we provide tailored acne solutions for all age groups."
                     },{
-                        question : "Will I need to stop using my regular skincare ?",
+                        question : "Will I need to stop using my regular skincare?",
                         answer : "We'll guide you on compatible products to use alongside treatment."
                     }]
                 }
@@ -1456,7 +1458,7 @@ export const services = [{
                     desc_1 : "By increasing the synthesis of collagen by topical, laser, or microneedling therapies, our treatments help reduce the appearance of stretch marks.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Red, purple, or white stretch marks.",
@@ -1467,10 +1469,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Can old stretch marks be treated ?",
+                        question : "Can old stretch marks be treated?",
                         answer : "Yes, though older marks may take more sessions for visible results."
                     },{
-                        question : "Is there downtime ?",
+                        question : "Is there downtime?",
                         answer : "Mild redness is possible, but you can resume daily activities immediately."
                     }]
                 }
@@ -1491,7 +1493,7 @@ export const services = [{
                     desc_1 : "We offer revitalizing treatments like oxygen therapy, exfoliation, and hydrating masks to restore healthy, glowing skin.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Dehydration.",
@@ -1503,10 +1505,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Is this a one-time treatment or a routine ?",
+                        question : "Is this a one-time treatment or a routine?",
                         answer : "You’ll notice instant glow after one session, but regular care maintains the effect."
                     },{
-                        question : "Can it be combined with other treatments ?",
+                        question : "Can it be combined with other treatments?",
                         answer : "Yes, brightening or anti-ageing therapies pair well with dullness repair."
                     }]
                 }
@@ -1527,7 +1529,7 @@ export const services = [{
                     desc_1 : "We provide specialty under-eye treatments that use non- invasive, mild techniques to improve skin texture, increase circulation, and lighten pigmentation.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Pigmentation under eyes.",
@@ -1538,10 +1540,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Are these treatments painful ?",
+                        question : "Are these treatments painful?",
                         answer : "No, they’re non-invasive and designed for delicate eye skin."
                     },{
-                        question : "Will it completely remove my dark circles ?",
+                        question : "Will it completely remove my dark circles?",
                         answer : "Significant lightening can be achieved. Complete removal depends on the underlying cause."
                     }]
                 }
@@ -1566,7 +1568,7 @@ export const services = [{
                     desc_1 : "In order to revitalize dull or exhausted skin, our Advanced Facial consists of deep washing, exfoliation, hydration, and specific serums. It's perfect for preserving the general health of your skin. ",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Dull and dehydrated skin.",
@@ -1578,10 +1580,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "How often should I get this facial ?",
+                        question : "How often should I get this facial?",
                         answer : "Once every 3–4 weeks for optimal skin maintenance."
                     },{
-                        question : "Is it suitable for sensitive skin ?",
+                        question : "Is it suitable for sensitive skin?",
                         answer : "Yes, the treatment is customized based on skin type."
                     }]
                 }
@@ -1602,7 +1604,7 @@ export const services = [{
                     desc_1 : "Our Signature Facial is a customized treatment that uses massage methods and high-performance products to deeply nourish and improve your skin.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Early signs of aging.",
@@ -1614,10 +1616,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "What makes it a “signature” facial ?",
+                        question : "What makes it a “signature” facial?",
                         answer : "It’s fully customized with premium actives and massage based on your skin's condition."
                     },{
-                        question : "Can I do this before an event ?",
+                        question : "Can I do this before an event?",
                         answer : "Absolutely. It gives a noticeable glow and lift."
                     }]
                 }
@@ -1638,7 +1640,7 @@ export const services = [{
                     desc_1 : "The Carbon Facial eliminates contaminants, eradicates bacteria, and uses a coating of liquid carbon followed by laser light.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Acne and blackheads.",
@@ -1650,10 +1652,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Is there any downtime ?",
+                        question : "Is there any downtime?",
                         answer : "No. The treatment is gentle with zero downtime."
                     },{
-                        question : "How soon can I wear makeup after ?",
+                        question : "How soon can I wear makeup after?",
                         answer : "After 24 hours, once skin settles."
                     }]
                 }
@@ -1674,7 +1676,7 @@ export const services = [{
                     desc_1 : "Light pulses are used in photo facials (IPL therapy) to activate collagen and penetrate the skin, reducing pigmentation and enhancing texture and clarity. ",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Pigmentation.",
@@ -1686,10 +1688,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "How many sessions are needed ?",
+                        question : "How many sessions are needed?",
                         answer : "4–6 sessions are typically recommended for lasting results."
                     },{
-                        question : "Is it painful ?",
+                        question : "Is it painful?",
                         answer : "Slight warmth or tingling may be felt, but it's well-tolerated."
                     }]
                 }
@@ -1710,7 +1712,7 @@ export const services = [{
                     desc_1 : "For tighter, younger-looking skin, this facial incorporates cutting-edge anti-aging serums, a lifting massage, collagen-boosting chemicals, and high-tech equipment.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Wrinkles and sagging.",
@@ -1722,10 +1724,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "What age is this facial best for ?",
+                        question : "What age is this facial best for?",
                         answer : "Ideal for 30+ or anyone experiencing signs of aging."
                     },{
-                        question : "Does it have a lifting effect ?",
+                        question : "Does it have a lifting effect?",
                         answer : "Yes, visible firming and radiance are noticeable post-session."
                     }]
                 }
@@ -1756,7 +1758,7 @@ export const services = [{
                     desc_1 : "In order to restore density and enhance scalp health, we provide customized solutions for male hair loss, such as PRP, hair strengthening treatments, and scalp therapies.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Receding hairline.",
@@ -1768,10 +1770,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Are results permanent ?",
+                        question : "Are results permanent?",
                         answer : "Maintenance may be required, but our treatments target long-term improvement."
                     },{
-                        question : "Is it suitable for young men ?",
+                        question : "Is it suitable for young men?",
                         answer : "Yes, especially effective when started in early stages of hair loss."
                     }]
                 }
@@ -1792,7 +1794,7 @@ export const services = [{
                     desc_1 : "To increase hair density and stop more loss, we employ moderate, hormone-safe methods including topical nutrition, PRP, and mesotherapy. ",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Diffuse thinning.",
@@ -1804,10 +1806,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Will my hair grow back fully ?",
+                        question : "Will my hair grow back fully?",
                         answer : "With regular sessions, regrowth and volume can significantly improve."
                     },{
-                        question : "Can I continue salon treatments ?",
+                        question : "Can I continue salon treatments?",
                         answer : "Yes, but we recommend avoiding harsh chemicals during therapy."
                     }]
                 }
@@ -1828,7 +1830,7 @@ export const services = [{
                     desc_1 : "Our dandruff treatment uses medicated solutions and calming therapies to clean, hydrate, and restore the health of the scalp while addressing the underlying problem.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Dry or oily flakes.",
@@ -1840,10 +1842,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "How many sessions are required ?",
+                        question : "How many sessions are required?",
                         answer : "Most people see improvement within 3–4 sessions."
                     },{
-                        question : "Will dandruff come back ?",
+                        question : "Will dandruff come back?",
                         answer : "Regular scalp maintenance prevents recurrence."
                     }]
                 }
@@ -1864,7 +1866,7 @@ export const services = [{
                     desc_1 : "In order to strengthen follicles, our anti-hair fall programs combine scalp analysis with specific treatments like PRP, serums, and massages.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Sudden or seasonal hair fall.",
@@ -1875,10 +1877,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Is this different from hair loss treatment ?",
+                        question : "Is this different from hair loss treatment?",
                         answer : "Yes. Hair fall focuses on breakage and shedding, not baldness."
                     },{
-                        question : "Can I use home products alongside ?",
+                        question : "Can I use home products alongside?",
                         answer : "Yes, we'll recommend complementary care products."
                     }]
                 }
@@ -1903,7 +1905,7 @@ export const services = [{
                     desc_1 : "We provide high-end hair systems that are undetectable, customized, and blend in with your natural hair for a seamless appearance, all without the need for surgery. ",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Full or partial hair systems.",
@@ -1914,10 +1916,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Can I swim or gym with it ?",
+                        question : "Can I swim or gym with it?",
                         answer : "Yes, the hair system is durable and activity-safe."
                     },{
-                        question : "Will people notice it’s not real ?",
+                        question : "Will people notice it’s not real?",
                         answer : "No, our units are designed to look and feel natural."
                     }]
                 }
@@ -1938,7 +1940,7 @@ export const services = [{
                     desc_1 : "A vitamin-rich serum is injected directly into the scalp during mesotherapy to promote growth, fortify roots, and increase volume. ",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Hair thinning.",
@@ -1949,10 +1951,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Is it painful ?",
+                        question : "Is it painful?",
                         answer : " Slight pricks may be felt, but it’s generally well-tolerated."
                     },{
-                        question : "How long before results show ?",
+                        question : "How long before results show?",
                         answer : "Visible changes in 4–6 sessions."
                     }]
                 }
@@ -1973,7 +1975,7 @@ export const services = [{
                     desc_1 : "GFC therapy promotes hair restoration by stimulating scalp tissue with your own blood-derived growth factors. ",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Patchy hair loss.",
@@ -1984,10 +1986,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Is this better than PRP ?",
+                        question : "Is this better than PRP?",
                         answer : "GFC is a more concentrated, newer version of PRP with enhanced effects."
                     },{
-                        question : "Any downtime ?",
+                        question : "Any downtime?",
                         answer : "None. You can resume your routine immediately."
                     }]
                 }
@@ -2008,7 +2010,7 @@ export const services = [{
                     desc_1 : "This dual-therapy strategy improves blood flow, promotes collagen, and fixes cellular damage to the scalp.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Chronic thinning.",
@@ -2019,10 +2021,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "How is it different from regular PRP ?",
+                        question : "How is it different from regular PRP?",
                         answer : "It contains stem cell nutrients for more potent results."
                     },{
-                        question : "Is it suitable for both genders ?",
+                        question : "Is it suitable for both genders?",
                         answer : "Yes, equally effective for men and women."
                     }]
                 }
@@ -2047,7 +2049,7 @@ export const services = [{
                     desc_1 : "To revitalize damaged, lifeless hair and promote growth, our hair spa combines natural oils, steam, and scalp massage. ",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Dry and frizzy hair.",
@@ -2058,10 +2060,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "How often should I do it ?",
+                        question : "How often should I do it?",
                         answer : "Once every 2–3 weeks for best results."
                     },{
-                        question : "Can I color my hair after ?",
+                        question : "Can I color my hair after?",
                         answer : "Yes, but wait 48 hours after a spa session."
                     }]
                 }
@@ -2082,7 +2084,7 @@ export const services = [{
                     desc_1 : "Biotop is a professional protein therapy for damaged, over-processed, or dry hair, improving its structure and shine.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Chemically damaged hair.",
@@ -2093,10 +2095,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "How long does it last ?",
+                        question : "How long does it last?",
                         answer : "Results last 4–6 weeks depending on hair care."
                     },{
-                        question : "Is it safe for colored hair ?",
+                        question : "Is it safe for colored hair?",
                         answer : "Yes, it enhances the shine and strength of colored hair."
                     }]
                 }
@@ -2117,7 +2119,7 @@ export const services = [{
                     desc_1 : "A L'Oréal Professional service, Lipidium reconstructs damaged hair by sealing nutrients and locking in moisture.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Damaged hair structure.",
@@ -2128,10 +2130,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Will it make my hair flat ?",
+                        question : "Will it make my hair flat?",
                         answer : "No, it adds bounce while restoring volume."
                     },{
-                        question : "How often can I do this ?",
+                        question : "How often can I do this?",
                         answer : "Once a month or after chemical treatments."
                     }]
                 }
@@ -2152,7 +2154,7 @@ export const services = [{
                     desc_1 : "Our Moroccan treatment is a luxurious experience that leaves your hair shiny, frizz-free, and silky soft with lasting hydration.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Dry, coarse hair.",
@@ -2163,10 +2165,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Is it suitable for daily styling ?",
+                        question : "Is it suitable for daily styling?",
                         answer : "Yes, it makes hair manageable and heat-protected."
                     },{
-                        question : "Will it feel oily ?",
+                        question : "Will it feel oily?",
                         answer : "No, it absorbs easily without leaving residue."
                     }]
                 }
@@ -2187,7 +2189,7 @@ export const services = [{
                     desc_1 : "This treatment uses ozone steam to purify the scalp, improve blood circulation, and encourage stronger hair growth.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Itchy, flaky scalp.",
@@ -2198,10 +2200,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Is ozone safe for the scalp ?",
+                        question : "Is ozone safe for the scalp?",
                         answer : "Yes, it’s a non-invasive and chemical-free process."
                     },{
-                        question : "Does it help with oil control ?",
+                        question : "Does it help with oil control?",
                         answer : "Yes, it balances sebum production."
                     }]
                 }
@@ -2222,7 +2224,7 @@ export const services = [{
                     desc_1 : "A salon-favorite, Olaplex strengthens and rebuilds hair structure using patented bond-building technology.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Chemically treated hair.",
@@ -2233,10 +2235,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Can I use Olaplex at home too ?",
+                        question : "Can I use Olaplex at home too?",
                         answer : "Yes, we offer in-clinic and homecare options."
                     },{
-                        question : "How soon will I feel the difference ?",
+                        question : "How soon will I feel the difference?",
                         answer : "After just one session, hair feels significantly stronger and smoother."
                     }]
                 }
@@ -2267,7 +2269,7 @@ export const services = [{
                     desc_1 : "Our anti-aging procedures use cutting-edge, non-invasive methods to increase suppleness, moisturize the skin, and promote collagen.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Fine lines and wrinkles.",
@@ -2279,10 +2281,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "When should I start anti-ageing treatments ?",
+                        question : "When should I start anti-ageing treatments?",
                         answer : "Mid to late 20s is a good time to start preventative care."
                     },{
-                        question : "Are these treatments safe for sensitive skin ?",
+                        question : "Are these treatments safe for sensitive skin?",
                         answer : "Yes, all treatments are customized based on skin type."
                     }]
                 }
@@ -2303,7 +2305,7 @@ export const services = [{
                     desc_1 : "Without the dangers of surgery, this therapy lifts and tones the skin using cutting-edge technology like radiofrequency, ultrasound, or threads.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Drooping cheeks or jawline.",
@@ -2315,10 +2317,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Is there any downtime ?",
+                        question : "Is there any downtime?",
                         answer : "No, it's a walk-in, walk-out procedure."
                     },{
-                        question : "How long do results last ?",
+                        question : "How long do results last?",
                         answer : "Results typically last 12–18 months with maintenance."
                     }]
                 }
@@ -2339,7 +2341,7 @@ export const services = [{
                     desc_1 : "This procedure tightens breast tissue and increases collagen using RF or ultrasound technology to give a modest yet noticable lift.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Mild to moderate sagging.",
@@ -2350,10 +2352,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Is it painful ?",
+                        question : "Is it painful?",
                         answer : "No, the procedure is painless and non-invasive."
                     },{
-                        question : "How many sessions are needed ?",
+                        question : "How many sessions are needed?",
                         answer : "Usually 6–8 sessions, depending on individual needs."
                     }]
                 }
@@ -2374,7 +2376,7 @@ export const services = [{
                     desc_1 : "Biodegradable threads are put beneath the skin to tighten and lift drooping areas while promoting the generation of collagen.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Nasolabial folds.",
@@ -2385,10 +2387,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Is the result visible immediately ?",
+                        question : "Is the result visible immediately?",
                         answer : "Yes, results are seen instantly and improve over time."
                     },{
-                        question : "Do the threads stay in the skin ?",
+                        question : "Do the threads stay in the skin?",
                         answer : "No, they dissolve naturally within months."
                     }]
                 }
@@ -2409,7 +2411,7 @@ export const services = [{
                     desc_1 : "By removing the skin's outer layer with mild acids, chemical peels encourage skin regeneration and reveal clearer, smoother skin underneath.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Acne and blemishes.",
@@ -2421,10 +2423,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Will my skin peel after the session ?",
+                        question : "Will my skin peel after the session?",
                         answer : "Mild flaking may occur depending on the peel's strength."
                     },{
-                        question : "How many sessions are recommended ?",
+                        question : "How many sessions are recommended?",
                         answer : "Typically 4–6 sessions for optimal results."
                     }]
                 }
@@ -2445,7 +2447,7 @@ export const services = [{
                     desc_1 : "Our expert skin care regimens include protection, nourishment, and deep cleansing based on the particular requirements of your skin.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Customized skincare regimens.",
@@ -2457,10 +2459,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Can I combine this with other treatments ?",
+                        question : "Can I combine this with other treatments?",
                         answer : "Yes, skin care treatments often enhance results of other procedures."
                     },{
-                        question : "Do you provide home care guidance ?",
+                        question : "Do you provide home care guidance?",
                         answer : "Absolutely, we offer personalized product recommendations."
                     }]
                 }
@@ -2481,7 +2483,7 @@ export const services = [{
                     desc_1 : "Fillers are injectable gels composed of hyaluronic acid or comparable compounds that smooth out wrinkles and plump up specific regions to provide the appearance of natural skin.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Smile lines and marionette lines.",
@@ -2493,10 +2495,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Are fillers permanent ?",
+                        question : "Are fillers permanent?",
                         answer : "No, most fillers last 6–18 months depending on the type."
                     },{
-                        question : "Is there any swelling ?",
+                        question : "Is there any swelling?",
                         answer : "Mild swelling may occur for 24–48 hours post-treatment."
                     }]
                 }
@@ -2517,7 +2519,7 @@ export const services = [{
                     desc_1 : "Using crystals or a diamond-tipped wand, this non-invasive procedure exfoliates the skin's outermost layer, promoting cell turnover and enhancing skin clarity.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Rough texture.",
@@ -2529,10 +2531,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Is it painful ?",
+                        question : "Is it painful?",
                         answer : "No, the procedure is gentle and well-tolerated."
                     },{
-                        question : "How many sessions are required ?",
+                        question : "How many sessions are required?",
                         answer : "A series of 4–6 sessions is typically recommended."
                     }]
                 }
@@ -2553,7 +2555,7 @@ export const services = [{
                     desc_1 : "This procedure stimulates the creation of collagen and restores the young texture of the skin using sophisticated serums, lasers, or microneedling.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Wrinkles and fine lines.",
@@ -2564,10 +2566,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Is there downtime ?",
+                        question : "Is there downtime?",
                         answer : "Minimal to none. Mild redness may appear for a few hours."
                     },{
-                        question : "When will I see results ?",
+                        question : "When will I see results?",
                         answer : "Improvements begin within 2–4 weeks and build over time."
                     }]
                 }
@@ -2588,7 +2590,7 @@ export const services = [{
                     desc_1 : "To lessen scars' depth, color, and look, we provide procedures like microneedling, laser therapy, and mild excision.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Acne scars.",
@@ -2599,10 +2601,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Will the scar disappear completely ?",
+                        question : "Will the scar disappear completely?",
                         answer : "The goal is significant improvement; complete removal may not always be possible."
                     },{
-                        question : "Is it suitable for all skin types ?",
+                        question : "Is it suitable for all skin types?",
                         answer : "Yes, treatments are tailored to suit different skin tones."
                     }]
                 }
@@ -2623,7 +2625,7 @@ export const services = [{
                     desc_1 : "A modest outpatient surgery with little recovery time that uses local anesthetic to mend and restore the contour of the earlobe.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Split earlobes.",
@@ -2634,10 +2636,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Can I re-pierce after repair ?",
+                        question : "Can I re-pierce after repair?",
                         answer : "Yes, usually after 6–8 weeks of healing."
                     },{
-                        question : "Will there be a scar ?",
+                        question : "Will there be a scar?",
                         answer : "Scarring is minimal and typically fades over time."
                     }]
                 }
@@ -2658,7 +2660,7 @@ export const services = [{
                     desc_1 : "While surgical methods modify bone structure, non-surgical chin contouring uses dermal fillers to increase volume or contour.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Weak chin.",
@@ -2669,10 +2671,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Is it reversible ?",
+                        question : "Is it reversible?",
                         answer : "Filler-based reshaping is reversible; surgery is permanent."
                     },{
-                        question : "How long do fillers last ?",
+                        question : "How long do fillers last?",
                         answer : "Typically 12–18 months."
                     }]
                 }
@@ -2693,7 +2695,7 @@ export const services = [{
                     desc_1 : "We improve the cheek and chin regions for a more youthful, contoured appearance by using dermal fillers or non-surgical sculpting procedures.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Hollow cheeks.",
@@ -2704,10 +2706,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Does it look natural ?",
+                        question : "Does it look natural?",
                         answer : "Yes, we ensure balanced, natural-looking results."
                     },{
-                        question : "Is there downtime ?",
+                        question : "Is there downtime?",
                         answer : "Minimal—mild swelling may occur for 1–2 days."
                     }]
                 }
@@ -2728,7 +2730,7 @@ export const services = [{
                     desc_1 : "To improve and contour your natural brow line, we provide solutions like filler-based raising, brow tinting, and microblading.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Sparse brows.",
@@ -2739,10 +2741,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "How long does microblading last ?",
+                        question : "How long does microblading last?",
                         answer : "Around 12–18 months depending on skin type and care."
                     },{
-                        question : "Is it painful ?",
+                        question : "Is it painful?",
                         answer : "Numbing cream is used to ensure comfort."
                     }]
                 }
@@ -2763,7 +2765,7 @@ export const services = [{
                     desc_1 : "Hyaluronic acid-based fillers are used in this procedure to provide the lips volume, definition, and moisture with results that look natural.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Thin or uneven lips.",
@@ -2774,10 +2776,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Will my lips look fake ?",
+                        question : "Will my lips look fake?",
                         answer : "No, we focus on enhancing your natural shape and proportions."
                     },{
-                        question : "How long do results last ?",
+                        question : "How long do results last?",
                         answer : "Typically 6–12 months depending on product and lifestyle."
                     }]
                 }
@@ -2798,7 +2800,7 @@ export const services = [{
                     desc_1 : "The nose can be reshaped by rhinoplasty to enhance attractiveness or address breathing problems. There are options that are both surgical and non-surgical.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Nose hump or bump.",
@@ -2809,10 +2811,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Is surgery required for minor changes ?",
+                        question : "Is surgery required for minor changes?",
                         answer : "No, non-surgical rhinoplasty using fillers is an option for minor corrections."
                     },{
-                        question : "What is the recovery time ?",
+                        question : "What is the recovery time?",
                         answer : "Surgical rhinoplasty takes 1–2 weeks to recover; non-surgical has minimal downtime."
                     }]
                 }
@@ -2843,7 +2845,7 @@ export const services = [{
                     desc_1 : "Threading is a precise method of removing hair from the root using twisted cotton thread; it works particularly well on the brows and other face areas.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Eyebrows.",
@@ -2855,10 +2857,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "How long do results last ?",
+                        question : "How long do results last?",
                         answer : "Typically 2–4 weeks depending on hair growth."
                     },{
-                        question : "Is it safe for sensitive skin ?",
+                        question : "Is it safe for sensitive skin?",
                         answer : "Yes, it's chemical-free and ideal for delicate skin."
                     }]
                 }
@@ -2879,7 +2881,7 @@ export const services = [{
                     desc_1 : "We effectively remove hair from different body parts using premium wax (honey, chocolate, or Rica), leaving the skin feeling soft and clean.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Arms and legs.",
@@ -2891,10 +2893,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "How often should I wax ?",
+                        question : "How often should I wax?",
                         answer : "Every 4–6 weeks, depending on hair growth."
                     },{
-                        question : "Can waxing cause ingrown hair ?",
+                        question : "Can waxing cause ingrown hair?",
                         answer : "Proper exfoliation and aftercare reduce the risk significantly."
                     }]
                 }
@@ -2915,7 +2917,7 @@ export const services = [{
                     desc_1 : "Bleaching treatments brighten the skin and lighten face and body hair using safe formulas.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Face and neck.",
@@ -2926,10 +2928,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Does bleaching damage the skin ?",
+                        question : "Does bleaching damage the skin?",
                         answer : "No, we use skin-friendly, dermatologically tested products."
                     },{
-                        question : "How often can I bleach ?",
+                        question : "How often can I bleach?",
                         answer : "Once every 4–6 weeks."
                     }]
                 }
@@ -2950,7 +2952,7 @@ export const services = [{
                     desc_1 : "Using scrubbing, massages, and nourishing creams, body polishing removes dead skin, balances out tone, and hydrates.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Full body exfoliation.",
@@ -2962,10 +2964,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Is it suitable for all skin types ?",
+                        question : "Is it suitable for all skin types?",
                         answer : "Yes, the process is customized based on skin condition."
                     },{
-                        question : "How often should I get it done ?",
+                        question : "How often should I get it done?",
                         answer : "Once a month or before special events."
                     }]
                 }
@@ -2986,7 +2988,7 @@ export const services = [{
                     desc_1 : "During exfoliating treatments, a body strap scrub is used to clean, exfoliate, and revitalize the skin, especially the back.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Back exfoliation.",
@@ -2997,10 +2999,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Is it part of body polishing ?",
+                        question : "Is it part of body polishing?",
                         answer : "It can be a standalone service or added to polishing or massages."
                     },{
-                        question : "Does it help with back acne ?",
+                        question : "Does it help with back acne?",
                         answer : "Yes, it aids in unclogging pores and reducing breakouts."
                     }]
                 }
@@ -3021,7 +3023,7 @@ export const services = [{
                     desc_1 : "In order to exfoliate, brighten, and soften skin, ubtan is a herbal concoction of organic substances such as gram flour, sandalwood, and turmeric.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Bridal skincare.",
@@ -3033,10 +3035,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Is it safe for sensitive skin ?",
+                        question : "Is it safe for sensitive skin?",
                         answer : ": Yes, it's 100% natural and customized as per your skin type."
                     },{
-                        question : "How often should I use ubtan ?",
+                        question : "How often should I use ubtan?",
                         answer : "Once a week for glowing, even-toned skin."
                     }]
                 }
@@ -3057,7 +3059,7 @@ export const services = [{
                     desc_1 : "For well-groomed hands, a manicure includes cuticle maintenance, exfoliation, massage, nail shaping, and polish application.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Nail cleaning and shaping.",
@@ -3068,10 +3070,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "How often should I get a manicure ?",
+                        question : "How often should I get a manicure?",
                         answer : "Every 2–3 weeks depending on nail growth."
                     },{
-                        question : "Is it suitable for men ?",
+                        question : "Is it suitable for men?",
                         answer : "Absolutely. Groomed hands are essential for everyone."
                     }]
                 }
@@ -3092,7 +3094,7 @@ export const services = [{
                     desc_1 : "For the best foot care and relaxation, our pedicure consists of soaking, cleaning, nail and cuticle care, massage, and polishing.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Callus and dead skin removal.",
@@ -3103,7 +3105,7 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Is pedicure good for cracked heels ?",
+                        question : "Is pedicure good for cracked heels?",
                         answer : "Yes, it helps reduce and prevent cracked heels."
                     },{
                         question : "How frequently should I do it?",
@@ -3131,7 +3133,7 @@ export const services = [{
                     desc_1 : "Facials are personalized procedures that use a variety of methods and products to address specific skin concerns, such as dryness, acne, dullness, or aging symptoms.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Cleansing and exfoliation.",
@@ -3143,10 +3145,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "How often should I get a facial ?",
+                        question : "How often should I get a facial?",
                         answer : "Every 4–6 weeks is ideal for maintaining skin health."
                     },{
-                        question : "Can facials cause breakouts ?",
+                        question : "Can facials cause breakouts?",
                         answer : "If done correctly with clean tools and suitable products, they won’t."
                     }]
                 }
@@ -3167,7 +3169,7 @@ export const services = [{
                     desc_1 : "Kanpeki is a high-end facial treatment that uses Japanese products and technology to brighten, purify, and deeply revitalize the skin.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Anti-aging.",
@@ -3178,10 +3180,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Is Kanpeki suitable for sensitive skin ?",
+                        question : "Is Kanpeki suitable for sensitive skin?",
                         answer : "Yes, it's designed for all skin types including sensitive."
                     },{
-                        question : "How soon will I see results ?",
+                        question : "How soon will I see results?",
                         answer : "Immediate glow with better texture over 2–3 sessions."
                     }]
                 }
@@ -3202,7 +3204,7 @@ export const services = [{
                     desc_1 : "Skinora targets texture, dullness, and pigmentation by delivering active ingredients into the skin using sophisticated formulations.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Uneven skin tone.",
@@ -3213,10 +3215,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Does it include extraction ?",
+                        question : "Does it include extraction?",
                         answer : "Yes, along with massage and advanced skin boosters."
                     },{
-                        question : "Is it painful ?",
+                        question : "Is it painful?",
                         answer : "No, it’s gentle and non-invasive."
                     }]
                 }
@@ -3237,7 +3239,7 @@ export const services = [{
                     desc_1 : "Casmara, a high-end Spanish facial company, uses vitamin and mineral-rich algae peel-off masks to promote healthy, radiant skin.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Dehydrated skin.",
@@ -3248,10 +3250,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Are the masks peel-off type ?",
+                        question : "Are the masks peel-off type?",
                         answer : "Yes, they form a cooling layer and are easily removed."
                     },{
-                        question : "Can it calm irritated skin ?",
+                        question : "Can it calm irritated skin?",
                         answer : "Absolutely. It's designed to soothe and hydrate."
                     }]
                 }
@@ -3272,7 +3274,7 @@ export const services = [{
                     desc_1 : "Advanced massage techniques and platinum-rich formulations are used in this facial to firm, lift, and cleanse the skin.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         " Wrinkles and sagging.",
@@ -3283,10 +3285,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Is it a luxury facial ?",
+                        question : "Is it a luxury facial?",
                         answer : "Yes, ideal for special occasions or mature skin."
                     },{
-                        question : "How often can I do it ?",
+                        question : "How often can I do it?",
                         answer : "Once every 4–6 weeks for lasting results."
                     }]
                 }
@@ -3307,7 +3309,7 @@ export const services = [{
                     desc_1 : "This K-beauty-inspired treatment consists of several moisturizing layers, calming masks, and brightening serums for glowing, dewy skin.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Dull and dry skin.",
@@ -3318,10 +3320,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Will my skin look glassy after one session ?",
+                        question : "Will my skin look glassy after one session?",
                         answer : "Yes, you’ll notice a visible glow immediately."
                     },{
-                        question : "Is it suitable for oily skin ?",
+                        question : "Is it suitable for oily skin?",
                         answer : "Yes, it hydrates without clogging pores."
                     }]
                 }
@@ -3342,7 +3344,7 @@ export const services = [{
                     desc_1 : "Low-voltage currents are used in galvanic facials to increase blood flow, cleanse, and facilitate the deep penetration of skincare products.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Premature aging.",
@@ -3353,10 +3355,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Is it safe ?",
+                        question : "Is it safe?",
                         answer : "Yes, it’s a clinically safe and non-invasive treatment."
                     },{
-                        question : "How does it feel ?",
+                        question : "How does it feel?",
                         answer : "Slight tingling, but no discomfort."
                     }]
                 }
@@ -3377,7 +3379,7 @@ export const services = [{
                     desc_1 : "A 3-IN-1 facial that instantly brightens and rejuvenates the skin by exfoliating, oxygenating, and nourishing it.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Dullness and fatigue.",
@@ -3388,10 +3390,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Is this similar to a HydraFacial ?",
+                        question : "Is this similar to a HydraFacial?",
                         answer : "It offers similar benefits with an oxygenation twist."
                     },{
-                        question : "Is there any downtime ?",
+                        question : "Is there any downtime?",
                         answer : "None – it’s a lunch-hour facial."
                     }]
                 }
@@ -3412,7 +3414,7 @@ export const services = [{
                     desc_1 : "O3+ is a high-end facial brand that offers products for radiance, hydration, acne prevention, and teeth whitening.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Pigmentation.",
@@ -3423,10 +3425,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "How long do results last ?",
+                        question : "How long do results last?",
                         answer : "Effects last 2–3 weeks; regular sessions maintain the glow."
                     },{
-                        question : "Is it suitable for bridal prep ?",
+                        question : "Is it suitable for bridal prep?",
                         answer : "Yes, it’s commonly recommended for pre-event skincare."
                     }]
                 }
@@ -3447,7 +3449,7 @@ export const services = [{
                     desc_1 : "This facial enhances circulation, soothes the senses, and leaves the skin feeling renewed with the use of essential oils and a light massage.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Stressed and tired skin.",
@@ -3458,11 +3460,11 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Will the oils clog pores ?",
+                        question : "Will the oils clog pores?",
                         answer : "No, they’re carefully selected to suit your skin type."
                     },{
-                        question : "Is it relaxing ?",
-                        answer : "Extremely – it soothes both skin and mind.    "
+                        question : "Is it relaxing?",
+                        answer : "Extremely – it soothes both skin and mind."
                     }]
                 }
             }]
@@ -3486,7 +3488,7 @@ export const services = [{
                     desc_1 : "Bridal makeup is applied with precision and durability, utilizing airbrush or high-definition (HD) techniques. It is tailored to your skin tone, attire, theme, and individual style while making sure it is photo-ready from every aspect.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Skin prep and priming.",
@@ -3499,10 +3501,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "How long does bridal makeup last ?",
+                        question : "How long does bridal makeup last?",
                         answer : "Typically 8–12 hours, resistant to sweat and tears."
                     },{
-                        question : "Can I do a trial beforehand ?",
+                        question : "Can I do a trial beforehand?",
                         answer : "Yes, trials are highly recommended for best results."
                     }]
                 }
@@ -3523,7 +3525,7 @@ export const services = [{
                     desc_1 : "With a well-balanced appearance appropriate for dinners, birthday parties, cocktail nights, or festivities, party makeup aims to accentuate your inherent attractiveness.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Foundation and contouring.",
@@ -3538,7 +3540,7 @@ export const services = [{
                         question : "How is party makeup different from bridal makeup?",
                         answer : "It’s lighter, quicker, and ideal for shorter durations."
                     },{
-                        question : "Can it be customized ?",
+                        question : "Can it be customized?",
                         answer : "Absolutely—styles range from natural to bold."
                     }]
                 }
@@ -3559,7 +3561,7 @@ export const services = [{
                     desc_1 : "Lightweight, matte makeup products are used in groom's makeup to reduce shine and hide flaws, bringing out features while keeping a natural appearance.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Skin prep and moisturizer.",
@@ -3571,10 +3573,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Will it look obvious in photos ?",
+                        question : "Will it look obvious in photos?",
                         answer : "No, it’s designed to look natural on and off camera."
                     },{
-                        question : " Is it mandatory for all grooms ?",
+                        question : " Is it mandatory for all grooms?",
                         answer : "It’s optional, but highly recommended for HD photography."
                     }]
                 }
@@ -3595,7 +3597,7 @@ export const services = [{
                     desc_1 : "Engagement makeup is the ideal mix of elegance and understatement. It keeps you looking stunning for the ring ceremony and goes well with your attire and theme.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Skin correction and base.",
@@ -3607,10 +3609,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Is it similar to bridal makeup ?",
+                        question : "Is it similar to bridal makeup?",
                         answer : "It’s lighter and less elaborate but equally detailed."
                     },{
-                        question : "Should I do a trial ?",
+                        question : "Should I do a trial?",
                         answer : "Trials help align makeup with your overall theme."
                     }]
                 }
@@ -3631,7 +3633,7 @@ export const services = [{
                     desc_1 : "Mehndi makeup is vibrant, multicolored, and lively, with a focus on comfort and durability. It's perfect for musical and dance-based pre-wedding events.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Dewy base and blush tones.",
@@ -3643,10 +3645,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Is it sweat-proof ?",
+                        question : "Is it sweat-proof?",
                         answer : "Yes, it’s designed to last through dancing and celebrations."
                     },{
-                        question : "Can it match my Mehndi outfit ?",
+                        question : "Can it match my Mehndi outfit?",
                         answer : "Yes, the look is customized to complement your attire and jewelry."
                     }]
                 }
@@ -3671,7 +3673,7 @@ export const services = [{
                     desc_1 : "Applying a single hue across the head is known as global coloring. It revitalizes drab or fading hair by adding an even tone and gloss.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Full-head coloring.",
@@ -3682,10 +3684,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Will it damage my hair ?",
+                        question : "Will it damage my hair?",
                         answer : "No, we use ammonia-free and nourishing formulas."
                     },{
-                        question : "How long does it last ?",
+                        question : "How long does it last?",
                         answer : "4–6 weeks with proper hair care."
                     }]
                 }
@@ -3706,7 +3708,7 @@ export const services = [{
                     desc_1 : "Coloring particular hair strands to contrast with or enhance your natural hair color is known as streaking. It can be tailored for high-impact drama or understated elegance.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Face-framing streaks.",
@@ -3717,10 +3719,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Is bleach used for streaking ?",
+                        question : "Is bleach used for streaking?",
                         answer : "Yes, in most cases—but we use protective treatments."
                     },{
-                        question : "Can I choose the color ?",
+                        question : "Can I choose the color?",
                         answer : "Absolutely—custom shades are available."
                     }]
                 }
@@ -3741,7 +3743,7 @@ export const services = [{
                     desc_1 : "By adding protein to the hair, keratin treatments make it smoother and stronger. It restores a smooth, polished look and lessens frizz.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Frizz control.",
@@ -3752,10 +3754,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Is it permanent ?",
+                        question : "Is it permanent?",
                         answer : "No, results last 3–5 months, depending on care."
                     },{
-                        question : "Will it damage my hair ?",
+                        question : "Will it damage my hair?",
                         answer : "No, it actually strengthens and protects hair."
                     }]
                 }
@@ -3776,7 +3778,7 @@ export const services = [{
                     desc_1 : "Hair Botox: This protein-rich, deep-conditioning treatment moisturizes and smoothes hair without changing its natural texture.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Damaged hair repair.",
@@ -3787,10 +3789,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Is this like hair straightening ?",
+                        question : "Is this like hair straightening?",
                         answer : "No, it's a restorative treatment, not a straightener."
                     },{
-                        question : "How often should I do it ?",
+                        question : "How often should I do it?",
                         answer : "Every 2–3 months for best results."
                     }]
                 }
@@ -3811,7 +3813,7 @@ export const services = [{
                     desc_1 : "From trims to complete makeovers, we provide customized haircuts depending on your hair type, face shape, and lifestyle preferences.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Layering and shaping.",
@@ -3822,10 +3824,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Can I get a makeover cut ?",
+                        question : "Can I get a makeover cut?",
                         answer : "Yes, our stylists offer full transformation options."
                     },{
-                        question : "Will the cut suit my face ?",
+                        question : "Will the cut suit my face?",
                         answer : "Our experts will guide you based on your features."
                     }]
                 }
@@ -3846,7 +3848,7 @@ export const services = [{
                     desc_1 : "For any occasion and taste, we provide blowouts, curls, straightening, buns, and braids.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Blow-drying and ironing.",
@@ -3857,10 +3859,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "How long does the styling last ?",
+                        question : "How long does the styling last?",
                         answer : "1–2 days depending on weather and hair type."
                     },{
-                        question : "Can I get styling without a haircut ?",
+                        question : "Can I get styling without a haircut?",
                         answer : "Yes, styling can be done independently."
                     }]
                 }
@@ -3881,7 +3883,7 @@ export const services = [{
                     desc_1 : "Our hair coloring services, which are customized to fit your skin tone and style, include global color, highlights, lowlights, and balayage.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Full or partial coloring.",
@@ -3892,10 +3894,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Will it suit my skin tone ?",
+                        question : "Will it suit my skin tone?",
                         answer : "Yes, our experts help select the most flattering shade."
                     },{
-                        question : "Is it safe for damaged hair ?",
+                        question : "Is it safe for damaged hair?",
                         answer : "Yes, we use ammonia-free, nourishing products."
                     }]
                 }
@@ -3916,7 +3918,7 @@ export const services = [{
                     desc_1 : "We provide smoothing, perming, and straightening services to safely and successfully change the texture of your hair.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Permanent smoothening or straightening.",
@@ -3927,10 +3929,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "How long do texturing treatments last ?",
+                        question : "How long do texturing treatments last?",
                         answer : "4–6 months with proper care."
                     },{
-                        question : "Can I color my hair after texturing ?",
+                        question : "Can I color my hair after texturing?",
                         answer : "Yes, but it’s best done with professional advice."
                     }]
                 }
@@ -3951,7 +3953,7 @@ export const services = [{
                     desc_1 : "Gentle washing, conditioning, and a scalp massage that encourages relaxation and blood flow are all included in a head wash.",
                 },
                 section_3 : {
-                    title : "WHAT WE COVER ?",
+                    title : "WHAT WE COVER?",
                     desc_1 : "",
                     options : [
                         "Scalp cleansing.",
@@ -3962,10 +3964,10 @@ export const services = [{
                 section_4 : {
                     title : "FAQs",
                     section  : [{
-                        question : "Can I do it before styling or cutting ?",
+                        question : "Can I do it before styling or cutting?",
                         answer : "Yes, it's usually included before most hair services."
                     },{
-                        question : "Is it suitable for sensitive scalps ?",
+                        question : "Is it suitable for sensitive scalps?",
                         answer : "Yes, we use mild and sulfate-free products."
                     }]
                 }

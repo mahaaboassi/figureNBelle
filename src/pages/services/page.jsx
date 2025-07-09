@@ -69,7 +69,7 @@ const Service = ()=>{
                     <ul className="flex flex-col gap-1.5">
                         {data.section_4.section.map((e,idx)=>(<li key={`Section_4_${e}_${idx}`}>
                             <span className="ques">Q :</span> {e.question}
-                            <div>{e.answer}</div>
+                            <div> <span className="ques">A : </span>{e.answer}</div>
                         </li>))}
                     </ul>
                 </div>             

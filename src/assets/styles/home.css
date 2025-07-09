@@ -155,13 +155,22 @@
     box-shadow: var(--shadow-box);
 }
 .icon-hero{
-    background-color: var(--main);
+    background: var(--main);
     width: 40px;
     height: 40px;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.3s;
+    border: 1px solid inherit;
+}
+.icon-hero:hover{
+    background: var(--light);
+    border: 1px solid var(--main);
+}
+.icon-hero:hover path{
+    fill: var(--main);
 }
 .small-card{
     width: 100px;
