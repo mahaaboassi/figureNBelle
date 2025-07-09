@@ -54,9 +54,7 @@ const Services = ()=>{
                                     <h3>{e.name}</h3>
                                     <p>{e.description}</p>
                                 </div>
-                                
                             </div>
-                        
                         </Link>)
                     })}
                 </div>

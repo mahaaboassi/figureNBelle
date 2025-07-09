@@ -29,7 +29,7 @@
     color: var(--main);
 }
 .category-card:hover .category-icon{
-    transform: rotate(-120deg);
+    /* transform: rotate(-120deg); */
 }
 .category-icon{
     width: 25px;
