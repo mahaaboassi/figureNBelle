@@ -99,6 +99,9 @@ const Footer = ()=>{
             <p>© 2025, All Rights Reserved , Powered by <Link target="_blank" to={"https:/arizglobal.com"}>Ariz Global</Link></p>
             <Icons/>
         </div>
+        <div>
+            <hr/>
+        </div>
         <div className="second-div grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 md:grid-cols-6  gap-5">
             <div>
                 <h3>

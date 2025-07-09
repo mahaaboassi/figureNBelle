@@ -27,9 +27,8 @@ const Services = ()=>{
                 {e.name}
             </div>))}
         </div>
-        <div className="grid  grid-cols-1 md:grid-cols-4 gap-4">
+        <div className="grid  grid-cols-1 md:grid-cols-5 gap-4">
             {data.length>0 && data[0].subCategory !="" && <div className="flex sub-category col-span-1 flex-col gap-4">
-                {/* <div className="service-card p-3">All Services</div> */}
                 {data.map((e,idx)=>(<div onClick={()=>{
                     setServicesData(e.services)
                     setCurrentSubCategory(e.id)
@@ -40,7 +39,7 @@ const Services = ()=>{
                     </div>
                 </div>))}
             </div>}
-            <div className={` ${data.length>0 &&  data[0].subCategory != "" ? "col-span-3" :"col-span-4"}`}>
+            <div className={` ${data.length>0 &&  data[0].subCategory != "" ? "col-span-4" :"col-span-5"}`}>
                 <div style={{zIndex:1200}} className={`grid relative grid-cols-1 xs:grid-cols-2  ${data.length>0 &&  data[0].subCategory != ""?"sm:grid-cols-3":"sm:grid-cols-4"} gap-2 sm:gap-5`}>
                     {servicesData.map((e,idx)=>{
                         return(<Link key={`Service_${e.name}_${idx}`}  to={e.link}>

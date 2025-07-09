@@ -34,7 +34,7 @@ nav ul{
 .fixed-nav  .name-menu{
     color: var(--light) !important;
 }
-.fixed-nav .menu-icon , .fixed-nav .name-menu svg path{
+.fixed-nav .menu-icon path, .fixed-nav .name-menu svg path{
     fill: var(--light);
 }
 .fixed-nav button svg path ,.fixed-nav .nav-icons div:nth-child(1) path,.fixed-nav .nav-icons div:nth-child(2) path{
@@ -159,7 +159,7 @@ footer{
     /* display: flex; */
 }
 footer p{
-    font-size: var(--font-size-xxs);
+    font-size: var(--font-size-xs);
 }
 footer h3{
     font-size: var(--font-size-s);
@@ -171,7 +171,10 @@ footer h3{
 footer li{
     font-size: var(--font-size-xxs);
 }
-
+footer hr{
+    color: var(--main);
+    opacity: 0.5;
+}
 
 .second-div a:hover{
     color: var(--grey-2);
@@ -253,6 +256,10 @@ form.contact {
         background-color: rgba(255, 255, 255, 0.889);
         backdrop-filter: blur(20px);
 
+    }
+    .open-ul ul li a {
+        display: block;
+        width: 100%;
     }
     .fixed-nav .open-ul{
         top: 70px;
