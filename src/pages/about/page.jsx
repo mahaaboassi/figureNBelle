@@ -54,7 +54,7 @@ const About = ()=>{
                     </defs>
                 </svg>
     }]
-    return(<div className=" px-4 md:px-10 flex flex-col gap-16 ">
+    return(<div className=" px-4 md:px-10 flex flex-col gap-10 sm:gap-16 md:gap-20">
         <div className="hero-service relative">
             <img className="w-full" alt="banner" src={isSmallSize ? img_small : img} />
             <div className="absolute inset-0 flex px-2 md:px-10 items-center">

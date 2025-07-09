@@ -70,7 +70,7 @@ const Instagram = ()=>{
     const lastSlider = ()=>{document.querySelector(".reels .swiper-button-prev").click()}
     const nextSlider = ()=>{document.querySelector(".reels .swiper-button-next").click()}
     
-    return(<div className="px-4 md:px-10  py-20 flex flex-col gap-10 reels">
+    return(<div className="px-4 md:px-10 flex flex-col gap-10 reels">
             <div className="flex flex-col gap-4">
                 <Heading isCenter={false} title={"POSTS & REELS"} description={"Discover the latest beauty tips, real client transformations, and behind-the-scenes moments from our clinic. Stay inspired and updated with our Instagram posts & reels"} /> 
                 <div className="flex gap-4 ">

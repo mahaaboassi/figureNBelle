@@ -30,7 +30,7 @@ const ChooseUs = ()=>{
             if (targetRef.current) observer.unobserve(targetRef.current);
         };
     }, []);
-    return(<div className="py-20 px-4 md:px-10 flex flex-col gap-10" >
+    return(<div className="px-4 md:px-10 flex flex-col gap-10" >
         <Heading title={"WHY CHOOSE US?"} description={"Choose Figure N Belle Beauty & Wellness Clinic for a transformative experience that goes beyond conventional beauty treatments"} />
             <div className="hidden div-img">
                 <img alt="image" src={img} />

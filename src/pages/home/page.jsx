@@ -8,7 +8,7 @@ import Instagram from "../../components/instgram"
 import Services from "../../components/services"
 
 const Home = ()=>{
-    return<div>
+    return<div className="flex flex-col gap-10 sm:gap-16 md:gap-20">
         <Hero/>
         <About/>
         <Services/>

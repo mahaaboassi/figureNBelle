@@ -1,6 +1,6 @@
 import model from "../assets/images/model_4.png"
 const About = ()=>{
-    return(<div className="flex flex-col md:grid grid-cols-2 gap-5 px-4 md:px-10  py-20 about">
+    return(<div className="flex flex-col-reverse md:grid grid-cols-2 gap-5 px-4 md:px-10  about">
         <div className="flex justify-center">
             <img src={model} alt="Model" />
         </div>
