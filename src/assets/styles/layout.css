@@ -20,10 +20,20 @@ nav ul{
     right: 0;
     animation: upto 0.3s linear forwards;
     z-index: 1500;
+    height: 80px !important ;
     
 }
+.fixed-nav  svg.logo{
+    height: 93px;
+}
+.fixed-nav  svg.logo path{
+    fill : var(--light);
+}
+.fixed-nav button{
+    color: var(--main);
+}
 .second-nav{
-    height: 80px;
+    height: 100px;
 }
 .fixed-nav button,.fixed-nav .nav-icons div:nth-child(1),.fixed-nav .nav-icons div:nth-child(2){
     background-color: var(--light);
@@ -50,7 +60,7 @@ nav ul{
 }
 
 .first-nav{
-    font-size: var(--font-size-xxs);
+    font-size: var(--font-size-xs);
     color: var(--light);
     background-color: var(--main);
     width: 100%;
@@ -67,11 +77,22 @@ nav ul{
 .first-nav path{
     fill : var(--light)
 }
+.contact-nav svg{
+    transition: 0.3s;
+}
+.contact-nav svg path{
+    fill: var(--main);
+    
+}
+.contact-nav svg:hover{
+    transform: translateY(2px);
+}
 .nav-icons,.menu-icon{
     display: none;
 }
 .root-big-menu{
     transition: 0.3s;
+    text-transform: none !important;
 }
 .root-big-menu:hover .big-menu{
         display: flex;
@@ -92,7 +113,7 @@ nav ul{
     background-position: 90%;
     min-height: 400px;
     z-index: 120;
-    top: 120px;
+    top: 150px;
     
 }
 .big-menu h5{
@@ -176,7 +197,20 @@ footer hr{
     color: var(--main);
     opacity: 0.5;
 }
-
+footer a.link-more{
+    transition: 0.3s;
+}
+footer a.link-more:hover{
+    color: var(--main);
+}
+footer a.link-more svg path{
+    fill: var(--dark);
+    transition: 0.3s;
+}
+footer a.link-more:hover svg path{
+    fill: var(--main);
+    transform: translateX(5px);
+}
 .second-div a:hover{
     color: var(--grey-2);
 
@@ -239,8 +273,14 @@ form.contact {
     
 }
 @media (max-width: 1100px) {
+    .second-nav{
+        height: 80px;
+    }
     .nav-content{
         display: none;
+    }
+    nav svg.logo,.fixed-nav svg.logo{
+        height : 50px
     }
     nav button{
         display: none;
@@ -250,7 +290,7 @@ form.contact {
         position: fixed;
         align-items: start !important;
         z-index: 1500;
-        top: 124px;
+        top: 140px;
         left: 0;
         right: 0;
         bottom: 0;
@@ -313,11 +353,33 @@ form.contact {
         width: 100%;
     }
 }
+@media (max-width:1020px) {
+    .first-nav{
+    font-size: var(--font-size-xxs);
+    }
+    .first-nav-content{
+        font-size: 10px;
+    }
+}
 @media (max-width : 900px) {
     .heading p{
         width: 80%;
     }
+    .contact-nav svg{
+        width: 20px;
+    }
   
+}
+@media (min-width : 768px ) and (max-width: 780px) {
+    .first-nav-content {
+        font-size: 9px;
+    }
+}
+@media (max-width:768px) {
+    .open-ul{
+        top: 106px;
+
+    }
 }
 @media (max-width:700px) {
     .heading p{
@@ -359,16 +421,21 @@ form.contact {
         font-size: var(--font-size-xxs);
         padding: 6px 6px ;
     }
-}
-@media (max-width:500px) {
-
-    .open-ul{
-       top: 145px;
+     .open-ul{
+       top: 97px;
+    }
+    .second-nav{
+        height: 60px;
+    }
+    nav img{
+        width: 70px;
     }
 }
+
+
 @media (max-width:338px) {
 
     .open-ul{
-       top: 140px;
+       top: 128px;
     }
 }

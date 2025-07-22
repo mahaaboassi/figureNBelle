@@ -27,39 +27,23 @@ const Services = ()=>{
                 {e.name}
             </div>))}
         </div>
-        <div className="grid  grid-cols-1 md:grid-cols-5 gap-4">
-            {data.length>0 && data[0].subCategory !="" && <div className="flex sub-category col-span-1 flex-col gap-4">
-                {data.map((e,idx)=>(<div onClick={()=>{
-                    setServicesData(e.services)
-                    setCurrentSubCategory(e.id)
-                }} className={`category-card p-1.5 xs:p-2 sm:p-3  ${currentSubCategory == e.id ? "active": ""}`} key={`Category_Of_Services_${e.category}_${idx}`}>
-                    <div >{e.subCategory}</div>
-                    <div className="category-icon">
-                          <svg  width="14" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 122.88 66.91"><g><path d="M11.68,1.95C8.95-0.7,4.6-0.64,1.95,2.08c-2.65,2.72-2.59,7.08,0.13,9.73l54.79,53.13l4.8-4.93l-4.8,4.95 c2.74,2.65,7.1,2.58,9.75-0.15c0.08-0.08,0.15-0.16,0.22-0.24l53.95-52.76c2.73-2.65,2.79-7.01,0.14-9.73 c-2.65-2.72-7.01-2.79-9.73-0.13L61.65,50.41L11.68,1.95L11.68,1.95z"/></g></svg>                        
+        <div style={{zIndex:1200}} className={`grid relative grid-cols-1 xs:grid-cols-2 sm:grid-cols-5 gap-2 sm:gap-5`}>
+            {servicesData.map((e,idx)=>{
+                return(<Link key={`Service_${e.name}_${idx}`}  to={e.link}>
+                    <div key={`Service_${e.name}_${idx}`} className="card-service flex flex-col gap-3 items-center text-center">
+                        <div className="w-full h-full container-img"> 
+                            <img style={{objectFit:"cover"}} src={e.bg} alt={e.name} />
+                            {/* Animation Draw Lines */}
+                            <div className="line-1" ></div>
+                            <div className="line-2" ></div>
+                        </div>
+                        <div>
+                            <h3>{e.name}</h3>
+                            <p>{e.description}</p>
+                        </div>
                     </div>
-                </div>))}
-            </div>}
-            <div className={` ${data.length>0 &&  data[0].subCategory != "" ? "col-span-4" :"col-span-5"}`}>
-                <div style={{zIndex:1200}} className={`grid relative grid-cols-1 xs:grid-cols-2  ${data.length>0 &&  data[0].subCategory != ""?"sm:grid-cols-3":"sm:grid-cols-4"} gap-2 sm:gap-5`}>
-                    {servicesData.map((e,idx)=>{
-                        return(<Link key={`Service_${e.name}_${idx}`}  to={e.link}>
-                            <div key={`Service_${e.name}_${idx}`} className="card-service flex flex-col gap-3 items-center text-center">
-                                <div className="w-full h-full container-img"> 
-                                    <img style={{objectFit:"cover"}} src={e.bg} alt={e.name} />
-                                    {/* Animation Draw Lines */}
-                                    <div className="line-1" ></div>
-                                    <div className="line-2" ></div>
-                                </div>
-                                <div>
-                                    <h3>{e.name}</h3>
-                                    <p>{e.description}</p>
-                                </div>
-                            </div>
-                        </Link>)
-                    })}
-                </div>
-            </div>
-            
+                </Link>)
+            })}
         </div>
 
     </div>)

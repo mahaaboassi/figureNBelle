@@ -140,6 +140,7 @@
 .card-white:hover path{
      fill: var(--light);
 }
+
 @media (max-width : 1300px) {
     .hero-service h1{
         font-size: var(--font-size-xxl);

@@ -72,8 +72,8 @@ const Instagram = ()=>{
     
     return(<div className="px-4 md:px-10 flex flex-col gap-10 reels">
             <div className="flex flex-col gap-4">
-                <Heading isCenter={false} title={"POSTS & REELS"} description={"Discover the latest beauty tips, real client transformations, and behind-the-scenes moments from our clinic. Stay inspired and updated with our Instagram posts & reels"} /> 
-                <div className="flex gap-4 ">
+                <Heading  title={"POSTS & REELS"} description={"Discover the latest beauty tips, real client transformations, and behind-the-scenes moments from our clinic. Stay inspired and updated with our Instagram posts & reels"} /> 
+                <div className="flex gap-4 justify-center">
                     <div onClick={lastSlider} className="last-slide cursor-pointer" >
                         <svg xmlns="http://www.w3.org/2000/svg" width="14" height="23" viewBox="0 0 14 23" fill="none">
                             <path d="M0.390625 19.7237L8.59646 11.5L0.390625 3.27625L2.91688 0.75L13.6669 11.5L2.91688 22.25L0.390625 19.7237Z" fill="white"/>

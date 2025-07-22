@@ -11,7 +11,7 @@ const Home = ()=>{
     return<div className="flex flex-col gap-10 sm:gap-16 md:gap-20">
         <Hero/>
         <About/>
-        <Services/>
+        {/* <Services/> */}
         <ChooseUs/>
         <AfterBefore/>
         <Instagram/>

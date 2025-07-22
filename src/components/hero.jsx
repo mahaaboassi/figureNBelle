@@ -1,6 +1,6 @@
-import img_1 from "../assets/images/banner_figure_1.png"
-import img_2 from "../assets/images/banner_figure_2.png"
-import img_3 from "../assets/images/banner_figure_3.png"
+import img_1 from "../assets/images/1-.png"
+import img_2 from "../assets/images/2-.png"
+import img_3 from "../assets/images/3-.png"
 // Small Size
 import img_small_1 from "../assets/images/banner_small_1.png"
 import img_small_2 from "../assets/images/banner_small_2.png"
@@ -24,11 +24,13 @@ const Hero = ()=>{
             setImages(small_images)
         }
     },[])
-    return(<section className="hero px-4 md:px-10  ">
+    return(<section className="hero px-4 md:px-10 ">
         <div className=" ">
             <Swiper
                 modules={[Autoplay,Pagination,EffectFade]}
-                pagination={true}
+                pagination={{
+                clickable: true,
+                }}
                 className="h-full w-full"
                 effect={'fade'}
                 autoplay={{

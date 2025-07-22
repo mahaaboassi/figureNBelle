@@ -1,10 +1,11 @@
 import { useEffect, useRef, useState } from "react"
 import Heading from "./heading"
 import img from "../assets/images/choose_us_smal.png"
+import img_2 from "../assets/images/why.png"
 import { chooseUsData } from "../data/data"
 
 const ChooseUs = ()=>{
-    
+
     const targetRef = useRef(null)
     const [isTrigger, setIsTrigger] = useState(false)
     useEffect(() => {
@@ -24,7 +25,6 @@ const ChooseUs = ()=>{
         if (targetRef.current) {
             observer.observe(targetRef.current);
         }
-
         // Cleanup observer on component unmount
         return () => {
             if (targetRef.current) observer.unobserve(targetRef.current);
@@ -32,37 +32,14 @@ const ChooseUs = ()=>{
     }, []);
     return(<div className="px-4 md:px-10 flex flex-col gap-10" >
         <Heading title={"WHY CHOOSE US?"} description={"Choose Figure N Belle Beauty & Wellness Clinic for a transformative experience that goes beyond conventional beauty treatments"} />
-            <div className="hidden div-img">
-                <img alt="image" src={img} />
+            <div className="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-4 gap-5">
+                {chooseUsData.map((e,idx)=>(<div className={`${idx==0?"card-pink":"card-white"} flex flex-col gap-3 p-5`} key={`About_Why_Choose_Us_${idx}`}>
+                    <div>{e.icon}</div>
+                    <h3>{e.title}</h3>
+                    <p>{e.description}</p>
+                </div>))}
             </div>
-        <div ref={targetRef} className="choose relative">
-            
-            <div style={{
-                animation:  isTrigger ? "resize 0.5s linear forwards" : "none"
-            }} className="card-hero p-10 absolute top-0 left-0 flex flex-col gap-3">
-                <h2>{chooseUsData[0].title}</h2>
-                <p>{chooseUsData[0].description}</p>
-            </div>
-            <div style={{
-                animation:  isTrigger ? "resize 0.5s linear forwards" : "none"
-            }} className="card-hero p-10  absolute top-0 right-0 flex flex-col gap-3">
-                <h2>{chooseUsData[1].title}</h2>
-                <p>{chooseUsData[1].description}</p>
-            </div>
-            <div style={{
-                animation:  isTrigger ? "resize 0.5s linear forwards" : "none"
-            }} className="card-hero p-10  absolute bottom-5 left-0 flex flex-col gap-3">
-                <h2>{chooseUsData[2].title}</h2>
-                <p>{chooseUsData[2].description}</p>
-            </div>
-            <div style={{
-                animation:  isTrigger ? "resize 0.5s linear forwards" : "none"
-            }} className="card-hero p-10  absolute bottom-5 right-0 flex flex-col gap-3">
-                <h2>{chooseUsData[3].title}</h2>
-                <p>{chooseUsData[3].description}</p>
-            </div>
-            
-        </div>
+
     </div>)
 }
 export default ChooseUs
