@@ -1,6 +1,7 @@
 import About from "../../components/aboutUs"
 import AfterBefore from "../../components/afterBefore"
 import BookNow from "../../components/bookNow"
+import CanDo from "../../components/canDo"
 import ChooseUs from "../../components/chooseUs"
 import Gallery from "../../components/gallery"
 import Hero from "../../components/hero"
@@ -13,6 +14,7 @@ const Home = ()=>{
         <About/>
         {/* <Services/> */}
         <ChooseUs/>
+        <CanDo/>
         <AfterBefore/>
         <Instagram/>
         <div>

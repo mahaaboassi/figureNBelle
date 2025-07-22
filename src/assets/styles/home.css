@@ -189,6 +189,9 @@
 .about img{
     object-fit: cover;
 }
+.about hr{
+    color: var(--main);
+}
 .about p{
     font-size: var(--font-size-s);
     font-weight: 500;

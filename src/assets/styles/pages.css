@@ -92,8 +92,7 @@
     font-weight: 600;
 }
 .metrics{
-    border-radius: 10px;
-    box-shadow: var(--shadow-box);
+
 }
 .metrics-content{
     /* border-left: 2px solid var(--main); */
