@@ -9,8 +9,25 @@ nav img{
 nav ul{
     font-weight: 600;
     font-size: var(--font-size-xs);
+    color: rgb(86, 86, 86);
 }
-
+.second-nav .contact button{
+    font-size: var(--font-size-xxs);
+}
+.second-nav .container-form-nav{
+    border-left: 2px solid #87289072;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.second-nav .contact {
+    background-color: rgba(254, 254, 254, 0.568);
+    backdrop-filter: blur(20px); 
+    -webkit-backdrop-filter: blur(20px);
+    width: 300px;
+    box-shadow: unset !important;
+}
 .fixed-nav{
     position: fixed;
     background-color: var(--main);
@@ -39,6 +56,10 @@ nav ul{
     background-color: var(--light);
 
 }
+.fixed-nav form button{
+    background-color: var(--main);
+    color: var(--light);
+}
 .fixed-nav img{
     width: 120px;
 }
@@ -65,7 +86,7 @@ nav ul{
     background-color: var(--main);
     width: 100%;
 }
-.first-nav .icon-svg{
+.icon-svg{
     background-color: rgba(0,0,0,0.08);
     border-radius: 2px;
     width: 25px;
@@ -77,16 +98,7 @@ nav ul{
 .first-nav path{
     fill : var(--light)
 }
-.contact-nav svg{
-    transition: 0.3s;
-}
-.contact-nav svg path{
-    fill: var(--main);
-    
-}
-.contact-nav svg:hover{
-    transform: translateY(2px);
-}
+ 
 .nav-icons,.menu-icon{
     display: none;
 }
@@ -94,7 +106,7 @@ nav ul{
     transition: 0.3s;
     text-transform: none !important;
 }
-.root-big-menu:hover .big-menu{
+.root-big-menu.open .big-menu{
         display: flex;
         
 }
@@ -107,8 +119,8 @@ nav ul{
     z-index: 1000;
     backdrop-filter: blur(20px);
     border-radius: 10px;
-    background: url("../images/girl-opacity.png");
-    background-color: rgba(255, 255, 255, 0.729);
+    /* background: url("../images/girl-opacity.png"); */
+    background-color: var(--light);
     background-repeat: no-repeat;
     background-position: 90%;
     min-height: 400px;
@@ -221,6 +233,7 @@ form input{
     border: unset;
     width: 100%;
     height: 100%;
+    padding: 3px;
     transition: border-color 0.3s, box-shadow 0.3s;
 }
 form .input-wrapper{
@@ -287,6 +300,8 @@ form.contact {
     }
     .open-ul{
         display: flex;
+        flex-direction: column;
+        gap: 30px;
         position: fixed;
         align-items: start !important;
         z-index: 1500;
@@ -297,6 +312,9 @@ form.contact {
         background-color: rgba(255, 255, 255, 0.889);
         backdrop-filter: blur(20px);
 
+    }
+    .open-ul button{
+        display: flex;
     }
     .open-ul ul li a {
         display: block;
@@ -365,9 +383,6 @@ form.contact {
     .heading p{
         width: 80%;
     }
-    .contact-nav svg{
-        width: 20px;
-    }
   
 }
 @media (min-width : 768px ) and (max-width: 780px) {
@@ -422,7 +437,7 @@ form.contact {
         padding: 6px 6px ;
     }
      .open-ul{
-       top: 97px;
+       top: 96px;
     }
     .second-nav{
         height: 60px;

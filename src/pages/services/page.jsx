@@ -19,6 +19,7 @@ const Service = ()=>{
                     
                     if(subChild.link == `/${link}`){
                         setData(subChild)
+                        
                     }
                 })
             })

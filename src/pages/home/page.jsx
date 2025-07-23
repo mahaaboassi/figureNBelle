@@ -7,14 +7,18 @@ import Gallery from "../../components/gallery"
 import Hero from "../../components/hero"
 import Instagram from "../../components/instgram"
 import Services from "../../components/services"
+import Team from "../../components/team"
 
 const Home = ()=>{
     return<div className="flex flex-col gap-10 sm:gap-16 md:gap-20">
         <Hero/>
+        <Team/>
         <About/>
-        {/* <Services/> */}
+        
         <ChooseUs/>
         <CanDo/>
+        <Services/>
+        
         <AfterBefore/>
         <Instagram/>
         <div>

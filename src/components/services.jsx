@@ -1,6 +1,6 @@
 import Heading from "./heading"
 import img from "../assets/images/service_1.png"
-import { useState } from "react";
+import { useEffect, useState } from "react";
 // Images
 import { services } from "../data/data";
 import { Link } from "react-router-dom";
@@ -9,25 +9,40 @@ import shap from "../assets/images/shape.png"
 const Services = ()=>{
 
     const [ currentCategory, setCurrentCategory ] = useState(1)
-    const [ currentSubCategory, setCurrentSubCategory ] = useState(1)
-    const [ data, setData ] = useState(services[0].children)
     const [servicesData, setServicesData] = useState(services[0].children[0].services)
-    const [ img, setImg] = useState(services[0].bg)
+    useEffect(()=>{
+        let temp = []
+         services[0].children.forEach((ele)=>{
+            temp.push(...ele.services)
+        })
+        takeFourServices(temp)
+    },[])
+    const takeFourServices = (data)=>{ 
+        
+        const getThreeUniqueItems = (array) => {
+            if (!Array.isArray(array)) return [];
+
+            const shuffled = [...array].sort(() => 0.5 - Math.random());
+            return shuffled.slice(0, 8);
+        };
+        setServicesData(getThreeUniqueItems(data));
+    }
     return(<div className="px-4 md:px-10 services flex flex-col gap-10">
         <Heading title={"Our Services"} description={"Guided by a passion for empowering individuals, Our work covers skincare, rejuvenation therapies, mindful wellness practices, and personalized consultations"} />
         <div className="flex flex-wrap justify-center gap-2 sm:gap-5">
-            {/* <div className="service-card p-3">All Services</div> */}
             {services.map((e,idx)=>(<div onClick={()=>{
                 setCurrentCategory(e.id)
-                setData(e.children)
-                setImg(e.bg)
-                setCurrentSubCategory(e.children[0].id)
-                setServicesData(e.children[0].services)
+                let temp = []
+                e.children.forEach((ele)=>{
+                    temp.push(...ele.services)
+                })
+                takeFourServices(temp)
+
             }} className={`service-card p-1.5 xs:p-2 sm:p-3 ${currentCategory == e.id ? "active": ""}`} key={`Category_Of_Services_${e.category}_${idx}`}>
                 {e.name}
             </div>))}
         </div>
-        <div style={{zIndex:1200}} className={`grid relative grid-cols-1 xs:grid-cols-2 sm:grid-cols-5 gap-2 sm:gap-5`}>
+        <div style={{zIndex:1200}} className={`grid relative grid-cols-1 xs:grid-cols-2 lg:grid-cols-4 gap-2 sm:gap-5`}>
             {servicesData.map((e,idx)=>{
                 return(<Link key={`Service_${e.name}_${idx}`}  to={e.link}>
                     <div key={`Service_${e.name}_${idx}`} className="card-service flex flex-col gap-3 items-center text-center">

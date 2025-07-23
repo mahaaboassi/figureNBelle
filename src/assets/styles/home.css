@@ -106,14 +106,7 @@
     animation: comeCard 0.5s linear forwards;
     animation-delay: 0.6s;
 }
-.hero button{
-    animation: comeFromDown 0.3s linear forwards;
-    animation-delay: 0.6s;
-}
-.hero button{
-        transform: translateY(-50px);
-        opacity: 0;
-}
+
 .fixed-content{
     position: absolute;
 }
@@ -158,7 +151,7 @@
     background: var(--main);
     width: 40px;
     height: 40px;
-    border-radius: 10px;
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -187,13 +180,13 @@
     color : var(--main)
 }
 .about img{
-    object-fit: cover;
+    object-fit: contain;
 }
 .about hr{
     color: var(--main);
 }
 .about p{
-    font-size: var(--font-size-s);
+    font-size: var(--font-size-xs);
     font-weight: 500;
 }
 .more{
@@ -362,7 +355,7 @@
 .last-slide {
     transform: rotate(-180deg);
 }
-.reels .swiper-button-prev, .reels .swiper-button-next{
+.reels .swiper-button-prev, .reels .swiper-button-next,.team .swiper-button-prev, .team .swiper-button-next{
     display: none;
 }
 /* Gallery */
@@ -395,6 +388,52 @@
 }
 .border-img{
     height: 300px;
+}
+/* Team */
+.container-team{
+    /* background-color: var(--light);
+    box-shadow: var(--shadow-box); */
+    border-radius: 10px;
+    border: 1px solid var(--main);
+
+}
+.container-team:hover img{
+        transform: scale(1.2);
+}
+.team-container-img{
+    border-radius: 10px;
+    height: 400px;
+    overflow: hidden;
+}
+.team button{
+    font-size: var(--font-size-xs);
+}
+.team-container-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: 0.3s;
+
+}
+
+.container-team p,.container-team ul{
+    font-size: var(--font-size-xxs);
+}
+.container-team img{
+    border-radius: 10px;
+}
+.container-name{
+
+}
+.container-name h3{
+    /* background: linear-gradient(to top, #87289096,rgba(255, 255, 255, 0.695)); */
+    background-color: rgba(254, 254, 254, 0.266) ;
+    backdrop-filter: blur(20px); 
+    -webkit-backdrop-filter:blur(20px);
+    width: 100%;
+    font-size: var(--font-size-s);
+    font-weight: 600;
+    color: var(--main);
 }
 @media (max-width:1200px) {
     .fixed-content{
@@ -432,8 +471,18 @@
 @media (max-width:800px) {
 
 }
+@media (max-width:768px) {
+    .about img{
+        height: 300px;
+    }
+    .team-container-img{
+        height: 180px;
+    }
+}
 @media (max-width:700px) {
-
+    .about h2{
+        font-size: 1.2rem;
+    }
     .choose .card-hero{
         width: 200px;
         padding: 15px !important;
@@ -501,9 +550,7 @@
     .last-slide svg, .next-slide svg{
         width: 10px;
     }
-    .about img{
-        height: 200px;
-    }
+    
     .after-before .swiper-pagination-bullet, .hero.swiper-pagination-bullet{
         width: 10px !important;
         height: 10px !important;
@@ -529,7 +576,9 @@
 }
 @media (max-width:400px) {
 
-
+    .about img{
+        height: 250px;
+    }
     .book .div-images{
         display: none;
     }
@@ -544,7 +593,5 @@
 }
 @media (max-width:350px) {
 
-    .about img{
-        height: 150px;
-    }
+
 }

@@ -1,7 +1,9 @@
 import { Link } from "react-router-dom"
 import logo from "../assets/images/logo_figure.png"
+import Icons from "./icons"
 import { contact, menu } from "../data/data"
 import { useEffect, useState } from "react"
+import Contact from "./formContact"
 const Navbar = ()=>{
 
     const data = {
@@ -43,12 +45,12 @@ const Navbar = ()=>{
     const handleToggle = (index) => {
         setOpenIndex(prevIndex => (prevIndex === index ? null : index));
     };
-
+    const [openMenuIndex, setOpenMenuIndex] = useState(null);
     return(<nav className="">
         <div className="md:flex-row items-end md:items-center flex-col flex justify-between gap-2 first-nav py-2 md:py-5 px-4 md:px-10 ">      
-            <div className="flex  contact-nav gap-2">
+            <div className="flex gap-2">
                 { contact.map((e,idx)=>(<Link to={`Contact_Sub_Navbar_${e.name}_${idx}`}>
-                <div>{e.icon}</div>
+                <div className="icon-svg">{e.icon}</div>
                 </Link>))}
             </div>     
             <div className=" hidden md:flex items-center first-nav-content justify-end gap-2">
@@ -232,26 +234,40 @@ const Navbar = ()=>{
 
             <ul className={`flex w-full gap-4 justify-center items-center h-full  uppercase nav-content `}>
                         {menu.map((e,i)=>{
+                            const isOpen = openMenuIndex === i
                             if(e?.children && e.children.length > 0){
-                                return  <li className="root-big-menu h-full  cursor-pointer" key={`Figure_N_Belle_Menu_${e.name}_${i}`}>
+                                return  <li className={`root-big-menu h-full ${isOpen ? "open" : ""}  cursor-pointer`} key={`Figure_N_Belle_Menu_${e.name}_${i}`}
+                                          onMouseEnter={() => setOpenMenuIndex(i)}
+                                            onMouseLeave={() => setOpenMenuIndex(null)}>
                                         <div className="name-menu gap-1  h-full">
                                             <div className="flex h-full gap-1 items-center">
                                                 {e.name}
                                                 <div >
-                                                    <svg width="14" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 122.88 66.91"><g><path d="M11.68,1.95C8.95-0.7,4.6-0.64,1.95,2.08c-2.65,2.72-2.59,7.08,0.13,9.73l54.79,53.13l4.8-4.93l-4.8,4.95 c2.74,2.65,7.1,2.58,9.75-0.15c0.08-0.08,0.15-0.16,0.22-0.24l53.95-52.76c2.73-2.65,2.79-7.01,0.14-9.73 c-2.65-2.72-7.01-2.79-9.73-0.13L61.65,50.41L11.68,1.95L11.68,1.95z"/></g></svg>
+                                                    <svg width="14" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 122.88 66.91"><g><path fill="rgb(86, 86, 86)" d="M11.68,1.95C8.95-0.7,4.6-0.64,1.95,2.08c-2.65,2.72-2.59,7.08,0.13,9.73l54.79,53.13l4.8-4.93l-4.8,4.95 c2.74,2.65,7.1,2.58,9.75-0.15c0.08-0.08,0.15-0.16,0.22-0.24l53.95-52.76c2.73-2.65,2.79-7.01,0.14-9.73 c-2.65-2.72-7.01-2.79-9.73-0.13L61.65,50.41L11.68,1.95L11.68,1.95z"/></g></svg>
                                                 </div>
                                             </div>
                                             
                                         </div>
-                                            <div className="big-menu  p-5 mt-2 left-4 md:left-10 right-4 md:right-10  gap-20">
+                                            <div className="big-menu justify-between  p-5 mt-2 left-4 md:left-10 right-4 md:right-10  gap-20">
                                             {e.children.length > 0 && e.children.map((child,idx)=>(<div key={`Submenu_${child.subCategory}_${idx}`}>
                                                 <h5 className="my-3">{child.subCategory}</h5>
-                                                <ul className="flex flex-col gap-1.5">
-                                                    {child.services.map((subChild, index)=><li  key={`Submenu_Services_${subChild.name}_${index}`}>
-                                                        <Link  to={subChild.link}>{subChild.name}</Link>
-                                                    </li>)}
-                                                </ul> 
+                                                {
+                                                    child.subCategory == "" ? <ul className="grid grid-cols-2 flex justify-between w-full gap-1.5">
+                                                        {child.services.map((subChild, index)=><li className="mr-27"  key={`Submenu_Services_${subChild.name}_${index}`}>
+                                                            <Link onClick={() => setHoveredMenu(null)} to={subChild.link}>{subChild.name}</Link>
+                                                        </li>)}
+                                                    </ul>:
+                                                    <ul className="flex flex-col gap-1.5">
+                                                        {child.services.map((subChild, index)=><li  key={`Submenu_Services_${subChild.name}_${index}`}>
+                                                            <Link onClick={() => setHoveredMenu(null)} to={subChild.link}>{subChild.name}</Link>
+                                                        </li>)}
+                                                    </ul>
+                                                } 
                                             </div>))}
+                                            <div className="container-form-nav">
+                                                    <Contact/>
+                                                     <Icons />
+                                            </div>
                                         </div>
                                         
                                     </li> 
@@ -303,7 +319,7 @@ const Navbar = ()=>{
                         </div>
                 </div>
                 {/* this is for small size */}
-                <div className={`${isOpen?"open-ul flex p-5":"hidden"}`}>
+                <div className={`${isOpen?"open-ul p-5":"hidden"}`}>
                     <ul className={`w-full flex flex-col gap-4`}>
                             {menu.map((e,i)=>{
                                 if(e?.children && e.children.length > 0){
@@ -335,6 +351,10 @@ const Navbar = ()=>{
                                 }
                             })}
                         </ul>
+                    <div className=" flex flex-col gap-4">
+                        <div><Link to={"/book-an-appointment"}><button>Book an Appointment</button></Link></div>
+                        <Icons />
+                    </div>
                 </div>
         </div>
 

@@ -1,13 +1,15 @@
-.hero-service{
-    
-}
 .hero-service img{
     border-radius: 20px;
 }
 .hero-service h1{
     color: var(--main);
-    text-transform: uppercase;
-    text-align: center;
+    font-size: var(--font-size-3xl);
+}
+.hero img{
+    border-radius: 20px;
+}
+.hero h1{
+    color: var(--main);
     font-size: var(--font-size-3xl);
 }
 .service h2{
@@ -141,6 +143,10 @@
 }
 
 @media (max-width : 1300px) {
+    .hero h1{
+        font-size: var(--font-size-xxl);
+        width: 50%;
+    }
     .hero-service h1{
         font-size: var(--font-size-xxl);
         width: 50%;
@@ -227,6 +233,10 @@
     
 }
 @media (max-width : 600px) {
+    .hero h1{
+        font-size: 1.5rem;
+        
+    }
     .hero-service h1{
         font-size: var(--font-size-xl);
         
@@ -248,6 +258,12 @@
     }
     .name-metrics{
         font-size: 8px;
+    }
+}
+@media (max-width: 400px) {
+    .hero h1{
+        font-size: 1.2rem;
+        
     }
 }
 @media (max-width:350px) {

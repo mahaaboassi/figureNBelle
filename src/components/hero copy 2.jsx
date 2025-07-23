@@ -14,27 +14,17 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
 import { useEffect, useState } from "react"
-import { Link } from "react-router-dom"
 
 const Hero = ()=>{
-    const small_images = [{
-        title : "Skincare Essentials",
-        img : img_small_1
-    },{
-        title : "Total Body Care",
-        img : img_small_2
-    },{
-        title : "Laser Treatments",
-        img : img_small_3
-    }]
+    const small_images = [img_small_1,img_small_2,img_small_3]
     const large_images = [{
-        title : "Skincare Essentials",
+        title : "",
         img : img_1
     },{
-        title : "Total Body Care",
+        title : "",
         img : img_2
     },{
-        title : "Laser Treatments",
+        title : "",
         img : img_3
     }]
     const [ images, setImages ] = useState(large_images)
@@ -60,23 +50,15 @@ const Hero = ()=>{
                 >     
                 {
                     images.map((e,idx)=>(<SwiperSlide key={`Hero_${idx}`}>
-                         <div className="hero relative">
-                            <img className="w-full" alt="banner" src={e.img} />
-                            <div className="absolute inset-0 flex flex-col gap-6 xs:gap-10 md:gap-20 px-5 md:px-10 justify-center">
-                                <h1 className="bodoniTX">{e.title}</h1>
-                                <div>
-                                    <Link to={"/book-an-appointment"}>
-                                        <button>Book an Appointment</button>
-                                    </Link>
-                                    
-                                </div>
-                            </div>
-
-                        </div>
-                            
+                        
+                            <img className="w-full" src={e.img} alt={"image"} />
                     </SwiperSlide>))
                 } 
-
+                {/* {
+                    .map((e,idx)=>(<SwiperSlide key={`Hero_${idx}`}>
+                            <img className="w-full" src={e} alt={"image"} />
+                    </SwiperSlide>))
+                } */}
             </Swiper>
         </div>
     </section>)
