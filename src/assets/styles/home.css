@@ -415,7 +415,21 @@
     transition: 0.3s;
 
 }
-
+.team ul li{
+    position: relative;
+    padding-left: 15px;
+}
+.team ul li::before{
+    content: "";
+    position: absolute;
+    height: 8px;
+    width: 8px;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    background: linear-gradient(var(--main), var(--fourth));
+}
 .container-team p,.container-team ul{
     font-size: var(--font-size-xxs);
 }
@@ -477,6 +491,9 @@
     }
     .team-container-img{
         height: 180px;
+    }
+    .team-container-img img{
+        object-fit: contain;
     }
 }
 @media (max-width:700px) {
@@ -573,6 +590,10 @@
     .continer-insta video{
         width: 130px;
     }
+    .team-container-img{
+        height: 200px;
+    }
+
 }
 @media (max-width:400px) {
 

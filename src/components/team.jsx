@@ -16,53 +16,52 @@ import { Link } from "react-router-dom"
 
 
 const Team = ()=>{
-    const data = [
-  {
-    name: "Dr. Maya Thompson",
-    description: "An experienced dermatologist with a passion for personalized skincare and cosmetic excellence. Dr. Thompson blends medical knowledge with an artistic eye to deliver natural-looking results.",
-    certification: [
-      "Board Certified in Dermatology",
-      "Certified Laser Skin Specialist",
-      "Member of the American Academy of Dermatology"
-    ],
-    img: img_1
-  },
-  {
-    name: "Dr. Daniel Nguyen",
-    description: "Specialist in non-invasive slimming and advanced laser therapies. Dr. Nguyen is dedicated to providing safe and effective beauty solutions tailored to each client’s needs.",
-    certification: [
-      "Certified Aesthetic Physician",
-      "Diploma in Laser & Light-Based Therapies",
-      "Certified Body Contouring Practitioner"
-    ],
-    img: img_2
-  },
-  {
-    name: "Dr. Elias Carter",
-    description: "A skilled dermatologist focused on skin rejuvenation and hair care. Dr. Carter uses cutting-edge treatments and clinical insight to restore skin and scalp health.",
-    certification: [
-      "Board Certified Dermatologist",
-      "Certified Trichologist (Hair & Scalp Expert)",
-      "Advanced Skin Restoration Techniques Certified"
-    ],
-    img: img_3
-  },
-  {
-    name: "Dr. Leo Martins",
-    description: "Expert in cosmetic dermatology, pigmentation correction, and holistic skin wellness. Dr. Martins is known for delivering results that reflect both beauty and balance.",
-    certification: [
-      "Certified Cosmetic Dermatology Specialist",
-      "Accredited in Aesthetic Medicine (AAAM)",
-      "Laser & Pigmentation Treatment Certification"
-    ],
-    img: img_4
-  }
-]
+    const data = [{
+            name: "Dr. Maya Thompson",
+            description: "An experienced dermatologist with a passion for personalized skincare and cosmetic excellence. Dr. Thompson blends medical knowledge with an artistic eye to deliver natural-looking results.",
+            certification: [
+            "Board Certified in Dermatology",
+            "Certified Laser Skin Specialist",
+            "Member of the American Academy of Dermatology"
+            ],
+            img: img_1
+        },
+        {
+            name: "Dr. Daniel Nguyen",
+            description: "Specialist in non-invasive slimming and advanced laser therapies. Dr. Nguyen is dedicated to providing safe and effective beauty solutions tailored to each client’s needs.",
+            certification: [
+            "Certified Aesthetic Physician",
+            "Diploma in Laser & Light-Based Therapies",
+            "Certified Body Contouring Practitioner"
+            ],
+            img: img_2
+        },
+        {
+            name: "Dr. Elias Carter",
+            description: "A skilled dermatologist focused on skin rejuvenation and hair care. Dr. Carter uses cutting-edge treatments and clinical insight to restore skin and scalp health.",
+            certification: [
+            "Board Certified Dermatologist",
+            "Certified Trichologist (Hair & Scalp Expert)",
+            "Advanced Skin Restoration Techniques Certified"
+            ],
+            img: img_3
+        },
+        {
+            name: "Dr. Leo Martins",
+            description: "Expert in cosmetic dermatology, pigmentation correction, and holistic skin wellness. Dr. Martins is known for delivering results that reflect both beauty and balance.",
+            certification: [
+            "Certified Cosmetic Dermatology Specialist",
+            "Accredited in Aesthetic Medicine (AAAM)",
+            "Laser & Pigmentation Treatment Certification"
+            ],
+            img: img_4
+        }
+    ]
     const lastSlider = ()=>{document.querySelector(".team .swiper-button-prev").click()}
     const nextSlider = ()=>{document.querySelector(".team .swiper-button-next").click()}
     
 
-    return(<div className="px-4 md:px-10 flex flex-col gap-10 team">
+    return(<div className="px-4 md:px-10 flex flex-col gap-5 md:gap-10 team">
         <Heading title={"MEET OUR DERMATOLOGISTS"} description={"Our expert dermatologists deliver personalized care, advanced treatments, and dedicated support for your skin’s health and beauty."} />
         <div className="flex gap-4 justify-center">
             <div onClick={lastSlider} className="last-slide cursor-pointer" >
@@ -94,20 +93,20 @@ const Team = ()=>{
                 >     
                 {
                     data.map((e,idx)=>(<SwiperSlide key={`Meet_Our_Team_${e.name}_${idx}`}>
-                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 container-team p-4">
+                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 md:gap-5 container-team p-4">
                             <div className="team-container-img">
                                 <img src={e.img} alt={`Team_${idx}`} />
                                 
                             </div>
-                            <div className="container-name flex flex-col gap-5 justify-between ">
-                                    <div className="flex flex-col gap-3">
+                            <div className="container-name flex flex-col gap-3 md:gap-5 justify-between ">
+                                    <div className="flex flex-col gap-2 md:gap-3">
                                         <h3 >{e.name}</h3>
                                         
                                         <p>{e.description}</p>
                                     </div>
-                                    <div className="flex flex-col gap-3">
+                                    <div className="flex flex-col gap-2 md:gap-3">
                                         <p><strong>Certification:</strong></p>
-                                        <ul className="flex flex-col gap-1" >
+                                        <ul className="flex flex-col gap-0.5 md:gap-1" >
                                             {e.certification.map((ele,i)=>(<li key={`Certification_${e}_${i}`}>
                                                 {ele}
                                             </li>))}

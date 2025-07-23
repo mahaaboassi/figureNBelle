@@ -36,6 +36,7 @@ const Services = ()=>{
                 e.children.forEach((ele)=>{
                     temp.push(...ele.services)
                 })
+                
                 takeFourServices(temp)
 
             }} className={`service-card p-1.5 xs:p-2 sm:p-3 ${currentCategory == e.id ? "active": ""}`} key={`Category_Of_Services_${e.category}_${idx}`}>
