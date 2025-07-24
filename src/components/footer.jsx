@@ -209,13 +209,24 @@ const Footer = ()=>{
             </div>
             <p>At Figure N Belle, we combine beauty, science, and care to offer advanced skin and laser treatments tailored to your needs. Your confidence is our mission.</p>
             <p>© 2025, All Rights Reserved, Powered by <Link target="_blank" to={"https:/arizglobal.com"}>Ariz Global</Link></p>
-            <Link className="link-more" to={"/about"}>
+            <div className="flex links items-center">
+                <p className="pr-1 xs:pr-2">
+                    <Link to={"/about"} >About</Link>
+                </p>
+                <p className="px-1 xs:px-2 middle">
+                    <Link to={"/privacy-policy"} >Privacy Policy</Link>
+                </p>
+                <p className="pl-1 xs:pl-2">
+                    <Link to={"/terms-and-conditions"} >Terms & Conditions</Link>
+                </p>
+            </div>
+            {/* <Link className="link-more" to={"/about"}>
                 <p className="flex gap-2 items-center">  Read More About the Clinic
                     <svg xmlns="http://www.w3.org/2000/svg" width="11" height="12" viewBox="0 0 14 23" fill="none">
                     <path d="M0.390625 19.7237L8.59646 11.5L0.390625 3.27625L2.91688 0.75L13.6669 11.5L2.91688 22.25L0.390625 19.7237Z" fill="#872890"/>
                     </svg>
                 </p>
-            </Link>
+            </Link> */}
             <Icons/>
         </div>
         <div>

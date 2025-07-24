@@ -191,6 +191,18 @@ button:hover::after {
 footer{
     /* display: flex; */
 }
+footer .links a{
+    color: var(--main);
+    transition: 0.3s;
+    white-space: nowrap
+}
+footer .links a:hover{
+    color: var(--grey-4);
+}
+.middle{
+    border-left: 2px solid var(--main);
+    border-right: 2px solid var(--main);
+}
 footer p{
     font-size: var(--font-size-xs);
 }
@@ -519,7 +531,7 @@ form.box{
 
 @media (max-width:338px) {
 
-    .open-ul{
-       top: 128px;
+   footer .links a{
+        font-size: var(--font-size-xxs);
     }
 }

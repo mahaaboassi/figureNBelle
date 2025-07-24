@@ -4,6 +4,8 @@ import Layout from './layouts/layout'
 import Home from './pages/home/page'
 import Service from './pages/services/page'
 import About from './pages/about/page'
+import Terms from './pages/terms/page'
+import Privacy from './pages/privacy/page'
 import BookAnAppointment from './pages/book/page'
 
 function App() {
@@ -13,6 +15,9 @@ function App() {
           <Route path="/*" element={<Layout/>}>
             <Route index element={<Home/>} />
             <Route path="about" element={<About/>} />
+            <Route path=':link' element={<Service/>} />
+            <Route path="terms-and-conditions" element={<Terms/>} />
+            <Route path="privacy-policy" element={<Privacy/>} />
             <Route path=':link' element={<Service/>} />
             <Route path='book-an-appointment' element={<BookAnAppointment/>} />
           </Route>

@@ -424,11 +424,11 @@
     transition: 0.3s;
 
 }
-.team ul li{
+.team ul li, .support ul li{
     position: relative;
     padding-left: 15px;
 }
-.team ul li::before{
+.team ul li::before, .support ul li::before{
     content: "";
     position: absolute;
     height: 8px;
@@ -619,6 +619,12 @@
         width: 35px;
         height: 35px;
 
+    }
+    .services .container-img {
+        height: 100px;
+    }
+    .card-service h3 {
+        font-size: var(--font-size-xxs);
     }
 }
 @media (max-width:350px) {

@@ -41,7 +41,7 @@ const Services = ()=>{
                 {e.name}
             </div>))}
         </div>
-        <div style={{zIndex:1200}} className={`grid relative grid-cols-1 xs:grid-cols-2 lg:grid-cols-4 gap-2 sm:gap-5`}>
+        <div style={{zIndex:1200}} className={`grid relative grid-cols-2 xs:grid-cols-2 lg:grid-cols-4 gap-2 sm:gap-5`}>
             {servicesData.map((e,idx)=>{
                 return(<Link key={`Service_${e.name}_${idx}`}  to={e.link}>
                     <div onClick={()=>{
