@@ -36,7 +36,7 @@ const BookAnAppointment = ()=>{
         <div className="hero-service relative">
             <img className="w-full" alt="banner" src={isSmallSize ? img_small :img} />
             <div className="absolute inset-0 flex px-2 md:px-10 items-center">
-                <h1 className="bodoniTX">Enhanced Your Beauty</h1>
+                <h1 className="bodoniTX">Enhance Your Beauty</h1>
             </div>
 
         </div>

@@ -39,15 +39,13 @@ const Contact = ({fromPage})=>{
                     <!-- Header -->
                     <div style="background: #872890;border-top-left-radius:12px;border-top-right-radius:12px;padding:10px;">
                         <div style="margin: auto;text-align: center;">
-                            <img style="height: 100px;" src="https://figurenbellewellness.com/assets/images/logo.png" alt="figure-logo" />
+                            <img style="height: 100px;" src="https://figurenbellewellness.com/assets/images/logo.png" alt="figure--logo" />
                         </div>
                     </div>
 
                     <!-- Body Content -->
                     <div style="padding: 20px;">
                         <h1 style="text-align: center;color: #872890;margin-bottom: 0;">Welcome to Figure N Belle</h1>
-                        
-
                         <p>Dear Admin,</p>
                         <p>Someone has contacted us through the website. You can find their details below:</p>
 
@@ -86,7 +84,7 @@ const Contact = ({fromPage})=>{
                 </div>`
             
         temp.userEmail = value.email
-        temp.adminEmail = "maha.assi@arizglobal.com" 
+        temp.adminEmail = "info@figurenbellewellness.com" 
         temp.subject = "New Inquiry Received from Website"
         const res = await fetch("https://api.arizglobal.com/api/mail", {
             method: "POST",

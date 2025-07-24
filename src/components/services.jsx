@@ -36,9 +36,7 @@ const Services = ()=>{
                 e.children.forEach((ele)=>{
                     temp.push(...ele.services)
                 })
-                
                 takeFourServices(temp)
-
             }} className={`service-card p-1.5 xs:p-2 sm:p-3 ${currentCategory == e.id ? "active": ""}`} key={`Category_Of_Services_${e.category}_${idx}`}>
                 {e.name}
             </div>))}
@@ -46,7 +44,9 @@ const Services = ()=>{
         <div style={{zIndex:1200}} className={`grid relative grid-cols-1 xs:grid-cols-2 lg:grid-cols-4 gap-2 sm:gap-5`}>
             {servicesData.map((e,idx)=>{
                 return(<Link key={`Service_${e.name}_${idx}`}  to={e.link}>
-                    <div key={`Service_${e.name}_${idx}`} className="card-service flex flex-col gap-3 items-center text-center">
+                    <div onClick={()=>{
+                        localStorage.setItem("similar_services",currentCategory)
+                    }} key={`Service_${e.name}_${idx}`} className="card-service flex flex-col gap-3 items-center text-center">
                         <div className="w-full h-full container-img"> 
                             <img style={{objectFit:"cover"}} src={e.bg} alt={e.name} />
                             {/* Animation Draw Lines */}

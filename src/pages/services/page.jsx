@@ -1,36 +1,50 @@
-import { useParams } from "react-router-dom"
+import { Link, useParams } from "react-router-dom"
 import { useEffect, useState } from "react"
-import { menu } from "../../data/data"
+import { menu, services } from "../../data/data"
 import Gallery from "../../components/gallery"
 import BookNow from "../../components/bookNow"
 // Images
-import shape from "../../assets/images/shape.png"
 import Contact from "../../components/formContact"
 
 const Service = ()=>{
     const { link } = useParams()
     const [ data, setData ] = useState({})
     const [ isSmallSize, setIsSmallSize ] = useState(false)
+    const [ similarServices, setSimilarServices ] = useState([])
     useEffect(()=>{
         menu.forEach((e)=>{
             e.children.forEach((child)=>{
                 child.services.forEach((subChild)=>{
-                    
-                    
                     if(subChild.link == `/${link}`){
-                        setData(subChild)
-                        
+                        setData(subChild)   
                     }
                 })
             })
         })
         if(window.innerWidth < 500){
-                setIsSmallSize(true)
+            setIsSmallSize(true)
         }
         window.scrollTo({top:0})
-        
+        const similar = services.find(e=>e.id == localStorage.getItem("similar_services"))
+        let temp = []
+        similar.children.forEach((ele)=>{
+            temp = ele.services.filter(e=> e.link != `/${link}`)
+            
+        })
+        takeFourServices(temp)
     },[link])
-    return(<div className="service px-4 md:px-10 ">
+
+    const takeFourServices = (data)=>{ 
+        
+        const getThreeUniqueItems = (array) => {
+            if (!Array.isArray(array)) return [];
+
+            const shuffled = [...array].sort(() => 0.5 - Math.random());
+            return shuffled.slice(0, 4);
+        };
+        setSimilarServices(getThreeUniqueItems(data))
+    }
+    return(<div className="service px-4 md:px-10 services">
         <div className="hero-service relative">
             <img className="w-full" alt="banner" src={isSmallSize ? data?.img_small : data?.img} />
             <div className="absolute inset-0 flex px-2 md:px-10 items-center">
@@ -41,6 +55,7 @@ const Service = ()=>{
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5 pb-20">
             {
                 data?.section_1 && data?.section_2 && data?.section_3 && data?.section_4 && <div className="col-span-2 mt-10 flex flex-col gap-5">
+
                 <div className="">
                     <h2 className="bodoniTX">{data.section_1.title}</h2>
                     <p>{data.section_1.desc_1}</p>
@@ -73,7 +88,30 @@ const Service = ()=>{
                             <div> <span className="ques">A : </span>{e.answer}</div>
                         </li>))}
                     </ul>
-                </div>             
+                </div>  
+                <div>
+                    <h2 className="bodoniTX">Related services</h2>
+                    <div style={{zIndex:1200}} className={`grid relative grid-cols-2 xs:grid-cols-2 lg:grid-cols-4 gap-2 sm:gap-5`}>
+                        {similarServices.map((e,idx)=>{
+                            return(<Link key={`Service_Related_${e.name}_${idx}`}  to={e.link}>
+                                <div onClick={()=>{
+                                    localStorage.setItem("similar_services",currentCategory)
+                                }} key={`Service_${e.name}_${idx}`} className="card-service flex flex-col gap-3 items-center text-center">
+                                    <div className="w-full h-full container-img"> 
+                                        <img style={{objectFit:"cover"}} src={e.bg} alt={e.name} />
+                                        {/* Animation Draw Lines */}
+                                        <div className="line-1" ></div>
+                                        <div className="line-2" ></div>
+                                    </div>
+                                    <div>
+                                        <h3>{e.name}</h3>
+                                        <p>{e.description}</p>
+                                    </div>
+                                </div>
+                            </Link>)
+                        })}
+                    </div>
+                </div>           
             </div>
             } 
             <div className="col-span-1 relative">

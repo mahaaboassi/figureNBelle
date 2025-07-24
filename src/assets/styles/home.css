@@ -203,6 +203,15 @@
     font-weight: 500;
     font-size: var(--font-size-xs);
 }
+.container-img-service{
+
+    display: flex;
+    justify-content: center;
+}
+.container-img-service img{
+    border-radius: 20px;
+    object-fit: cover;
+}
 .services h3{
     font-size: var(--font-size-s);
     font-weight: 600;

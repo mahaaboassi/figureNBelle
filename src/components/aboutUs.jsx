@@ -108,7 +108,7 @@ const About = ()=>{
                     self-care, and luxury to create truly transformative experiences.
                 </p>
                 <p>Experience beauty redefined—where innovation meets inner harmony.</p>
-                <div><Link to={"/about"}><span className="more">Read More</span></Link></div>
+                {/* <div><Link to={"/about"}><span className="more">Read More</span></Link></div> */}
             </div>
             
            <div>
