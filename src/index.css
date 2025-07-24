@@ -33,8 +33,8 @@
   --light-1 : #cccaca4a;
   --grey-2 : #757574;
   --grey-3 : #a5a5a5;
-  --success-color: #22c55e;
-  --error-color : #ef4444;
+  --success-color: #01A601;
+  --error-color : #FF4141;
   --warning-color : #f59e0b ;
   /* Fonts */
   --font-size-3xl : clamp(2.8rem, 2vw + 0.8rem, 3.2rem);
@@ -76,7 +76,31 @@ h1 {
 h2 {
   font-size : var(--font-size-xxl);
 }
-
+.success-card{
+    border: 2px solid var(--success-color);
+    padding: 10px;
+    border-radius: 10px;
+    opacity: 0;
+    color: var(--success-color);
+    font-size: var(--font-size-xxs);
+    animation: appear 0.5s forwards linear;
+}
+.error-card{
+    border: 2px solid var(--error-color);
+    padding: 10px;
+    border-radius: 10px;
+    opacity: 0;
+    color: var(--error-color);
+    font-size: var(--font-size-xxs);
+    animation: appear 0.3s forwards linear;
+}
+@keyframes appear {
+  from{
+    opacity: 0;
+  }to{
+    opacity: 1;
+  }
+}
 .outline-btn{
   background : var(--light) ;
   color: var(--dark-1) ;
@@ -104,6 +128,8 @@ h2 {
 }
 .text-error{
   color: var(--error-color);
+  font-weight: 400;
+  font-size: var(--font-size-xxs) !important;
 }
 .spinner {
   width: 18px;

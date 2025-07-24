@@ -180,7 +180,6 @@ button::after{
   transform: skewX(-20deg);
   transition: left 0.5s ease;
   z-index: 2;
- 
 }
 /* Hover state */
 
@@ -235,6 +234,7 @@ form input{
     height: 100%;
     padding: 3px;
     transition: border-color 0.3s, box-shadow 0.3s;
+    font-size: var(--font-size-xs);
 }
 form .input-wrapper{
       position: relative;
@@ -248,6 +248,71 @@ form .input-wrapper::before{
     right: 0;
     left: 0;
 }
+form .input-wrapper {
+  position: relative;
+    overflow: hidden;
+}
+
+form .input-wrapper::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: -75%;
+  width: 70%;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.6); 
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.7), 0 0 20px rgba(255, 255, 255, 0.4);
+  transform: skewX(-20deg);
+  transition: left 0.5s ease;
+  z-index: 2;
+}
+.icon-arrow{
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%) rotate(90deg);
+    display: flex;
+}
+.content-popup{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 32px;
+    background-color: var(--light);
+    z-index: 200;
+    
+}
+.countries-popup{
+    width: 200px;
+    height: 200px;
+    overflow-y: scroll;
+
+}
+
+.countries-popup ul{
+    font-size: 12px !important;
+}
+.countries-popup input{
+    border: 1px solid var(--main);
+    border-radius: 5px;
+    font-size: var(--font-size-xxs);
+    color: var(--dark);
+}
+.countries-popup input::placeholder{
+    font-size: var(--font-size-xxs);
+}
+.countries-popup ul li{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.242);
+}
+.content-popup li:hover{
+    color: var(--main);
+}
+/* When the input inside .input-wrapper is focused */
+form .input-wrapper:focus-within::after {
+  left: 130%;
+}
+
 form .input-wrapper:hover::before{
     /* animation: toRight 0.3s ; */
 }
@@ -269,8 +334,12 @@ form.contact {
     background-color: rgba(255, 255, 255, 0);
     border-radius: 20px;
     backdrop-filter: blur(20px);
+    
+}
+form.box{
     box-shadow: var(--shadow-box);
 }
+
 @media (max-width: 1200px) {
     nav ul,button{
         font-weight: 600;
