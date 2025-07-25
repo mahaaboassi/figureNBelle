@@ -221,7 +221,7 @@ const Contact = ({fromPage})=>{
                                                         return <li  onClick={()=>{setSelectedCountry(ele)
                                                             setOpenCode(false)
                                                         }} className="flex mb-2 gap-2 py-0.5 items-center cursor-pointer hover:text-stone-700 details-country" key={`Countries_${ele.name}`}>
-                                                        <img className="w-5 h-4  rounded" alt={ele.name} src={`https://flagcdn.com/w320/${code}.png`} />
+                                                        <img className="!w-5 !h-4  rounded" alt={ele.name} src={`https://flagcdn.com/w320/${code}.png`} />
                                                         <div >
                                                             {ele.name}
                                                         </div>
