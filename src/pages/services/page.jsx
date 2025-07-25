@@ -47,10 +47,10 @@ const Service = ()=>{
     
     return(<artical>
 
-            <title> Services |Figure N Belle </title>
+            <title> Services | Figure N Belle </title>
             
-            {/* <meta name="description" content={data.section_2?.desc_1 } />
-            <link rel="canonical" href={`${Host+data?.link}`}></link> */}
+            <meta name="description" content={data.section_2?.desc_1 } />
+            <link rel="canonical" href={`${Host+data?.link}`}></link>
 
 
         <div className="service px-4 md:px-10 services">
@@ -102,7 +102,7 @@ const Service = ()=>{
                     <div>
                         <h2 className="bodoniTX"> RELATED SERVICES</h2>
                         <div style={{zIndex:1200}} className={`grid relative grid-cols-2 xs:grid-cols-2 lg:grid-cols-4 gap-2 sm:gap-5`}>
-                            {similarServices.map((e,idx)=>{
+                            {similarServices.length > 0 && similarServices.map((e,idx)=>{
                                 return(<Link key={`Service_Related_${e.name}_${idx}`}  to={e.link}>
                                     <div onClick={()=>{
                                         localStorage.setItem("similar_services",currentCategory)
