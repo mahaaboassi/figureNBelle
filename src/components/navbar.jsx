@@ -253,12 +253,16 @@ const Navbar = ()=>{
                                                 <h5 className="my-3">{child.subCategory}</h5>
                                                 {
                                                     child.subCategory == "" ? <ul className="grid grid-cols-2 flex justify-between w-full gap-1.5">
-                                                        {child.services.map((subChild, index)=><li className="mr-27"  key={`Submenu_Services_${subChild.name}_${index}`}>
+                                                        {child.services.map((subChild, index)=><li  onClick={()=>{
+                                                                                localStorage.setItem("similar_services",e.id)
+                                                                            }} className="mr-27"  key={`Submenu_Services_${subChild.name}_${index}`}>
                                                             <Link onClick={() => setHoveredMenu(null)} to={subChild.link}>{subChild.name}</Link>
                                                         </li>)}
                                                     </ul>:
                                                     <ul className="flex flex-col gap-1.5">
-                                                        {child.services.map((subChild, index)=><li  key={`Submenu_Services_${subChild.name}_${index}`}>
+                                                        {child.services.map((subChild, index)=><li onClick={()=>{
+                                                                                localStorage.setItem("similar_services",e.id)
+                                                                            }} key={`Submenu_Services_${subChild.name}_${index}`}>
                                                             <Link onClick={() => setHoveredMenu(null)} to={subChild.link}>{subChild.name}</Link>
                                                         </li>)}
                                                     </ul>
@@ -335,7 +339,9 @@ const Navbar = ()=>{
                                                     <h5 className="my-3">{child.subCategory}</h5>
                                                     <div className="line"></div>
                                                     <ul className="flex flex-col gap-1.5">
-                                                        {child.services.map((subChild, index)=><li onClick={()=>setIsOpen(false)} key={`Submenu_Services_Small_${subChild.name}_${index}`}>
+                                                        {child.services.map((subChild, index)=><li  onClick={()=>{setIsOpen(false)
+                                                            localStorage.setItem("similar_services",e.id)
+                                                        }} key={`Submenu_Services_Small_${subChild.name}_${index}`}>
                                                             <Link  to={subChild.link}>{subChild.name}</Link>
                                                         </li>)}
                                                     </ul>
@@ -345,7 +351,7 @@ const Navbar = ()=>{
                                         </li> 
                                 }else{
                                     return <li onClick={()=>setIsOpen(false)} key={`Figure_N_Belle_Menu_${e.name}_${i}`}><Link  to={e.link}>
-                                        {e.name}
+                                        nn{e.name}
                                         </Link>
                                     </li>
                                 }

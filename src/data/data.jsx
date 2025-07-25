@@ -388,7 +388,7 @@ export const services = [{
                 }
             },{
                 name : "Specific area therapy",
-                link : "/specific-area-therapy ",
+                link : "/specific-area-therapy",
                 bg : slimming_7,
                 img : slimming,
                 img_small : slimming_small,
@@ -797,7 +797,7 @@ export const services = [{
                 }
             },{
                 name : "Shirodhara ",
-                link : "/shirodhara ",
+                link : "/shirodhara",
                  bg : slimming_17,
                 img : slimming,
                 img_small : slimming_small,
@@ -2383,7 +2383,7 @@ export const services = [{
                 }
             },{
                 name : "Non Surgical Face Lift ",
-                link : "/non-surgical-face-lift ",
+                link : "/non-surgical-face-lift",
                 img : cosmetics,
                 bg : cosmetics_2,
                 img_small : cosmetics_small,
@@ -2597,7 +2597,7 @@ export const services = [{
                 }
             },{
                 name : "Microdermabrasion ",
-                link : "/microdermabrasion ",
+                link : "/microdermabrasion",
                 img : cosmetics,
                 bg : cosmetics_8,
                 img_small : cosmetics_small,
@@ -2633,7 +2633,7 @@ export const services = [{
                 }
             },{
                 name : "Collagen treatment",
-                link : "/collagen-treatment ",
+                link : "/collagen-treatment",
                 img : cosmetics,
                 bg : cosmetics_9,
                 img_small : cosmetics_small,
@@ -3786,7 +3786,7 @@ export const services = [{
                 }
             },{
                 name : "Streaking",
-                link : "/streaking ",
+                link : "/streaking",
                 img : beauty,
                 bg : beauty_25,
                 img_small : beauty_small,

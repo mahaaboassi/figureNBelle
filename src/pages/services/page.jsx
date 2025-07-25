@@ -27,12 +27,11 @@ const Service = ()=>{
         window.scrollTo({top:0})
         const similar = services.find(e=>e.id == localStorage.getItem("similar_services"))
         let temp = []
-        if(similar.length > 0 ){
-            similar.children.forEach((ele)=>{
-            temp = ele.services.filter(e=> e.link != `/${link}`)
-            
+        
+        similar.children.forEach((ele)=>{
+            temp = ele.services.filter(e=> e.link != `/${link}`)  
         })
-        }
+
         takeFourServices(temp)
     },[link])
 
