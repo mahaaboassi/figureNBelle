@@ -47,7 +47,7 @@ const Service = ()=>{
     
     return(<artical>
 
-            <title> Services | Figure N Belle </title>
+            <title> Services |Figure N Belle </title>
             
             {/* <meta name="description" content={data.section_2?.desc_1 } />
             <link rel="canonical" href={`${Host+data?.link}`}></link> */}
