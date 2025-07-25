@@ -5,6 +5,7 @@ import BookNow from "../../components/bookNow"
 // Images
 import img_small from "../../assets/images/privacy_small.png"
 import img from "../../assets/images/privacy_big.png"
+import { Host } from "../../data/data"
 
 const Privacy = ()=>{
     const data = {
@@ -69,7 +70,11 @@ const Privacy = ()=>{
         window.scrollTo({top:0})
         
     },[])
-    return(<div className="service px-4 md:px-10 flex flex-col gap-10 support">
+    return(<artical className="service px-4 md:px-10 flex flex-col gap-10 support">
+        <title>Privacy Policy | Figure N Belle</title>
+        <meta name="description" content="At Figure N Belle Beauty & Wellness Clinic, we respect your privacy and are committed to protecting your personal information. This policy explains what data we collect, how we use it, and how we safeguard it when you use our services, book appointments, or browse our website." />
+        <link rel="canonical" href={`${Host}/privacy-policy`}></link>
+
         <div className="hero-service relative">
             <img className="w-full" alt="banner" src={isSmallSize ? img_small :img} />
             <div className="absolute inset-0 flex px-2 md:px-10 items-center">
@@ -97,6 +102,6 @@ const Privacy = ()=>{
             <Gallery/> 
             <BookNow/> 
         </div>    
-    </div>)
+    </artical>)
 }
 export default Privacy

@@ -136,6 +136,7 @@ import bg_cosmetics from "../assets/images/bg_cosmetics.png"
 import bg_hair from "../assets/images/bg_hair.png"
 import bg_beauty from "../assets/images/bg_beauty.png"
 
+export const Host = "https://figurenbellewellness.com"
 export const services = [{
         name : "Slimming",
         id : 1,

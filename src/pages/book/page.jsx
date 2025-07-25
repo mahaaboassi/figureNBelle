@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom"
 import { useEffect, useState } from "react"
-import { menu } from "../../data/data"
+import { Host, menu } from "../../data/data"
 import Gallery from "../../components/gallery"
 import BookNow from "../../components/bookNow"
 // Images
@@ -32,7 +32,12 @@ const BookAnAppointment = ()=>{
         window.scrollTo({top:0})
         
     },[link])
-    return(<div className="service px-4 md:px-10 flex flex-col gap-10">
+    return(<artical className="service px-4 md:px-10 flex flex-col gap-10">
+        <title>Book an Appointment | Figure N Belle</title>
+        <meta name="description" content="Ready for your beauty transformation? Book your appointment at Figure N Belle and let our expert team take care of the rest." />
+        <link rel="canonical" href={`${Host}/book-an-appointment`}></link>
+
+        
         <div className="hero-service relative">
             <img className="w-full" alt="banner" src={isSmallSize ? img_small :img} />
             <div className="absolute inset-0 flex px-2 md:px-10 items-center">
@@ -50,6 +55,6 @@ const BookAnAppointment = ()=>{
             <Gallery/> 
             <BookNow/> 
         </div>    
-    </div>)
+    </artical>)
 }
 export default BookAnAppointment

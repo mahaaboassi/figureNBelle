@@ -4,6 +4,7 @@ import BookNow from "../../components/bookNow"
 // Images
 import img_small from "../../assets/images/terms_small.png"
 import img from "../../assets/images/terms_big.png"
+import { Host } from "../../data/data"
 
 const Terms = ()=>{
     const data = {
@@ -93,7 +94,11 @@ const Terms = ()=>{
         window.scrollTo({top:0})
         
     },[])
-    return(<div className="service px-4 md:px-10 flex flex-col gap-10 support">
+    return(<artical className="service px-4 md:px-10 flex flex-col gap-10 support">
+        <title>Terms and Conditions | Figure N Belle</title>
+        <meta name="description" content="By booking a service, visiting Figure N Belle Clinic, or browsing our website, you agree to our terms and conditions. Please read them carefully to understand your rights and responsibilities." />
+        <link rel="canonical" href={`${Host}/terms-and-conditions`}></link>
+
         <div className="hero-service relative">
             <img className="w-full" alt="banner" src={isSmallSize ? img_small :img} />
             <div className="absolute inset-0 flex px-2 md:px-10 items-center">
@@ -121,6 +126,6 @@ const Terms = ()=>{
             <Gallery/> 
             <BookNow/> 
         </div>    
-    </div>)
+    </artical>)
 }
 export default Terms

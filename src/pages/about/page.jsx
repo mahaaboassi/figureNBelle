@@ -5,7 +5,7 @@ import sec from "../../assets/images/sec.png"
 import Gallery from "../../components/gallery"
 import BookNow from "../../components/bookNow"
 import Heading from "../../components/heading"
-import { chooseUsData } from "../../data/data"
+import { chooseUsData, Host } from "../../data/data"
 import Team from "../../components/team"
 
 const About = ()=>{
@@ -16,7 +16,11 @@ const About = ()=>{
         }
     },[])
 
-    return(<div className=" px-4 md:px-10 flex flex-col gap-10 sm:gap-16 md:gap-20">
+    return(<artical className=" px-4 md:px-10 flex flex-col gap-10 sm:gap-16 md:gap-20">
+        <title> About Our Clinic & Expert Team | Figure N Belle </title>
+        <meta name="description" content="At Figure N Belle, our expert team combines cutting-edge science with personalized care to deliver exceptional beauty and wellness treatments. Learn more about our mission, values, and dedication to helping you look and feel your best." />
+        <link rel="canonical" href={`${Host}/about`}></link>
+        
         <div className="hero-service relative">
             <img className="w-full" alt="banner" src={isSmallSize ? img_small : img} />
             <div className="absolute inset-0 flex px-2 md:px-10 items-center">
@@ -52,6 +56,6 @@ const About = ()=>{
             <Gallery/>
             <BookNow/>
        </div>
-    </div>)
+    </artical>)
 }
 export default About
