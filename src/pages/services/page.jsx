@@ -44,13 +44,13 @@ const Service = ()=>{
         };
         setSimilarServices(getThreeUniqueItems(data))
     }
-    const title =" | Figure N Belle "
+    
     return(<artical>
 
             <title> Services | Figure N Belle </title>
             
-            <meta name="description" content={data.section_2?.desc_1 } />
-            <link rel="canonical" href={`${Host+data?.link}`}></link>
+            {/* <meta name="description" content={data.section_2?.desc_1 } />
+            <link rel="canonical" href={`${Host+data?.link}`}></link> */}
 
 
         <div className="service px-4 md:px-10 services">
