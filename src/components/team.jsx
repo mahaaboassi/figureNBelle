@@ -6,7 +6,7 @@ import img_2 from "../assets/images/doctor_2.webp"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css'; // core Swiper
 import 'swiper/css/navigation'; // optional modules
-import { Pagination, EffectFade, Navigation} from 'swiper/modules';
+import { Pagination, EffectFade, Navigation, Autoplay} from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
@@ -55,11 +55,15 @@ const Team = ()=>{
         </div> */}
         <div>
             <Swiper
-                modules={[Navigation]}
+                modules={[Navigation, Autoplay]}
                 navigation
                 className="h-full w-full"
                 slidesPerView={1}
                 spaceBetween={20}
+                autoplay={{
+                    delay: 3000,       // Slide every 3 seconds
+                    disableOnInteraction: false, // Keep autoplay after user interaction
+                  }}
                 breakpoints={{
                         200: {
                         slidesPerView: 1,
