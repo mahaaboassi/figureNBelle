@@ -1,9 +1,7 @@
 import Heading from "./heading"
 // Images
-import img_1 from "../assets/images/team_1.png"
-import img_2 from "../assets/images/team_2.png"
-import img_3 from "../assets/images/team_3.png"
-import img_4 from "../assets/images/team_4.png"
+import img_1 from "../assets/images/doctor_1.webp"
+import img_2 from "../assets/images/doctor_2.webp"
 // Swiper
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css'; // core Swiper
@@ -27,7 +25,7 @@ const Team = ()=>{
             img: img_1
         },
         {
-            name: "Dr. Daniel Nguyen",
+            name: "Dr. Daniella Nguyen",
             description: "Specialist in non-invasive slimming and advanced laser therapies. Dr. Nguyen is dedicated to providing safe and effective beauty solutions tailored to each client’s needs.",
             certification: [
             "Certified Aesthetic Physician",
@@ -36,26 +34,6 @@ const Team = ()=>{
             ],
             img: img_2
         },
-        {
-            name: "Dr. Elias Carter",
-            description: "A skilled dermatologist focused on skin rejuvenation and hair care. Dr. Carter uses cutting-edge treatments and clinical insight to restore skin and scalp health.",
-            certification: [
-            "Board Certified Dermatologist",
-            "Certified Trichologist (Hair & Scalp Expert)",
-            "Advanced Skin Restoration Techniques Certified"
-            ],
-            img: img_3
-        },
-        {
-            name: "Dr. Leo Martins",
-            description: "Expert in cosmetic dermatology, pigmentation correction, and holistic skin wellness. Dr. Martins is known for delivering results that reflect both beauty and balance.",
-            certification: [
-            "Certified Cosmetic Dermatology Specialist",
-            "Accredited in Aesthetic Medicine (AAAM)",
-            "Laser & Pigmentation Treatment Certification"
-            ],
-            img: img_4
-        }
     ]
     const lastSlider = ()=>{document.querySelector(".team .swiper-button-prev").click()}
     const nextSlider = ()=>{document.querySelector(".team .swiper-button-next").click()}
@@ -63,7 +41,7 @@ const Team = ()=>{
 
     return(<div className="px-4 md:px-10 flex flex-col gap-5 md:gap-10 team">
         <Heading title={"MEET OUR DERMATOLOGISTS"} description={"Our expert dermatologists deliver personalized care, advanced treatments, and dedicated support for your skin’s health and beauty."} />
-        <div className="flex gap-4 justify-center">
+        {/* <div className="flex gap-4 justify-center">
             <div onClick={lastSlider} className="last-slide cursor-pointer" >
                 <svg xmlns="http://www.w3.org/2000/svg" width="14" height="23" viewBox="0 0 14 23" fill="none">
                     <path d="M0.390625 19.7237L8.59646 11.5L0.390625 3.27625L2.91688 0.75L13.6669 11.5L2.91688 22.25L0.390625 19.7237Z" fill="white"/>
@@ -74,7 +52,7 @@ const Team = ()=>{
                     <path d="M0.390625 19.7237L8.59646 11.5L0.390625 3.27625L2.91688 0.75L13.6669 11.5L2.91688 22.25L0.390625 19.7237Z" fill="white"/>
                 </svg>
             </div>
-        </div>
+        </div> */}
         <div>
             <Swiper
                 modules={[Navigation]}
