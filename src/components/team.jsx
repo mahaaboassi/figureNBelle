@@ -55,7 +55,7 @@ const Team = ()=>{
         </div> */}
         <div>
             <Swiper
-                modules={[Navigation, Autoplay]}
+                modules={[Navigation]}
                 navigation
                 className="h-full w-full"
                 slidesPerView={1}
@@ -77,7 +77,7 @@ const Team = ()=>{
                     data.map((e,idx)=>(<SwiperSlide key={`Meet_Our_Team_${e.name}_${idx}`}>
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 md:gap-5 container-team p-4">
                             <div className="team-container-img">
-                                <img src={e.img} alt={`Team_${idx}`} />
+                                <img style={{objectFit:"cover"}} src={e.img} alt={`Team_${idx}`} />
                                 
                             </div>
                             <div className="container-name flex flex-col gap-3 md:gap-5 justify-between ">
