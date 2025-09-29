@@ -55,13 +55,13 @@ const Team = ()=>{
         </div> */}
         <div>
             <Swiper
-                modules={[Navigation]}
+                modules={[Navigation,Autoplay]}
                 navigation
                 className="h-full w-full"
                 slidesPerView={1}
                 spaceBetween={20}
                 autoplay={{
-                    delay: 3000,       // Slide every 3 seconds
+                    delay: 2000,       // Slide every 3 seconds
                     disableOnInteraction: false, // Keep autoplay after user interaction
                   }}
                 breakpoints={{
