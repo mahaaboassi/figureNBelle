@@ -1,6 +1,6 @@
 import Heading from "./heading"
 // Images
-import img_1 from "../assets/images/doctor_1.webp"
+import img_1 from "../assets/images/doc_1.webp"
 import img_2 from "../assets/images/doctor_2.webp"
 // Swiper
 import { Swiper, SwiperSlide } from 'swiper/react';
