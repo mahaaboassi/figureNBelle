@@ -1,6 +1,7 @@
-.hero-service img{
-    border-radius: 20px;
+.hero-service{
+    padding-top: 150px;
 }
+
 .hero-service h1{
     color: var(--main);
     font-size: var(--font-size-3xl);
@@ -170,6 +171,11 @@
         width: 60px;
     }
 }
+@media (max-width:1100px) {
+    .hero-service{
+        padding-top: 130px;
+    }
+}
 @media (max-width: 900px) {
     .metrics svg{
         width: 40px;
@@ -187,6 +193,9 @@
     }
 }
 @media (max-width: 768px) {
+    .hero-service{
+        padding-top: 110px;
+    }
     .sub-category{
         flex-direction: row;
         flex-wrap: wrap;
@@ -258,6 +267,11 @@
     }
     .name-metrics{
         font-size: 8px;
+    }
+}
+@media (max-width:500px) {
+    .hero-service{
+        padding-top: 80px;
     }
 }
 @media (max-width: 400px) {

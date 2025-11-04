@@ -52,10 +52,6 @@ const Service = ()=>{
             
             <meta name="description" content={data.section_2?.desc_1 } />
             <link rel="canonical" href={`${Host+data?.link}`}></link>
-
-
-        <div className="service px-4 md:px-10 services">
-            
             <div className="hero-service relative">
                 <img className="w-full" alt="banner" src={isSmallSize ? data?.img_small : data?.img} />
                 <div className="absolute inset-0 flex px-2 md:px-10 items-center">
@@ -63,6 +59,10 @@ const Service = ()=>{
                 </div>
 
             </div>
+
+        <div className="service px-4 md:px-10 services">
+            
+            
             <div className="grid grid-cols-1 md:grid-cols-3 gap-5 pb-20">
                 {
                     data?.section_1 && data?.section_2 && data?.section_3 && data?.section_4 && <div className="col-span-2 mt-10 flex flex-col gap-5">

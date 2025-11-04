@@ -1,5 +1,9 @@
 nav{
-    position: relative;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    right: 0;
+    background-color: var(--light);
 }
 nav img{
     width: 150px;

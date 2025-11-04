@@ -1,84 +1,16 @@
-import img_1 from "../assets/images/1-.png"
-import img_2 from "../assets/images/2-.png"
-import img_3 from "../assets/images/3-.png"
-// Small Size
-import img_small_1 from "../assets/images/banner_small_1.png"
-import img_small_2 from "../assets/images/banner_small_2.png"
-import img_small_3 from "../assets/images/banner_small_3.png"
-// Swiper
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css'; // core Swiper
-import 'swiper/css/navigation'; // optional modules
-import { Autoplay, Pagination, EffectFade} from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/pagination';
-import 'swiper/css/effect-fade';
-import { useEffect, useState } from "react"
-import { Link } from "react-router-dom"
+import video from "../assets/videos/Figure & Belle Store Video.mp4"
 
 const Hero = ()=>{
-    const small_images = [{
-        title : "Skincare Essentials",
-        img : img_small_1
-    },{
-        title : "Total Body Care",
-        img : img_small_2
-    },{
-        title : "Laser Treatments",
-        img : img_small_3
-    }]
-    const large_images = [{
-        title : "Skincare Essentials",
-        img : img_1
-    },{
-        title : "Total Body Care",
-        img : img_2
-    },{
-        title : "Laser Treatments",
-        img : img_3
-    }]
-    const [ images, setImages ] = useState(large_images)
-    useEffect(()=>{
-        if(window.innerWidth < 500){
-            setImages(small_images)
-        }
-    },[])
-    return(<section className="hero px-4 md:px-10 ">
-        <div className=" ">
-            <Swiper
-                modules={[Autoplay,Pagination,EffectFade]}
-                pagination={{
-                clickable: true,
-                }}
-                className="h-full w-full"
-                effect={'fade'}
-                autoplay={{
-                    delay: 5000,       // Slide every 3 seconds
-                    disableOnInteraction: false, // Keep autoplay after user interaction
-                  }}
-                slidesPerView={1}
-                >     
-                {
-                    images.map((e,idx)=>(<SwiperSlide key={`Hero_${idx}`}>
-                         <div className="hero relative">
-                            <img className="w-full" alt="banner" src={e.img} />
-                            <div className="absolute inset-0 flex flex-col gap-6 xs:gap-10 md:gap-20 px-5 md:px-10 justify-center">
-                                <h1 className="bodoniTX">{e.title}</h1>
-                                <div>
-                                    <Link to={"/book-an-appointment"}>
-                                        <button>Book an Appointment</button>
-                                    </Link>
-                                    
-                                </div>
-                            </div>
 
-                        </div>
-                            
-                    </SwiperSlide>))
-                } 
-
-            </Swiper>
-        </div>
+    return(<section className="hero ">
+        <video
+            className="w-full h-auto object-cover"
+            src={video} 
+            autoPlay      
+            loop          
+            muted  
+            playsInline    
+            />
     </section>)
 }
 export default Hero

@@ -94,7 +94,7 @@ const Terms = ()=>{
         window.scrollTo({top:0})
         
     },[])
-    return(<artical className="service px-4 md:px-10 flex flex-col gap-10 support">
+    return(<artical className="service flex flex-col gap-10 support">
         <title>Terms and Conditions | Figure N Belle</title>
         <meta name="description" content="By booking a service, visiting Figure N Belle Clinic, or browsing our website, you agree to our terms and conditions. Please read them carefully to understand your rights and responsibilities." />
         <link rel="canonical" href={`${Host}/terms-and-conditions`}></link>
@@ -106,26 +106,29 @@ const Terms = ()=>{
             </div>
 
         </div>
-        <div className="flex flex-col gap-5 w-full service ">
-             <div className="flex flex-col gap-3">
-                <p><strong>Last Updated: {data.last_update}</strong></p>
-                <p>{data.description}</p>
+        <div className="px-4 md:px-10 flex flex-col gap-10">
+            <div className="flex flex-col gap-5 w-full service ">
+                <div className="flex flex-col gap-3">
+                    <p><strong>Last Updated: {data.last_update}</strong></p>
+                    <p>{data.description}</p>
+                </div>
+                {data.children.map((e,idx)=>(<div className="flex flex-col gap-1"  key={`Privacy_${e.title}_${idx}`}>
+                    <h2 className="bodoniTX">{e.title}</h2>
+                    <p>{e.description}</p>
+                    {e.options.length>0 && <ul>
+                        {e.options.map((ele,i)=>(<li key={`Privacy_${e.title}_${ele}_${i}`}>
+                            {ele}
+                        </li>))}
+                    </ul>}
+                    <p>{e.description_2 || ""}</p>
+                </div>))}
             </div>
-            {data.children.map((e,idx)=>(<div className="flex flex-col gap-1"  key={`Privacy_${e.title}_${idx}`}>
-                <h2 className="bodoniTX">{e.title}</h2>
-                <p>{e.description}</p>
-                {e.options.length>0 && <ul>
-                    {e.options.map((ele,i)=>(<li key={`Privacy_${e.title}_${ele}_${i}`}>
-                        {ele}
-                    </li>))}
-                </ul>}
-                <p>{e.description_2 || ""}</p>
-            </div>))}
+
         </div>
-        <div>
-            <Gallery/> 
-            <BookNow/> 
-        </div>    
+            <div>
+                <Gallery/> 
+                <BookNow/> 
+            </div>    
     </artical>)
 }
 export default Terms
