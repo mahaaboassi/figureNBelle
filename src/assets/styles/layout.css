@@ -19,7 +19,7 @@ nav ul{
     font-size: var(--font-size-xxs);
 }
 .second-nav .container-form-nav{
-    border-left: 2px solid #87289072;
+    border-left: 2px solid #3B134772;
     display: flex;
     align-items: center;
     flex-direction: column;

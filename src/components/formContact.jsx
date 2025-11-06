@@ -37,7 +37,7 @@ const Contact = ({fromPage})=>{
         const temp = {}
         temp.body = `<div style="margin:auto;width: 500px;color:#0B081D;border-radius:12px;background-color: white;border: 1px solid #c9c9c9;font-family: Arial, sans-serif;">
                     <!-- Header -->
-                    <div style="background: #872890;border-top-left-radius:12px;border-top-right-radius:12px;padding:10px;">
+                    <div style="background: #3B1347;border-top-left-radius:12px;border-top-right-radius:12px;padding:10px;">
                         <div style="margin: auto;text-align: center;">
                             <img style="height: 100px;" src="https://figurenbellewellness.com/assets/images/logo.png" alt="figure--logo" />
                         </div>
@@ -45,7 +45,7 @@ const Contact = ({fromPage})=>{
 
                     <!-- Body Content -->
                     <div style="padding: 20px;">
-                        <h1 style="text-align: center;color: #872890;margin-bottom: 0;">Welcome to Figure N Belle</h1>
+                        <h1 style="text-align: center;color: #3B1347;margin-bottom: 0;">Welcome to Figure N Belle</h1>
                         <p>Dear Admin,</p>
                         <p>Someone has contacted us through the website. You can find their details below:</p>
 
@@ -78,7 +78,7 @@ const Contact = ({fromPage})=>{
                     <!-- Button -->
                     <div style="text-align: center; padding-bottom: 20px;">
                         <a href="https://figurenbellewellness.com/" target="_blank">
-                            <button style="background-color: #872890;cursor: pointer;color: white;border: none;padding: 10px 20px;border-radius: 12px;">Go to Website</button>
+                            <button style="background-color: #3B1347;cursor: pointer;color: white;border: none;padding: 10px 20px;border-radius: 12px;">Go to Website</button>
                         </a>
                     </div>
                 </div>`
@@ -204,7 +204,7 @@ const Contact = ({fromPage})=>{
                                         setOpenLocation(!openLocation)
                                         setOpenCode(false)
                                     }} className="icon-arrow cursor-pointer">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="11" height="12" viewBox="0 0 14 23" fill="none"><path d="M0.390625 19.7237L8.59646 11.5L0.390625 3.27625L2.91688 0.75L13.6669 11.5L2.91688 22.25L0.390625 19.7237Z" fill="#872890"></path></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="11" height="12" viewBox="0 0 14 23" fill="none"><path d="M0.390625 19.7237L8.59646 11.5L0.390625 3.27625L2.91688 0.75L13.6669 11.5L2.91688 22.25L0.390625 19.7237Z" fill="#3B1347"></path></svg>
                                     </div>
                                     
                                 </div>
@@ -241,7 +241,7 @@ const Contact = ({fromPage})=>{
                                             setOpenCode(!openCode)
                                             setOpenLocation(false)
                                         }} className="icon-arrow cursor-pointer">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="11" height="12" viewBox="0 0 14 23" fill="none"><path d="M0.390625 19.7237L8.59646 11.5L0.390625 3.27625L2.91688 0.75L13.6669 11.5L2.91688 22.25L0.390625 19.7237Z" fill="#872890"></path></svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="11" height="12" viewBox="0 0 14 23" fill="none"><path d="M0.390625 19.7237L8.59646 11.5L0.390625 3.27625L2.91688 0.75L13.6669 11.5L2.91688 22.25L0.390625 19.7237Z" fill="#3B1347"></path></svg>
                                         </div>
                                     </div>
                                     <div className="input-wrapper w-full">

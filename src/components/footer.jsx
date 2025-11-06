@@ -223,7 +223,7 @@ const Footer = ()=>{
             {/* <Link className="link-more" to={"/about"}>
                 <p className="flex gap-2 items-center">  Read More About the Clinic
                     <svg xmlns="http://www.w3.org/2000/svg" width="11" height="12" viewBox="0 0 14 23" fill="none">
-                    <path d="M0.390625 19.7237L8.59646 11.5L0.390625 3.27625L2.91688 0.75L13.6669 11.5L2.91688 22.25L0.390625 19.7237Z" fill="#872890"/>
+                    <path d="M0.390625 19.7237L8.59646 11.5L0.390625 3.27625L2.91688 0.75L13.6669 11.5L2.91688 22.25L0.390625 19.7237Z" fill="#3B1347"/>
                     </svg>
                 </p>
             </Link> */}

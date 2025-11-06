@@ -163,7 +163,7 @@
     position: absolute;
     z-index: 2;
     width: 0;
-    background-color: var(--main);
+    background-color: var(--second);
      transition: width 0.3s ease;
      border-radius: 2px;
 }
@@ -365,7 +365,7 @@
 
 }
 .container-name h3{
-    /* background: linear-gradient(to top, #87289096,rgba(255, 255, 255, 0.695)); */
+    /* background: linear-gradient(to top, #3B134796,rgba(255, 255, 255, 0.695)); */
     background-color: rgba(254, 254, 254, 0.266) ;
     backdrop-filter: blur(20px); 
     -webkit-backdrop-filter:blur(20px);

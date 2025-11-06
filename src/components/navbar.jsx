@@ -358,7 +358,7 @@ const Navbar = ()=>{
                             })}
                         </ul>
                     <div className=" flex flex-col gap-4">
-                        <div><Link to={"/book-an-appointment"}><button onClick={()=>setIsOpen(false)} style={{background:"#872890",color:"white"}}>Book an Appointment</button></Link></div>
+                        <div><Link to={"/book-an-appointment"}><button onClick={()=>setIsOpen(false)} style={{background:"#3B1347",color:"white"}}>Book an Appointment</button></Link></div>
                         <Icons />
                     </div>
                 </div>
