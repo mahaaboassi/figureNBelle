@@ -17,16 +17,7 @@ import { Link } from "react-router-dom"
 
 
 const Team = ()=>{
-    const data = [{
-            name: "Shifali ",
-            hint: "Director, Figure N Belle",
-            description: "A Trusted Wellness & Beauty Mentor for Women Across Delhi With over 20+ years of hands-on experience in client wellness, skincare, and lifestyle transformation, Shifali has become a pillar of trust and care for hundreds of women seeking real, visible results. Her early career in nutrition laid the foundation for her deep understanding of the connection between inner health and outer beauty.",
-            desc_2: "Today, she leads operations and client consultation at Figure N Belle, ensuring every person who walks into the clinic feels seen, heard, and beautifully transformed. From skin rejuvenation and anti-aging to hair fall treatments, fat freezing, and laser solutions, Shifali blends science with sincerity in every service she supervises.", 
-            desc_3: "Her approach is holistic, warm, and results-driven, which is why many of Figure N Belle’s clients have stayed loyal for years.",
-            desc_4: "“Beauty should never feel intimidating. It should feel empowering, achievable, and most importantly real.”  Shifali",
-            certification: [],
-            img: img_1
-        },
+    const data = [
         {
             name: "Shweta",
             hint: "Director, Figure N Belle",
@@ -36,6 +27,15 @@ const Team = ()=>{
             desc_4: "“Every face, every body, every client is unique. Our job is to listen, treat, and transform, with heart and science.” Shweta",
             certification: [],
             img: img_2
+        },{
+            name: "Shifali ",
+            hint: "Director, Figure N Belle",
+            description: "A Trusted Wellness & Beauty Mentor for Women Across Delhi With over 20+ years of hands-on experience in client wellness, skincare, and lifestyle transformation, Shifali has become a pillar of trust and care for hundreds of women seeking real, visible results. Her early career in nutrition laid the foundation for her deep understanding of the connection between inner health and outer beauty.",
+            desc_2: "Today, she leads operations and client consultation at Figure N Belle, ensuring every person who walks into the clinic feels seen, heard, and beautifully transformed. From skin rejuvenation and anti-aging to hair fall treatments, fat freezing, and laser solutions, Shifali blends science with sincerity in every service she supervises.", 
+            desc_3: "Her approach is holistic, warm, and results-driven, which is why many of Figure N Belle’s clients have stayed loyal for years.",
+            desc_4: "“Beauty should never feel intimidating. It should feel empowering, achievable, and most importantly real.”  Shifali",
+            certification: [],
+            img: img_1
         },
     ]
     const [ currentData, setCurrentData ] = useState({})
@@ -79,7 +79,7 @@ const Team = ()=>{
                 >     
                 {
                     data.map((e,idx)=>(<SwiperSlide className="" key={`Meet_Our_Team_${e.name}_${idx}`}>
-                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 md:gap-5 container-team p-4 xl:min-h-[420px]">
+                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 md:gap-5 container-team p-4  xl:min-h-[450px]">
                             <div className="team-container-img h-[300px] md:h-[250px] lg:h-[100%]  ">
                                 <img style={{objectFit:"cover"}} src={e.img} alt={`Team_${idx}`} />
                                 
