@@ -98,7 +98,7 @@ const Service = ()=>{
                     </div>  
                     <div>
                         <h2 className="bodoniTX"> RELATED SERVICES</h2>
-                        <div style={{zIndex:1200}} className={`grid relative grid-cols-2 xs:grid-cols-2 lg:grid-cols-4 gap-2 sm:gap-5`}>
+                        <div className={`grid grid-cols-2 xs:grid-cols-2 lg:grid-cols-4 gap-2 sm:gap-5`}>
                             {similarServices.length > 0 && similarServices.map((e,idx)=>{
                                 return(<Link key={`Service_Related_${e.name}_${idx}`}  to={e.link}>
                                     <div onClick={()=>{

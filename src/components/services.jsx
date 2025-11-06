@@ -7,7 +7,6 @@ import { Link } from "react-router-dom";
 import shap from "../assets/images/shape.png"
 
 const Services = ()=>{
-
     const [ currentCategory, setCurrentCategory ] = useState(1)
     const [servicesData, setServicesData] = useState(services[0].children[0].services)
     useEffect(()=>{
