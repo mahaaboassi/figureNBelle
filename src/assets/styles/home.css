@@ -65,19 +65,19 @@
     box-shadow: var(--shadow-box);
 }
 .icon-hero{
-    background: var(--main);
+    background: linear-gradient(var(--main) , var(--second));
     width: 40px;
     height: 40px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: 0.3s;
-    border: 1px solid inherit;
+    transition: 0.3s linear;
+    border: 1px solid white;
 }
 .icon-hero:hover{
     background: var(--light);
-    border: 1px solid var(--main);
+    border: 1px solid var(--second);
 }
 .icon-hero:hover path{
     fill: var(--main);
