@@ -4200,9 +4200,12 @@ export async function checkMissingRoutes() {
     let sitemapRoutes = [];
     // if (sitemapURL) {
         const response = await fetch("https://figurenbellewellness.com/sitemap.xml");
+        
         const xmlText = await response.text();
+        
         const parser = new DOMParser();
         const xmlDoc = parser.parseFromString(xmlText, "text/xml");
+        console.log(xmlDoc);
         sitemapRoutes = Array.from(xmlDoc.querySelectorAll("url > loc")).map(loc => {
             try { 
                 return new URL(loc.textContent).pathname; 
@@ -4215,5 +4218,7 @@ export async function checkMissingRoutes() {
     // 3. Compare and find missing routes
     const missingRoutes = serviceRoutes.filter(route => !sitemapRoutes.includes(route));
     console.log("Routes missing in sitemap:", missingRoutes);
-    return missingRoutes;
+    console.log("Routes length in sitemap:", sitemapRoutes.length);
+     console.log("Routes length in services:", serviceRoutes.length);
+    // return missingRoutes;
 }
