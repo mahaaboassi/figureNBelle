@@ -10,8 +10,8 @@ import BookAnAppointment from './pages/book/page'
 import { checkMissingRoutes } from './data/data'
 
 async function App() {
-  // const data = await checkMissingRoutes()
-  // console.log(data);
+  const data = await checkMissingRoutes()
+  console.log(data);
   
   return (
     <BrowserRouter>
