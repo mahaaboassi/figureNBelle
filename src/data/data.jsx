@@ -4180,3 +4180,40 @@ export const contact = [{
             </svg>,
     link : "https://www.youtube.com/@FigureNBelle"
 }]
+
+export async function checkMissingRoutes() {
+    // 1. Flatten all service routes from your JSON
+    let serviceRoutes = []
+    services.forEach(category => {
+        if (category.children) {
+            category.children.forEach(sub => {
+                if (sub.services) {
+                    sub.services.forEach(service => {
+                        serviceRoutes.push(service.link);
+                    });
+                }
+            });
+        }
+    });
+
+    // 2. Fetch and parse sitemap XML (if URL provided)
+    let sitemapRoutes = [];
+    // if (sitemapURL) {
+        const response = await fetch("https://figurenbellewellness.com/sitemap.xml");
+        const xmlText = await response.text();
+        const parser = new DOMParser();
+        const xmlDoc = parser.parseFromString(xmlText, "text/xml");
+        sitemapRoutes = Array.from(xmlDoc.querySelectorAll("url > loc")).map(loc => {
+            try { 
+                return new URL(loc.textContent).pathname; 
+            } catch(e) {
+                return loc.textContent; // fallback
+            }
+        });
+    // }
+
+    // 3. Compare and find missing routes
+    const missingRoutes = serviceRoutes.filter(route => !sitemapRoutes.includes(route));
+    console.log("Routes missing in sitemap:", missingRoutes);
+    return missingRoutes;
+}
