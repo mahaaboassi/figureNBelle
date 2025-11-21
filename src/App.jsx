@@ -18,7 +18,6 @@ function App() {
             <Route path=':link' element={<Service/>} />
             <Route path="terms-and-conditions" element={<Terms/>} />
             <Route path="privacy-policy" element={<Privacy/>} />
-            <Route path=':link' element={<Service/>} />
             <Route path='book-an-appointment' element={<BookAnAppointment/>} />
           </Route>
       </Routes>

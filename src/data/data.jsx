@@ -2808,7 +2808,7 @@ export const services = [{
                 }
             },{
                 name : "Eyebrow Enhancement",
-                link : "/eyebrow-nhancement",
+                link : "/eyebrow-enhancement",
                 img : cosmetics,
                 bg : cosmetics_14,
                 img_small : cosmetics_small,
