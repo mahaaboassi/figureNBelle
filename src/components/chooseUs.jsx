@@ -1,7 +1,5 @@
 import { useEffect, useRef, useState } from "react"
 import Heading from "./heading"
-import img from "../assets/images/choose_us_smal.png"
-import img_2 from "../assets/images/why.png"
 import { chooseUsData } from "../data/data"
 
 const ChooseUs = ()=>{
