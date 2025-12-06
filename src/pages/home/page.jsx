@@ -13,8 +13,16 @@ import { Host } from "../../data/data"
 const Home = ()=>{
     return<article className="flex flex-col gap-10 sm:gap-16 md:gap-20">
         <title>Figure N Belle</title>
-        <meta name="description" content="Figure N Belle Beauty Clinic offers luxurious beauty treatments tailored to enhance your natural radiance. Experience expert care in slimming, laser hair removal, skincare, hair restoration, and cosmetic enhancements — all in an elegant, state-of-the-art clinic." />
+        <meta
+            name="description"
+            content="Figure N Belle is a premium beauty and wellness clinic offering advanced skincare, laser hair reduction, slimming treatments, and personalized aesthetic solutions in Delhi. Restore your glow with safe, effective, and professional services."
+            />
+        <meta
+            name="keywords"
+            content="beauty clinic Delhi, skincare clinic Delhi, laser hair reduction Delhi, slimming treatments Delhi, aesthetic clinic India, wellness center Delhi, skin care, laser treatment, weight loss treatment, beauty and wellness clinic"
+            />
         <link rel="canonical" href={Host}></link>
+
         <Hero/>
         <Team/>
         <About/>
@@ -32,3 +40,4 @@ const Home = ()=>{
     </article>
 }
 export default Home 
+
