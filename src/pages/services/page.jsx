@@ -46,7 +46,7 @@ const Service = ()=>{
         setSimilarServices(getThreeUniqueItems(data))
     }
     return(<article>
-            <title>{data?.name} | Figure N Belle</title>
+            <title>{`${data.name} | Figure N Belle`}</title>
             <meta name="description" content={data.section_2?.desc_1 } />
             <link rel="canonical" href={`${Host+data?.link}`}></link>
             <div className="hero-service relative">
