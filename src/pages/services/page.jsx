@@ -45,10 +45,8 @@ const Service = ()=>{
         };
         setSimilarServices(getThreeUniqueItems(data))
     }
-    
-    return(<artical>
-
-            <title> Services | Figure N Belle </title>
+    return(<article>
+            <title>{data?.name} | Figure N Belle</title>
             <meta name="description" content={data.section_2?.desc_1 } />
             <link rel="canonical" href={`${Host+data?.link}`}></link>
             <div className="hero-service relative">
@@ -141,6 +139,6 @@ const Service = ()=>{
                 <BookNow/> 
             </div>    
         </div>
-    </artical>)
+    </article>)
 }
 export default Service

@@ -70,7 +70,7 @@ const Privacy = ()=>{
         window.scrollTo({top:0})
         
     },[])
-    return(<artical className="service flex flex-col gap-10 support">
+    return(<article className="service flex flex-col gap-10 support">
         <title>Privacy Policy | Figure N Belle</title>
         <meta name="description" content="At Figure N Belle Beauty & Wellness Clinic, we respect your privacy and are committed to protecting your personal information. This policy explains what data we collect, how we use it, and how we safeguard it when you use our services, book appointments, or browse our website." />
         <link rel="canonical" href={`${Host}/privacy-policy`}></link>
@@ -102,6 +102,6 @@ const Privacy = ()=>{
             <Gallery/> 
             <BookNow/> 
         </div>    
-    </artical>)
+    </article>)
 }
 export default Privacy

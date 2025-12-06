@@ -32,7 +32,7 @@ const BookAnAppointment = ()=>{
         window.scrollTo({top:0})
         
     },[link])
-    return(<artical className="service flex flex-col gap-10">
+    return(<article className="service flex flex-col gap-10">
         <title>Book an Appointment | Figure N Belle</title>
         <meta name="description" content="Ready for your beauty transformation? Book your appointment at Figure N Belle and let our expert team take care of the rest." />
         <link rel="canonical" href={`${Host}/book-an-appointment`}></link>
@@ -55,6 +55,6 @@ const BookAnAppointment = ()=>{
             <Gallery/> 
             <BookNow/> 
         </div>    
-    </artical>)
+    </article>)
 }
 export default BookAnAppointment

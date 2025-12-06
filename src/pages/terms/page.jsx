@@ -94,7 +94,7 @@ const Terms = ()=>{
         window.scrollTo({top:0})
         
     },[])
-    return(<artical className="service flex flex-col gap-10 support">
+    return(<article className="service flex flex-col gap-10 support">
         <title>Terms and Conditions | Figure N Belle</title>
         <meta name="description" content="By booking a service, visiting Figure N Belle Clinic, or browsing our website, you agree to our terms and conditions. Please read them carefully to understand your rights and responsibilities." />
         <link rel="canonical" href={`${Host}/terms-and-conditions`}></link>
@@ -129,6 +129,6 @@ const Terms = ()=>{
                 <Gallery/> 
                 <BookNow/> 
             </div>    
-    </artical>)
+    </article>)
 }
 export default Terms

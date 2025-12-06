@@ -17,7 +17,7 @@ const About = ()=>{
         }
     },[])
 
-    return(<artical className="flex flex-col gap-10 sm:gap-16 md:gap-20">
+    return(<article className="flex flex-col gap-10 sm:gap-16 md:gap-20">
         <title> About Our Clinic & Expert Team | Figure N Belle </title>
         <meta name="description" content="At Figure N Belle, our expert team combines cutting-edge science with personalized care to deliver exceptional beauty and wellness treatments. Learn more about our mission, values, and dedication to helping you look and feel your best." />
         <link rel="canonical" href={`${Host}/about`}></link>
@@ -59,6 +59,6 @@ const About = ()=>{
             <Gallery/>
             <BookNow/>
        </div>
-    </artical>)
+    </article>)
 }
 export default About
