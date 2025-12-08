@@ -7,6 +7,7 @@
     { "source": "/kanpeki.php", "destination": "/kanpeki", "permanent": true },
     { "source": "/anti-ageing.php", "destination": "/anti-aging", "permanent": true },
     { "source": "/facial.php", "destination": "/facial", "permanent": true },
+    { "source": "/non-surgical-hair-replacement.php", "destination": "/non-surgical-hair-replacement", "permanent": true },
     { "source": "/cryolypolysis.php", "destination": "/cryolypolysis", "permanent": true },
     { "source": "/o3plus.php", "destination": "/O3", "permanent": true },
     { "source": "/pedicure.php", "destination": "/pedicure", "permanent": true },
