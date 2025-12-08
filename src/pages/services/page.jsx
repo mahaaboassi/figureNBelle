@@ -48,7 +48,7 @@ const Service = ()=>{
     return("name" in data && <article>
             <title>{`${data?.name || ""} | Figure N Belle`}</title>
             <meta name="description" content={data.section_2?.desc_1 || ""} />
-            <link rel="canonical" href={`${Host+data?.link || ""}`}></link>
+            <link rel="canonical" href={`${Host+data?.link}`}></link>
             <div className="hero-service relative">
                 <img className="w-full" alt="banner" src={isSmallSize ? data?.img_small : data?.img} />
                 <div className="absolute inset-0 flex px-2 md:px-10 items-center">
