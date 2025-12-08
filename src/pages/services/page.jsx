@@ -7,6 +7,7 @@ import BookNow from "../../components/bookNow"
 import Contact from "../../components/formContact"
 
 const Service = ()=>{
+
     const { link } = useParams()
     const [ data, setData ] = useState({})
     const [ isSmallSize, setIsSmallSize ] = useState(false)
@@ -31,7 +32,6 @@ const Service = ()=>{
         similar.children.forEach((ele)=>{
             temp = ele.services.filter(e=> e.link != `/${link}`)  
         })
-
         takeFourServices(temp)
     },[link])
 
@@ -45,10 +45,10 @@ const Service = ()=>{
         };
         setSimilarServices(getThreeUniqueItems(data))
     }
-    return("name" in data && <article>
-            <title>{`${data?.name || ""} | Figure N Belle`}</title>
-            <meta name="description" content={data.section_2?.desc_1 || ""} />
-            <link rel="canonical" href={`${Host+data?.link}`}></link>
+    return(<article>
+            <title>{data.name ? `${data.name} | Figure N Belle` : "Figure N Belle Clinic"}</title>
+            <meta name="description" content={data.section_2?.desc_1 || "Premium beauty & wellness clinic in Delhi"} />
+            <link rel="canonical" href={Host + (data.link || "/")} />
             <div className="hero-service relative">
                 <img className="w-full" alt="banner" src={isSmallSize ? data?.img_small : data?.img} />
                 <div className="absolute inset-0 flex px-2 md:px-10 items-center">
