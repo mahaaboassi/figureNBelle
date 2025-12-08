@@ -13,28 +13,23 @@ const Service = ()=>{
     const [ isSmallSize, setIsSmallSize ] = useState(false)
     const [ similarServices, setSimilarServices ] = useState([])
     useEffect(()=>{
-        const allChildren = []
-        menu.forEach((e)=>{
-            e.children.forEach((child)=>{
-                child.services.forEach((subChild)=>{
-                    allChildren.push(subChild)
-                })
-            })
-        })
-        const currentValue = allChildren.find(e => e.link == `/${link}`)
-        setData(currentValue)
-
         if(window.innerWidth < 500){
             setIsSmallSize(true)
         }
         window.scrollTo({top:0})
-        // const similar = services.find(e=>e.id == localStorage.getItem("similar_services"))
-        // let temp = []
         
-        // similar.children.forEach((ele)=>{
-        //     temp = ele.services.filter(e=> e.link != `/${link}`)  
-        // })
-        // takeFourServices(temp)
+        let relativeServices = []
+        menu.forEach((e)=>{
+            e.children.forEach((child)=>{
+                child.services.forEach((subChild)=>{
+                    if(subChild.link == `/${link}`){
+                        setData(subChild)
+                        relativeServices = child
+                    }
+                })
+            })
+        })
+        takeFourServices(relativeServices.services)
     },[link])
 
     const takeFourServices = (data)=>{ 
