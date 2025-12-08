@@ -46,10 +46,9 @@ const Service = ()=>{
         setSimilarServices(getThreeUniqueItems(data))
     }
     return(<article>
-            <title>{data.name ? `${data.name} | Figure N Belle` : "Figure N Belle Clinic"}</title>
-            <meta name="description" content={data.section_2?.desc_1 || "Premium beauty & wellness clinic in Delhi"} />
-            <link rel="canonical" href={Host + (data.link || "/")} />
-            <h1 className="pt-50" >test</h1>
+            <title>{"Figure N Belle Clinic"}</title>
+            <h1 className="pt-50">test</h1>
+
     </article>)
 }
 export default Service
