@@ -6,6 +6,7 @@
     { "source": "/oxygeno.php", "destination": "/oxygeno", "permanent": true },
     { "source": "/kanpeki.php", "destination": "/kanpeki", "permanent": true },
     { "source": "/kanpeki.php", "destination": "/kanpeki", "permanent": true },
+    { "source": "/facial.php", "destination": "/facial", "permanent": true },
     { "source": "/cryolypolysis.php", "destination": "/cryolypolysis", "permanent": true },
     { "source": "/o3plus.php", "destination": "/O3", "permanent": true },
     { "source": "/pedicure.php", "destination": "/pedicure", "permanent": true },
