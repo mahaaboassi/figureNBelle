@@ -256,7 +256,7 @@ const Navbar = ()=>{
                                                         {child.services.map((subChild, index)=><li  onClick={()=>{
                                                                                 localStorage.setItem("similar_services",e.id)
                                                                             }} className="mr-27"  key={`Submenu_Services_${subChild.name}_${index}`}>
-                                                            <Link onClick={() => setHoveredMenu(null)} to={subChild.link}>{subChild.name}</Link>
+                                                            <Link onClick={() => {setHoveredMenu(null)}} to={subChild.link}>{subChild.name}</Link>
                                                         </li>)}
                                                     </ul>:
                                                     <ul className="flex flex-col gap-1.5">

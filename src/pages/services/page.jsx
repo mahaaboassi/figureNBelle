@@ -24,17 +24,17 @@ const Service = ()=>{
         const currentValue = allChildren.find(e => e.link == `/${link}`)
         setData(currentValue)
 
-        if(window.innerWidth < 500){
-            setIsSmallSize(true)
-        }
-        window.scrollTo({top:0})
-        const similar = services.find(e=>e.id == localStorage.getItem("similar_services"))
-        let temp = []
+        // if(window.innerWidth < 500){
+        //     setIsSmallSize(true)
+        // }
+        // window.scrollTo({top:0})
+        // const similar = services.find(e=>e.id == localStorage.getItem("similar_services"))
+        // let temp = []
         
-        similar.children.forEach((ele)=>{
-            temp = ele.services.filter(e=> e.link != `/${link}`)  
-        })
-        takeFourServices(temp)
+        // similar.children.forEach((ele)=>{
+        //     temp = ele.services.filter(e=> e.link != `/${link}`)  
+        // })
+        // takeFourServices(temp)
     },[link])
 
     const takeFourServices = (data)=>{ 
