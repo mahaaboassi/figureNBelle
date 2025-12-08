@@ -7,6 +7,7 @@ import About from './pages/about/page'
 import Terms from './pages/terms/page'
 import Privacy from './pages/privacy/page'
 import BookAnAppointment from './pages/book/page'
+
 function App() {
   return (
     <BrowserRouter>
