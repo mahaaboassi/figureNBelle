@@ -9,9 +9,9 @@ const Navbar = ()=>{
     const data = {
         location :  {
             value_1 : "Ashok Vihar",
-            link_1 : "https://maps.app.goo.gl/PVCnjgSxfkLbPYBi6",
+            link_1 : "https://maps.app.goo.gl/qPtNaMmuGm5rgaXK8",
             value_2 : "Janak Puri",
-            link_2 : "https://maps.app.goo.gl/6VHEXhPT3agoWcsC6"
+            link_2 : "https://maps.app.goo.gl/cNRZfhFUUenhZ9g19"
         },
         phone : {
             value_1: "+91 9315516365",
