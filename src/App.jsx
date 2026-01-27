@@ -7,6 +7,7 @@ import About from './pages/about/page'
 import Terms from './pages/terms/page'
 import Privacy from './pages/privacy/page'
 import BookAnAppointment from './pages/book/page'
+import ContactPage from './pages/contact/page'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route path="terms-and-conditions" element={<Terms/>} />
             <Route path="privacy-policy" element={<Privacy/>} />
             <Route path='book-an-appointment' element={<BookAnAppointment/>} />
+            <Route path='contact' element={<ContactPage/>} />
           </Route>
       </Routes>
     </BrowserRouter>

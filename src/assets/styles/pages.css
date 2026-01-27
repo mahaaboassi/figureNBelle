@@ -143,6 +143,15 @@
      fill: var(--light);
 }
 
+/* Contact */
+.card-contact{
+    border: 1.5px solid var(--main);
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.card-contact:hover{
+    transform: translateY(-5px);
+}
 @media (max-width : 1300px) {
     .hero h1{
         font-size: var(--font-size-xxl);
@@ -239,7 +248,10 @@
         height: 50px;
         width: 50px;
     }
-    
+    .card-contact svg{
+        height: 15px;
+        width: auto;
+    }
 }
 @media (max-width : 600px) {
     .hero h1{

@@ -214,9 +214,12 @@ const Footer = ()=>{
                     <Link to={"/about"} >About</Link>
                 </p>
                 <p className="px-1 xs:px-2 middle">
+                    <Link to={"/contact"} >Contact</Link>
+                </p>
+                <p className="pl-1 xs:px-2 middle">
                     <Link to={"/privacy-policy"} >Privacy Policy</Link>
                 </p>
-                <p className="pl-1 xs:pl-2">
+                <p className="pl-1 xs:pl-2 middle">
                     <Link to={"/terms-and-conditions"} >Terms & Conditions</Link>
                 </p>
             </div>

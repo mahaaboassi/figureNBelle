@@ -4180,7 +4180,24 @@ export const contact = [{
             </svg>,
     link : "https://www.youtube.com/@FigureNBelle"
 }]
-
+export const dataContact = {
+        location :  {
+            value_1 : "Ashok Vihar",
+            link_1 : "https://maps.app.goo.gl/qPtNaMmuGm5rgaXK8",
+            value_2 : "Janak Puri",
+            link_2 : "https://maps.app.goo.gl/cNRZfhFUUenhZ9g19"
+        },
+        phone : {
+            value_1: "+91 9315516365",
+            link_1: "tel:09315516365",
+            value_2: "+91 9650007459",
+            link_2: "tel:09650007459"       
+        },
+        email : {
+            value : "info@figurenbellewellness.com",
+            link : "mailto:info@figurenbellewellness.com"
+        }
+    }
 export async function checkMissingRoutes() {
     // 1. Flatten all service routes from your JSON
     let serviceRoutes = []

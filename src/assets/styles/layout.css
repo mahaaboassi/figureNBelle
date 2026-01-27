@@ -205,7 +205,6 @@ footer .links a:hover{
 }
 .middle{
     border-left: 2px solid var(--main);
-    border-right: 2px solid var(--main);
 }
 footer p{
     font-size: var(--font-size-xs);
