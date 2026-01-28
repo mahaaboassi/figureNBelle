@@ -79,7 +79,7 @@ const Team = ()=>{
                 >     
                 {
                     data.map((e,idx)=>(<SwiperSlide className="" key={`Meet_Our_Team_${e.name}_${idx}`}>
-                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 md:gap-5 container-team p-4  xl:min-h-[350px]">
+                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 md:gap-5 container-team p-4  xl:min-h-[400px]">
                             <div className="team-container-img h-[300px] md:h-[250px] lg:h-[100%]  ">
                                 <img style={{objectFit:"cover"}} src={e.img} alt={`Team_${idx}`} />
                                 
